@@ -1,0 +1,1501 @@
+patient_id,age,gender,resting_bp,cholesterol,fasting_blood_sugar,resting_ecg,max_heart_rate,exercise_angina,st_depression,st_slope,major_vessels,thalassemia,bmi,smoking_status,target_disease
+PAT-1000,59,Male,141.0,283.0,0,Normal,128,No,2.04,Flat,1,Normal,30.0,Former,1
+PAT-1001,52,Female,105.0,155.0,0,Normal,152,Yes,1.78,Flat,0,Normal,26.9,Current,1
+PAT-1002,61,Male,138.0,247.0,0,Normal,152,Yes,0.16,Upsloping,1,Reversible Defect,30.6,Never,1
+PAT-1003,70,Male,92.0,271.0,1,Normal,109,No,0.02,Upsloping,0,Reversible Defect,33.2,Current,1
+PAT-1004,51,Male,143.0,334.0,0,Normal,145,Yes,0.08,Flat,3,Normal,34.2,Current,1
+PAT-1005,51,Male,148.0,221.0,0,Normal,152,No,0.3,Upsloping,1,Normal,38.2,Never,1
+PAT-1006,71,Female,120.0,260.0,1,ST-T Wave Abnormality,123,No,3.23,Downsloping,1,Reversible Defect,26.5,Never,1
+PAT-1007,62,Female,134.0,158.0,1,Normal,85,No,0.74,Flat,0,Reversible Defect,20.5,Never,1
+PAT-1008,48,Female,169.0,130.0,0,Normal,126,Yes,0.42,Upsloping,1,Normal,30.5,Never,1
+PAT-1009,59,Male,122.0,285.0,1,Normal,115,No,1.98,Upsloping,0,Normal,39.3,Former,1
+PAT-1010,48,Male,111.0,244.0,0,Left Ventricular Hypertrophy,139,No,0.54,Flat,0,Reversible Defect,25.6,Never,1
+PAT-1011,48,Male,160.0,301.0,0,Left Ventricular Hypertrophy,144,Yes,0.34,Upsloping,0,Normal,32.4,Never,1
+PAT-1012,56,Male,169.0,179.0,0,Normal,182,Yes,2.55,Upsloping,3,Reversible Defect,32.4,Current,1
+PAT-1013,32,Male,132.0,269.0,0,Normal,175,No,1.7,Upsloping,1,Normal,29.5,Former,1
+PAT-1014,35,Male,151.0,334.0,0,Normal,168,No,1.67,Flat,0,Normal,28.4,Former,1
+PAT-1015,47,Male,157.0,265.0,0,Normal,181,No,0.65,Flat,2,Normal,23.0,Never,1
+PAT-1016,42,Female,117.0,258.0,0,Normal,173,Yes,1.4,Upsloping,0,Normal,17.5,Current,1
+PAT-1017,57,Female,122.0,245.0,0,ST-T Wave Abnormality,173,No,0.18,Flat,0,Normal,22.0,Current,1
+PAT-1018,44,Female,155.0,169.0,0,ST-T Wave Abnormality,151,No,0.77,Upsloping,0,Normal,26.1,Former,1
+PAT-1019,38,Female,164.0,310.0,0,Left Ventricular Hypertrophy,142,No,3.71,Flat,1,Reversible Defect,34.8,Current,1
+PAT-1020,70,Female,142.0,215.0,0,Normal,105,No,0.31,Upsloping,0,Normal,27.8,Current,1
+PAT-1021,51,Male,115.0,269.0,0,ST-T Wave Abnormality,136,No,1.42,Flat,0,Reversible Defect,25.4,Current,1
+PAT-1022,54,Female,169.0,169.0,0,ST-T Wave Abnormality,158,No,0.61,Downsloping,1,Normal,23.2,Current,1
+PAT-1023,38,Female,121.0,188.0,0,Normal,191,Yes,0.04,Upsloping,0,Reversible Defect,32.2,Never,1
+PAT-1024,48,Male,125.0,313.0,0,Normal,178,No,1.3,Upsloping,2,Normal,36.3,Never,1
+PAT-1025,55,Male,138.0,228.0,0,Normal,162,No,0.17,Upsloping,0,Normal,34.6,Never,0
+PAT-1026,41,Female,161.0,314.0,0,Normal,169,Yes,0.9,Upsloping,2,Fixed Defect,31.9,Never,1
+PAT-1027,58,Male,148.0,241.0,1,Normal,139,No,0.08,Upsloping,1,Fixed Defect,19.8,Never,1
+PAT-1028,47,Male,139.0,156.0,0,ST-T Wave Abnormality,166,No,2.64,Flat,1,Reversible Defect,26.4,Current,1
+PAT-1029,50,Female,140.0,287.0,0,Normal,138,Yes,0.31,Downsloping,0,Reversible Defect,39.7,Never,1
+PAT-1030,47,Male,132.0,216.0,0,Left Ventricular Hypertrophy,152,Yes,0.23,Upsloping,1,Reversible Defect,34.9,Current,1
+PAT-1031,74,Male,142.0,278.0,1,Normal,120,No,0.12,Flat,0,Normal,19.5,Former,1
+PAT-1032,53,Male,85.0,,0,Left Ventricular Hypertrophy,121,Yes,2.63,Flat,2,Reversible Defect,28.1,Never,1
+PAT-1033,42,Male,126.0,170.0,0,Normal,174,No,1.12,Flat,0,Reversible Defect,30.5,Former,1
+PAT-1034,63,Male,136.0,252.0,0,ST-T Wave Abnormality,124,Yes,1.22,Upsloping,0,Reversible Defect,24.0,Never,1
+PAT-1035,40,Female,110.0,350.0,0,Normal,155,No,0.62,Upsloping,1,Reversible Defect,17.5,Current,1
+PAT-1036,56,Male,139.0,268.0,0,Normal,145,Yes,0.58,Flat,1,Normal,29.0,Current,1
+PAT-1037,32,Male,128.0,242.0,0,Left Ventricular Hypertrophy,147,Yes,0.1,Upsloping,0,Normal,23.8,Never,1
+PAT-1038,39,Male,165.0,296.0,0,Normal,140,No,0.74,Flat,3,Fixed Defect,23.9,Current,1
+PAT-1039,56,Female,161.0,255.0,0,ST-T Wave Abnormality,156,No,0.26,Flat,3,Reversible Defect,26.3,Former,1
+PAT-1040,62,Male,123.0,255.0,0,ST-T Wave Abnormality,136,Yes,3.4,Upsloping,1,Fixed Defect,27.6,Never,1
+PAT-1041,55,Male,129.0,192.0,0,Normal,134,Yes,1.43,Upsloping,0,Reversible Defect,28.3,Former,1
+PAT-1042,52,Female,130.0,,0,Normal,147,No,0.48,Downsloping,1,Normal,23.3,Former,1
+PAT-1043,50,Female,123.0,294.0,0,ST-T Wave Abnormality,134,No,0.15,Flat,0,Normal,27.1,Never,1
+PAT-1044,37,Male,135.0,204.0,1,Normal,152,No,1.38,Flat,0,Normal,18.2,Current,1
+PAT-1045,46,Female,117.0,,1,ST-T Wave Abnormality,116,No,0.12,Upsloping,2,Fixed Defect,30.2,Never,1
+PAT-1046,48,Male,110.0,240.0,0,Left Ventricular Hypertrophy,174,No,0.19,Flat,3,Reversible Defect,17.5,Former,1
+PAT-1047,65,Male,143.0,202.0,0,Normal,132,No,0.21,Flat,3,Normal,26.7,Never,1
+PAT-1048,57,Male,143.0,292.0,0,Normal,154,No,0.73,Flat,0,Fixed Defect,33.7,Current,1
+PAT-1049,34,Male,116.0,231.0,0,ST-T Wave Abnormality,150,No,1.39,Upsloping,0,Normal,22.3,Current,1
+PAT-1050,57,Female,149.0,281.0,0,Normal,167,Yes,0.34,Upsloping,0,Normal,32.6,Never,1
+PAT-1051,49,Male,120.0,230.0,1,Normal,139,Yes,0.08,Upsloping,0,Reversible Defect,35.1,Never,1
+PAT-1052,46,Male,136.0,242.0,0,Normal,160,Yes,0.56,Flat,0,Normal,17.5,Never,1
+PAT-1053,60,Female,147.0,268.0,0,Normal,148,Yes,1.24,Downsloping,0,Reversible Defect,27.5,Current,1
+PAT-1054,65,Female,131.0,258.0,0,Normal,156,Yes,0.23,Downsloping,1,Reversible Defect,17.5,Never,1
+PAT-1055,64,Male,140.0,149.0,0,Normal,139,No,0.22,Downsloping,1,Reversible Defect,,Current,1
+PAT-1056,44,Female,122.0,191.0,0,ST-T Wave Abnormality,131,No,2.65,Upsloping,1,Normal,28.4,Current,1
+PAT-1057,50,Male,128.0,289.0,0,Normal,145,No,2.77,Upsloping,2,Normal,17.5,Former,1
+PAT-1058,57,Female,128.0,238.0,0,Normal,126,Yes,4.19,Upsloping,0,Reversible Defect,39.6,Never,1
+PAT-1059,64,Female,117.0,219.0,1,Left Ventricular Hypertrophy,101,Yes,1.48,Upsloping,0,Reversible Defect,30.1,Never,1
+PAT-1060,48,Female,128.0,179.0,0,ST-T Wave Abnormality,142,No,0.19,Flat,2,Reversible Defect,23.5,Former,1
+PAT-1061,51,Male,102.0,193.0,1,Left Ventricular Hypertrophy,154,Yes,0.21,Flat,0,Normal,36.9,Former,1
+PAT-1062,41,Male,122.0,147.0,1,Normal,145,No,0.37,Upsloping,1,Normal,18.0,Former,0
+PAT-1063,40,Male,126.0,240.0,0,ST-T Wave Abnormality,164,No,0.34,Flat,0,Fixed Defect,21.3,Former,1
+PAT-1064,62,Male,127.0,216.0,0,Normal,142,Yes,2.82,Downsloping,0,Reversible Defect,17.5,Never,1
+PAT-1065,68,Male,,198.0,0,Normal,154,Yes,1.4,Flat,1,Normal,38.8,Current,1
+PAT-1066,53,Female,130.0,241.0,1,Normal,125,No,1.16,Upsloping,2,Normal,30.3,Never,1
+PAT-1067,65,Male,141.0,262.0,0,Normal,136,No,0.19,Flat,2,Reversible Defect,,Former,1
+PAT-1068,57,Male,148.0,345.0,0,Left Ventricular Hypertrophy,134,No,2.16,Upsloping,0,Normal,30.1,Current,1
+PAT-1069,46,Female,119.0,172.0,0,Normal,167,No,1.58,Flat,0,Normal,31.7,Never,0
+PAT-1070,57,Male,109.0,300.0,0,ST-T Wave Abnormality,130,Yes,0.16,Upsloping,2,Normal,28.9,Former,1
+PAT-1071,70,Female,112.0,291.0,1,ST-T Wave Abnormality,138,No,1.84,Upsloping,0,Normal,30.0,Current,1
+PAT-1072,53,Male,122.0,207.0,0,ST-T Wave Abnormality,144,Yes,0.29,Downsloping,0,Fixed Defect,29.0,Former,1
+PAT-1073,71,Male,125.0,254.0,0,Normal,108,Yes,0.08,Flat,2,Normal,24.9,Never,1
+PAT-1074,25,Male,117.0,,0,ST-T Wave Abnormality,155,No,0.96,Flat,2,Normal,28.1,Never,1
+PAT-1075,63,Male,107.0,253.0,1,Normal,132,No,0.95,Downsloping,2,Normal,30.0,Never,1
+PAT-1076,54,Female,123.0,317.0,0,Normal,172,Yes,0.09,Upsloping,0,Normal,29.0,Never,1
+PAT-1077,50,Male,135.0,274.0,0,Left Ventricular Hypertrophy,91,Yes,0.35,Upsloping,0,Reversible Defect,19.8,Current,1
+PAT-1078,55,Male,143.0,269.0,0,Normal,108,Yes,4.44,Flat,2,Normal,20.6,Former,1
+PAT-1079,32,Male,121.0,224.0,0,Normal,149,Yes,1.02,Upsloping,0,Fixed Defect,34.7,Never,1
+PAT-1080,51,Male,124.0,,0,Left Ventricular Hypertrophy,157,Yes,1.18,Flat,2,Normal,26.6,Current,1
+PAT-1081,57,Female,114.0,234.0,0,Normal,140,No,0.22,Upsloping,0,Normal,31.8,Current,1
+PAT-1082,70,Male,131.0,302.0,0,ST-T Wave Abnormality,134,No,0.07,Upsloping,2,Normal,22.1,Never,1
+PAT-1083,48,Female,115.0,171.0,0,Normal,124,No,0.29,Flat,1,Normal,19.9,Never,1
+PAT-1084,45,Female,142.0,194.0,0,Normal,145,No,0.26,Upsloping,0,Reversible Defect,23.5,Never,1
+PAT-1085,48,Male,98.0,251.0,0,Normal,161,No,0.24,Flat,0,Normal,27.1,Current,1
+PAT-1086,64,Female,125.0,197.0,0,Normal,139,No,0.19,Flat,1,Reversible Defect,24.5,Former,1
+PAT-1087,57,Male,137.0,206.0,1,Normal,117,No,0.77,Downsloping,1,Normal,35.9,Current,1
+PAT-1088,48,Male,135.0,224.0,1,ST-T Wave Abnormality,118,Yes,0.36,Flat,0,Normal,29.4,Never,1
+PAT-1089,59,Male,183.0,179.0,0,Normal,108,No,1.55,Upsloping,2,Normal,39.1,Current,1
+PAT-1090,55,Female,138.0,198.0,0,Left Ventricular Hypertrophy,126,No,0.18,Flat,0,Reversible Defect,30.7,Never,1
+PAT-1091,64,Female,112.0,278.0,0,Normal,135,No,0.56,Flat,0,Normal,17.5,Current,1
+PAT-1092,46,Male,130.0,,0,Normal,205,No,0.01,Flat,0,Normal,34.5,Current,0
+PAT-1093,50,Female,98.0,168.0,0,ST-T Wave Abnormality,139,No,0.59,Flat,3,Normal,19.6,Never,1
+PAT-1094,49,Male,130.0,214.0,0,Left Ventricular Hypertrophy,146,No,0.05,Flat,0,Normal,29.7,Current,0
+PAT-1095,37,Male,116.0,280.0,0,Normal,155,Yes,3.42,Flat,0,Reversible Defect,23.9,Current,1
+PAT-1096,57,Male,149.0,235.0,1,ST-T Wave Abnormality,137,No,1.41,Flat,2,Fixed Defect,40.8,Current,1
+PAT-1097,56,Female,121.0,222.0,0,Left Ventricular Hypertrophy,162,Yes,0.61,Upsloping,0,Reversible Defect,36.7,Never,1
+PAT-1098,54,Female,129.0,247.0,0,Normal,130,Yes,0.08,Upsloping,0,Reversible Defect,24.1,Former,1
+PAT-1099,51,Male,119.0,161.0,0,Left Ventricular Hypertrophy,132,Yes,0.81,Flat,0,Normal,27.7,Current,1
+PAT-1100,38,Male,165.0,268.0,0,Normal,144,No,1.28,Upsloping,1,Normal,29.8,Current,1
+PAT-1101,49,Male,125.0,263.0,0,ST-T Wave Abnormality,128,Yes,0.19,Upsloping,1,Reversible Defect,33.4,Never,1
+PAT-1102,50,Male,166.0,225.0,0,Left Ventricular Hypertrophy,134,No,0.76,Upsloping,2,Normal,28.6,Current,1
+PAT-1103,45,Male,147.0,293.0,0,ST-T Wave Abnormality,157,Yes,1.51,Flat,2,Normal,22.5,Never,1
+PAT-1104,52,Female,141.0,190.0,0,Normal,144,No,1.32,Upsloping,1,Reversible Defect,24.2,Current,1
+PAT-1105,58,Male,139.0,299.0,1,Normal,135,No,1.46,Flat,1,Reversible Defect,28.4,Never,1
+PAT-1106,74,Male,139.0,252.0,0,Left Ventricular Hypertrophy,119,Yes,1.9,Upsloping,0,Reversible Defect,35.6,Never,1
+PAT-1107,55,Male,95.0,228.0,0,Normal,122,No,2.5,Flat,0,Reversible Defect,30.9,Former,1
+PAT-1108,56,Female,126.0,244.0,0,Normal,127,No,0.47,Upsloping,1,Normal,23.9,Former,1
+PAT-1109,53,Female,148.0,239.0,0,ST-T Wave Abnormality,104,No,0.76,Flat,2,Normal,32.2,Former,1
+PAT-1110,32,Male,131.0,303.0,0,Normal,123,No,1.41,Upsloping,0,Normal,26.2,Former,1
+PAT-1111,53,Female,105.0,193.0,0,Normal,140,No,1.08,Downsloping,0,Reversible Defect,33.6,Never,1
+PAT-1112,54,Male,131.0,208.0,1,Normal,205,No,4.87,Downsloping,0,Reversible Defect,43.1,Never,1
+PAT-1113,81,Male,164.0,294.0,1,Normal,91,No,0.01,Flat,0,Normal,26.3,Current,1
+PAT-1114,51,Male,155.0,216.0,0,ST-T Wave Abnormality,153,Yes,0.39,Downsloping,0,Normal,33.0,Never,1
+PAT-1115,57,Male,130.0,288.0,1,ST-T Wave Abnormality,152,No,0.3,Flat,0,Normal,24.1,Former,1
+PAT-1116,53,Male,150.0,,0,Normal,149,Yes,0.27,Flat,0,Reversible Defect,27.7,Former,1
+PAT-1117,41,Female,125.0,225.0,0,ST-T Wave Abnormality,162,No,0.23,Flat,1,Fixed Defect,28.6,Current,1
+PAT-1118,66,Female,99.0,277.0,0,Left Ventricular Hypertrophy,117,No,1.11,Flat,0,Normal,27.3,Former,1
+PAT-1119,62,Female,114.0,189.0,1,ST-T Wave Abnormality,161,Yes,0.08,Flat,1,Reversible Defect,42.7,Never,1
+PAT-1120,62,Male,161.0,281.0,0,Normal,152,Yes,1.22,Flat,2,Reversible Defect,26.6,Current,1
+PAT-1121,43,Male,126.0,254.0,0,ST-T Wave Abnormality,145,Yes,1.06,Downsloping,3,Normal,31.8,Current,1
+PAT-1122,69,Female,127.0,267.0,0,Normal,114,No,0.26,Upsloping,1,Reversible Defect,17.5,Former,1
+PAT-1123,38,Male,126.0,214.0,0,ST-T Wave Abnormality,145,No,0.26,Flat,0,Normal,30.9,Current,1
+PAT-1124,60,Male,168.0,165.0,0,ST-T Wave Abnormality,149,No,0.89,Flat,3,Normal,35.0,Former,1
+PAT-1125,78,Male,162.0,269.0,1,Normal,134,No,1.29,Flat,1,Normal,25.3,Former,1
+PAT-1126,43,Female,174.0,145.0,0,Left Ventricular Hypertrophy,161,Yes,1.88,Upsloping,0,Reversible Defect,17.5,Never,1
+PAT-1127,47,Male,128.0,229.0,0,Normal,143,No,1.72,Flat,0,Reversible Defect,28.2,Former,1
+PAT-1128,55,Male,137.0,290.0,0,ST-T Wave Abnormality,113,No,3.01,Downsloping,0,Normal,28.5,Never,1
+PAT-1129,48,Female,103.0,254.0,0,Normal,183,No,0.78,Upsloping,0,Reversible Defect,32.6,Never,1
+PAT-1130,36,Male,160.0,338.0,0,Left Ventricular Hypertrophy,162,Yes,2.15,Flat,0,Normal,40.1,Never,1
+PAT-1131,54,Male,,294.0,0,Normal,164,No,1.49,Upsloping,2,Reversible Defect,26.2,Never,1
+PAT-1132,42,Male,136.0,213.0,0,Normal,182,No,2.03,Downsloping,0,Reversible Defect,23.4,Never,1
+PAT-1133,59,Male,111.0,246.0,0,Normal,118,No,0.01,Flat,1,Normal,21.6,Former,1
+PAT-1134,43,Female,120.0,242.0,0,Normal,142,Yes,3.04,Upsloping,2,Normal,29.5,Never,1
+PAT-1135,71,Male,116.0,169.0,0,Normal,115,No,0.58,Upsloping,2,Reversible Defect,31.2,Current,1
+PAT-1136,45,Male,120.0,199.0,0,ST-T Wave Abnormality,133,No,1.44,Flat,2,Normal,25.2,Never,1
+PAT-1137,50,Female,121.0,218.0,0,Normal,153,Yes,0.12,Upsloping,3,Reversible Defect,32.9,Former,1
+PAT-1138,62,Female,,147.0,1,Normal,140,No,0.45,Flat,0,Normal,31.1,Never,1
+PAT-1139,40,Female,147.0,247.0,0,Normal,115,No,0.29,Downsloping,3,Reversible Defect,28.7,Never,1
+PAT-1140,56,Male,111.0,233.0,0,ST-T Wave Abnormality,143,Yes,0.31,Flat,1,Normal,23.2,Never,1
+PAT-1141,68,Male,136.0,164.0,0,ST-T Wave Abnormality,113,No,0.12,Upsloping,0,Normal,25.6,Former,1
+PAT-1142,36,Female,155.0,264.0,0,ST-T Wave Abnormality,158,No,1.47,Downsloping,1,Normal,17.5,Current,1
+PAT-1143,56,Female,122.0,279.0,1,ST-T Wave Abnormality,172,No,0.01,Flat,1,Reversible Defect,29.8,Never,1
+PAT-1144,56,Male,118.0,255.0,0,Normal,175,Yes,0.34,Upsloping,2,Normal,28.6,Never,1
+PAT-1145,62,Male,127.0,229.0,0,Normal,143,Yes,0.17,Upsloping,0,Normal,29.5,Never,1
+PAT-1146,40,Male,154.0,273.0,0,Normal,135,No,0.8,Upsloping,1,Reversible Defect,31.3,Current,1
+PAT-1147,39,Female,135.0,277.0,0,ST-T Wave Abnormality,141,Yes,0.26,Flat,0,Reversible Defect,30.6,Current,1
+PAT-1148,59,Male,121.0,259.0,0,Left Ventricular Hypertrophy,119,No,0.27,Upsloping,0,Normal,,Never,1
+PAT-1149,57,Male,141.0,205.0,0,Normal,155,Yes,0.6,Upsloping,0,Reversible Defect,28.7,Never,1
+PAT-1150,56,Male,111.0,,0,Normal,109,Yes,0.95,Flat,0,Reversible Defect,20.3,Current,1
+PAT-1151,57,Female,144.0,,0,Normal,155,No,0.12,Flat,2,Normal,25.0,Never,1
+PAT-1152,46,Female,139.0,216.0,0,Normal,145,No,0.17,Flat,0,Normal,28.7,Former,1
+PAT-1153,56,Male,126.0,345.0,1,ST-T Wave Abnormality,139,No,0.26,Flat,0,Reversible Defect,24.1,Never,1
+PAT-1154,57,Female,116.0,219.0,0,Normal,141,Yes,3.28,Upsloping,0,Reversible Defect,33.4,Former,1
+PAT-1155,46,Female,115.0,246.0,0,Left Ventricular Hypertrophy,124,No,0.46,Flat,0,Normal,24.6,Current,1
+PAT-1156,74,Male,142.0,212.0,0,Normal,133,Yes,0.82,Upsloping,0,Normal,29.7,Current,1
+PAT-1157,59,Male,155.0,255.0,0,Left Ventricular Hypertrophy,160,No,0.25,Flat,0,Normal,29.1,Current,1
+PAT-1158,40,Male,119.0,161.0,0,ST-T Wave Abnormality,154,No,0.61,Flat,1,Fixed Defect,32.7,Never,1
+PAT-1159,61,Female,140.0,,0,ST-T Wave Abnormality,141,Yes,0.07,Upsloping,0,Normal,33.6,Former,1
+PAT-1160,43,Male,92.0,192.0,0,ST-T Wave Abnormality,91,No,0.03,Downsloping,0,Normal,32.4,Never,1
+PAT-1161,62,Female,120.0,251.0,0,ST-T Wave Abnormality,120,Yes,0.57,Flat,0,Reversible Defect,17.5,Current,1
+PAT-1162,66,Female,131.0,292.0,0,ST-T Wave Abnormality,136,No,0.46,Upsloping,1,Reversible Defect,35.3,Former,1
+PAT-1163,44,Male,114.0,276.0,1,ST-T Wave Abnormality,170,No,0.13,Downsloping,0,Normal,37.3,Former,1
+PAT-1164,64,Female,114.0,131.0,0,ST-T Wave Abnormality,164,No,1.05,Flat,1,Normal,25.6,Never,1
+PAT-1165,58,Male,119.0,343.0,0,Left Ventricular Hypertrophy,155,No,4.45,Flat,2,Normal,29.8,Former,1
+PAT-1166,63,Male,,259.0,0,ST-T Wave Abnormality,129,Yes,0.45,Flat,1,Normal,23.2,Current,1
+PAT-1167,74,Female,128.0,207.0,0,ST-T Wave Abnormality,95,Yes,0.88,Flat,0,Reversible Defect,17.5,Former,1
+PAT-1168,51,Female,89.0,252.0,0,Left Ventricular Hypertrophy,123,Yes,2.97,Upsloping,1,Reversible Defect,24.1,Never,1
+PAT-1169,45,Male,91.0,253.0,1,Normal,145,No,1.6,Upsloping,1,Normal,25.3,Never,1
+PAT-1170,44,Female,120.0,212.0,0,Normal,156,No,0.56,Flat,0,Normal,26.3,Never,0
+PAT-1171,45,Female,140.0,254.0,0,Normal,145,Yes,1.2,Upsloping,2,Fixed Defect,22.8,Current,1
+PAT-1172,53,Male,85.0,215.0,0,Normal,151,No,0.12,Flat,2,Fixed Defect,24.1,Current,1
+PAT-1173,57,Female,122.0,225.0,0,ST-T Wave Abnormality,107,Yes,0.65,Upsloping,2,Normal,28.3,Current,1
+PAT-1174,57,Male,122.0,212.0,0,Normal,141,Yes,0.29,Upsloping,2,Reversible Defect,23.9,Former,1
+PAT-1175,63,Male,158.0,176.0,0,ST-T Wave Abnormality,133,No,0.16,Upsloping,1,Reversible Defect,31.6,Former,1
+PAT-1176,54,Male,124.0,252.0,0,ST-T Wave Abnormality,180,No,0.5,Flat,1,Normal,32.4,Former,1
+PAT-1177,69,Female,139.0,273.0,0,Normal,129,No,0.13,Flat,1,Reversible Defect,42.2,Former,1
+PAT-1178,51,Female,134.0,269.0,0,ST-T Wave Abnormality,128,Yes,1.08,Upsloping,2,Reversible Defect,34.9,Former,1
+PAT-1179,83,Male,91.0,284.0,0,ST-T Wave Abnormality,131,No,0.55,Flat,1,Reversible Defect,29.8,Never,1
+PAT-1180,60,Male,146.0,260.0,0,Normal,148,Yes,0.68,Upsloping,0,Reversible Defect,24.8,Former,1
+PAT-1181,44,Female,136.0,219.0,0,ST-T Wave Abnormality,136,Yes,0.14,Flat,0,Normal,30.1,Never,1
+PAT-1182,42,Male,141.0,285.0,0,ST-T Wave Abnormality,179,No,0.14,Upsloping,2,Normal,30.3,Never,1
+PAT-1183,59,Female,206.0,179.0,0,Normal,116,No,0.79,Flat,0,Reversible Defect,25.4,Current,1
+PAT-1184,51,Female,92.0,201.0,0,Normal,153,Yes,3.78,Flat,1,Reversible Defect,32.9,Current,1
+PAT-1185,61,Male,164.0,198.0,0,Left Ventricular Hypertrophy,140,Yes,0.09,Downsloping,3,Reversible Defect,20.3,Former,1
+PAT-1186,59,Female,126.0,296.0,0,Normal,156,No,0.3,Upsloping,1,Normal,27.0,Never,1
+PAT-1187,53,Male,137.0,290.0,0,Normal,135,Yes,1.83,Flat,3,Reversible Defect,31.6,Current,1
+PAT-1188,44,Female,131.0,268.0,0,Normal,106,No,0.07,Flat,1,Normal,26.7,Former,1
+PAT-1189,37,Female,123.0,296.0,0,ST-T Wave Abnormality,143,No,1.88,Downsloping,0,Normal,27.2,Never,1
+PAT-1190,49,Female,121.0,202.0,0,ST-T Wave Abnormality,161,Yes,0.67,Upsloping,2,Normal,27.6,Former,1
+PAT-1191,63,Male,138.0,261.0,1,ST-T Wave Abnormality,111,No,0.47,Upsloping,0,Normal,23.6,Former,1
+PAT-1192,56,Female,103.0,,0,Normal,144,No,0.33,Flat,0,Normal,35.2,Former,1
+PAT-1193,40,Male,146.0,285.0,0,Left Ventricular Hypertrophy,130,Yes,0.32,Upsloping,0,Reversible Defect,22.5,Current,1
+PAT-1194,55,Male,124.0,239.0,0,Normal,125,No,0.33,Upsloping,0,Normal,30.2,Never,1
+PAT-1195,58,Male,110.0,226.0,0,Normal,189,Yes,1.95,Upsloping,0,Normal,30.8,Never,1
+PAT-1196,44,Male,123.0,270.0,0,Normal,169,No,1.16,Flat,0,Normal,22.9,Never,1
+PAT-1197,55,Male,155.0,287.0,0,Normal,123,Yes,1.0,Upsloping,1,Normal,28.8,Never,1
+PAT-1198,54,Female,121.0,212.0,0,Left Ventricular Hypertrophy,138,No,1.44,Flat,2,Reversible Defect,23.1,Never,1
+PAT-1199,41,Female,138.0,242.0,0,Left Ventricular Hypertrophy,172,Yes,0.27,Flat,0,Normal,36.5,Never,1
+PAT-1200,57,Male,118.0,194.0,0,Normal,149,Yes,0.87,Upsloping,0,Normal,21.8,Never,1
+PAT-1201,60,Female,146.0,125.0,0,Left Ventricular Hypertrophy,169,No,0.55,Upsloping,1,Reversible Defect,,Never,0
+PAT-1202,65,Male,145.0,254.0,0,ST-T Wave Abnormality,131,Yes,1.37,Upsloping,1,Reversible Defect,21.3,Never,1
+PAT-1203,65,Female,167.0,274.0,0,Left Ventricular Hypertrophy,90,No,0.33,Flat,2,Reversible Defect,20.5,Never,1
+PAT-1204,38,Female,128.0,257.0,0,Normal,142,Yes,0.93,Flat,0,Reversible Defect,37.6,Former,1
+PAT-1205,43,Male,144.0,151.0,0,ST-T Wave Abnormality,112,Yes,1.92,Flat,2,Reversible Defect,31.5,Former,1
+PAT-1206,59,Female,133.0,228.0,0,Normal,120,No,0.46,Upsloping,0,Normal,29.2,Never,1
+PAT-1207,59,Male,156.0,138.0,0,ST-T Wave Abnormality,117,No,0.06,Flat,1,Reversible Defect,24.6,Former,1
+PAT-1208,59,Male,118.0,310.0,0,Normal,100,Yes,0.65,Flat,0,Reversible Defect,33.7,Current,1
+PAT-1209,85,Female,146.0,192.0,0,ST-T Wave Abnormality,103,No,0.38,Flat,0,Fixed Defect,23.6,Current,1
+PAT-1210,60,Male,128.0,305.0,1,Normal,138,No,1.0,Flat,0,Reversible Defect,33.0,Never,1
+PAT-1211,66,Male,130.0,290.0,1,Normal,110,No,2.71,Upsloping,0,Reversible Defect,23.3,Current,1
+PAT-1212,64,Male,133.0,201.0,0,ST-T Wave Abnormality,104,Yes,0.6,Flat,0,Normal,24.7,Never,1
+PAT-1213,61,Female,136.0,190.0,0,Left Ventricular Hypertrophy,142,No,0.56,Upsloping,2,Normal,32.8,Never,1
+PAT-1214,50,Male,129.0,261.0,0,ST-T Wave Abnormality,157,No,0.96,Upsloping,1,Reversible Defect,33.4,Never,1
+PAT-1215,62,Male,136.0,204.0,0,Left Ventricular Hypertrophy,130,No,0.1,Flat,1,Normal,31.9,Never,1
+PAT-1216,45,Female,161.0,249.0,0,Normal,135,No,0.26,Downsloping,0,Normal,22.3,Former,1
+PAT-1217,51,Female,150.0,221.0,0,Normal,129,Yes,2.26,Flat,0,Reversible Defect,25.8,Former,1
+PAT-1218,48,Male,,159.0,1,Normal,172,No,1.0,Upsloping,3,Normal,29.3,Current,1
+PAT-1219,54,Male,123.0,,0,Normal,106,No,0.01,Upsloping,1,Normal,23.5,Never,1
+PAT-1220,79,Male,115.0,255.0,0,ST-T Wave Abnormality,127,No,0.21,Flat,0,Reversible Defect,36.4,Never,1
+PAT-1221,33,Male,150.0,218.0,0,ST-T Wave Abnormality,166,Yes,1.03,Flat,0,Reversible Defect,17.5,Never,1
+PAT-1222,61,Male,148.0,218.0,1,ST-T Wave Abnormality,150,No,1.3,Upsloping,1,Normal,23.9,Never,1
+PAT-1223,36,Female,159.0,278.0,0,ST-T Wave Abnormality,110,No,1.65,Flat,0,Reversible Defect,25.4,Current,1
+PAT-1224,48,Female,120.0,301.0,0,ST-T Wave Abnormality,142,No,0.31,Upsloping,0,Normal,,Current,1
+PAT-1225,65,Female,127.0,231.0,0,Normal,145,No,2.41,Flat,2,Normal,20.3,Current,1
+PAT-1226,54,Male,100.0,,0,Normal,125,No,0.72,Downsloping,1,Normal,32.0,Former,1
+PAT-1227,42,Female,,269.0,0,ST-T Wave Abnormality,139,Yes,1.07,Upsloping,1,Fixed Defect,28.6,Never,1
+PAT-1228,46,Male,150.0,179.0,1,Normal,152,No,0.82,Upsloping,0,Normal,37.5,Never,1
+PAT-1229,61,Female,123.0,255.0,0,Normal,118,Yes,0.12,Flat,0,Normal,,Former,1
+PAT-1230,45,Female,144.0,271.0,0,Normal,164,No,2.97,Flat,3,Reversible Defect,30.9,Never,1
+PAT-1231,56,Male,128.0,277.0,0,ST-T Wave Abnormality,147,Yes,0.12,Flat,2,Normal,30.2,Current,1
+PAT-1232,54,Female,138.0,152.0,0,Normal,177,No,0.26,Flat,0,Reversible Defect,28.8,Former,1
+PAT-1233,46,Male,,208.0,0,ST-T Wave Abnormality,172,No,1.51,Upsloping,0,Fixed Defect,17.5,Never,1
+PAT-1234,77,Female,133.0,202.0,1,ST-T Wave Abnormality,85,No,0.87,Flat,0,Reversible Defect,20.3,Current,1
+PAT-1235,60,Male,85.0,249.0,0,Normal,105,Yes,1.64,Upsloping,0,Fixed Defect,29.0,Current,1
+PAT-1236,31,Male,128.0,268.0,0,ST-T Wave Abnormality,162,No,0.65,Downsloping,1,Normal,32.0,Former,1
+PAT-1237,56,Female,101.0,316.0,0,ST-T Wave Abnormality,109,Yes,0.43,Upsloping,3,Normal,30.1,Former,1
+PAT-1238,46,Male,154.0,221.0,0,ST-T Wave Abnormality,151,Yes,2.29,Flat,0,Reversible Defect,23.2,Never,1
+PAT-1239,63,Female,146.0,221.0,0,ST-T Wave Abnormality,136,Yes,0.03,Upsloping,0,Reversible Defect,33.8,Former,1
+PAT-1240,45,Male,140.0,300.0,0,Normal,148,No,1.74,Upsloping,2,Normal,37.0,Never,1
+PAT-1241,52,Female,160.0,259.0,0,ST-T Wave Abnormality,145,No,0.24,Upsloping,0,Fixed Defect,33.8,Never,1
+PAT-1242,59,Female,113.0,305.0,0,Normal,139,No,1.7,Flat,3,Normal,34.1,Former,1
+PAT-1243,63,Male,165.0,258.0,1,Left Ventricular Hypertrophy,111,No,0.13,Flat,1,Reversible Defect,25.2,Never,1
+PAT-1244,40,Male,149.0,189.0,0,ST-T Wave Abnormality,152,Yes,0.78,Flat,3,Reversible Defect,34.6,Current,1
+PAT-1245,50,Male,127.0,181.0,0,ST-T Wave Abnormality,132,No,1.97,Upsloping,0,Reversible Defect,29.2,Current,1
+PAT-1246,48,Male,153.0,170.0,0,Normal,128,Yes,0.58,Flat,0,Reversible Defect,31.4,Never,1
+PAT-1247,46,Male,110.0,276.0,0,Normal,142,Yes,1.24,Flat,0,Reversible Defect,30.5,Former,1
+PAT-1248,73,Female,116.0,302.0,0,Normal,139,Yes,1.47,Upsloping,0,Normal,27.7,Former,1
+PAT-1249,58,Female,120.0,333.0,0,Normal,161,No,1.2,Upsloping,0,Reversible Defect,23.4,Never,1
+PAT-1250,40,Female,121.0,285.0,1,Normal,152,No,2.34,Flat,3,Reversible Defect,27.9,Former,1
+PAT-1251,64,Female,111.0,300.0,0,Normal,134,Yes,0.53,Upsloping,2,Reversible Defect,34.1,Former,1
+PAT-1252,77,Female,155.0,217.0,0,Normal,116,No,0.17,Upsloping,1,Fixed Defect,25.8,Former,1
+PAT-1253,65,Female,127.0,189.0,1,Left Ventricular Hypertrophy,130,No,0.04,Flat,0,Normal,33.6,Current,1
+PAT-1254,37,Male,138.0,285.0,0,Normal,111,Yes,0.25,Upsloping,1,Fixed Defect,32.7,Former,1
+PAT-1255,48,Female,121.0,265.0,0,Left Ventricular Hypertrophy,170,No,0.14,Flat,1,Reversible Defect,26.7,Current,1
+PAT-1256,67,Female,97.0,250.0,0,Left Ventricular Hypertrophy,163,No,0.73,Downsloping,0,Normal,36.5,Former,1
+PAT-1257,46,Male,137.0,263.0,1,ST-T Wave Abnormality,143,No,0.18,Flat,3,Normal,26.3,Never,1
+PAT-1258,58,Male,95.0,260.0,0,ST-T Wave Abnormality,143,No,0.04,Flat,0,Fixed Defect,37.2,Former,1
+PAT-1259,62,Male,130.0,306.0,0,Normal,127,No,0.03,Upsloping,0,Normal,30.9,Never,1
+PAT-1260,43,Male,106.0,307.0,0,ST-T Wave Abnormality,141,Yes,1.6,Flat,0,Normal,28.3,Former,1
+PAT-1261,53,Female,169.0,271.0,1,Normal,118,No,0.81,Upsloping,2,Normal,23.3,Former,1
+PAT-1262,22,Male,149.0,285.0,0,Normal,200,No,0.4,Flat,1,Reversible Defect,27.9,Former,1
+PAT-1263,42,Male,134.0,,0,ST-T Wave Abnormality,163,Yes,2.02,Downsloping,0,Reversible Defect,27.2,Never,1
+PAT-1264,51,Female,156.0,222.0,0,Normal,136,No,0.07,Flat,0,Normal,21.1,Former,1
+PAT-1265,40,Male,115.0,281.0,1,ST-T Wave Abnormality,141,No,3.54,Flat,0,Reversible Defect,27.1,Never,1
+PAT-1266,71,Male,142.0,178.0,1,Normal,84,Yes,0.86,Flat,0,Reversible Defect,23.7,Former,1
+PAT-1267,38,Male,135.0,295.0,1,Normal,139,No,0.18,Upsloping,0,Normal,31.8,Current,1
+PAT-1268,49,Female,137.0,187.0,0,Normal,147,No,1.02,Flat,0,Normal,36.0,Current,1
+PAT-1269,55,Female,156.0,258.0,0,Normal,156,Yes,1.3,Upsloping,0,Fixed Defect,21.3,Never,1
+PAT-1270,69,Male,145.0,204.0,0,Normal,136,Yes,0.5,Flat,2,Normal,38.3,Former,1
+PAT-1271,38,Female,137.0,271.0,1,Normal,167,Yes,1.78,Upsloping,0,Reversible Defect,27.7,Former,1
+PAT-1272,66,Male,100.0,243.0,0,Normal,117,No,0.15,Flat,1,Normal,22.7,Current,1
+PAT-1273,54,Female,113.0,168.0,0,ST-T Wave Abnormality,136,No,0.29,Upsloping,0,Normal,32.8,Former,1
+PAT-1274,43,Female,129.0,265.0,0,Normal,175,No,0.09,Flat,0,Reversible Defect,25.8,Never,1
+PAT-1275,59,Female,133.0,217.0,0,ST-T Wave Abnormality,143,Yes,0.21,Flat,0,Normal,27.9,Former,1
+PAT-1276,56,Male,110.0,287.0,0,Normal,123,Yes,0.25,Flat,0,Reversible Defect,26.1,Former,1
+PAT-1277,47,Female,177.0,245.0,0,Left Ventricular Hypertrophy,141,Yes,2.25,Upsloping,0,Normal,23.7,Former,1
+PAT-1278,54,Female,160.0,263.0,0,Normal,130,No,0.07,Flat,2,Normal,32.6,Current,1
+PAT-1279,49,Male,143.0,199.0,0,Normal,139,No,0.5,Upsloping,3,Normal,26.7,Never,1
+PAT-1280,55,Female,133.0,216.0,0,Normal,110,No,0.68,Upsloping,0,Normal,20.1,Current,1
+PAT-1281,61,Male,127.0,222.0,0,Normal,129,Yes,2.06,Upsloping,0,Normal,31.6,Never,1
+PAT-1282,71,Female,113.0,286.0,0,ST-T Wave Abnormality,130,No,5.47,Flat,3,Normal,21.4,Current,1
+PAT-1283,40,Male,133.0,325.0,0,Normal,171,No,1.26,Upsloping,0,Fixed Defect,21.7,Current,1
+PAT-1284,77,Female,136.0,206.0,0,Left Ventricular Hypertrophy,113,Yes,3.18,Downsloping,1,Reversible Defect,35.3,Former,1
+PAT-1285,32,Male,108.0,296.0,0,Normal,205,No,1.39,Flat,3,Normal,21.5,Current,1
+PAT-1286,52,Male,138.0,140.0,0,Normal,146,Yes,2.97,Upsloping,3,Reversible Defect,17.5,Never,1
+PAT-1287,60,Male,129.0,187.0,0,ST-T Wave Abnormality,138,Yes,1.11,Flat,0,Normal,32.0,Never,1
+PAT-1288,57,Male,95.0,198.0,0,Normal,162,Yes,0.07,Flat,0,Normal,26.6,Never,1
+PAT-1289,47,Male,115.0,180.0,0,ST-T Wave Abnormality,164,No,0.46,Upsloping,0,Reversible Defect,27.1,Never,1
+PAT-1290,51,Male,124.0,168.0,1,Normal,129,No,0.94,Flat,2,Normal,26.6,Former,1
+PAT-1291,48,Female,167.0,264.0,0,ST-T Wave Abnormality,142,Yes,0.39,Flat,2,Normal,29.7,Never,1
+PAT-1292,47,Male,142.0,234.0,0,Normal,146,Yes,0.29,Upsloping,1,Normal,24.0,Current,1
+PAT-1293,63,Male,106.0,263.0,0,Left Ventricular Hypertrophy,126,No,0.78,Flat,1,Reversible Defect,37.0,Former,1
+PAT-1294,57,Female,141.0,278.0,0,ST-T Wave Abnormality,136,No,2.44,Upsloping,1,Fixed Defect,19.8,Former,1
+PAT-1295,46,Male,102.0,257.0,0,Normal,126,No,0.03,Upsloping,1,Normal,31.0,Former,1
+PAT-1296,63,Female,152.0,276.0,0,Normal,129,Yes,1.32,Flat,2,Normal,32.1,Never,1
+PAT-1297,57,Female,123.0,241.0,0,Normal,164,Yes,1.15,Flat,1,Reversible Defect,24.0,Never,1
+PAT-1298,62,Female,130.0,188.0,0,Left Ventricular Hypertrophy,103,Yes,2.99,Flat,0,Fixed Defect,22.5,Never,1
+PAT-1299,60,Female,157.0,295.0,1,Normal,128,Yes,2.4,Flat,0,Normal,34.3,Current,1
+PAT-1300,44,Female,107.0,216.0,0,Normal,161,No,1.29,Flat,1,Normal,22.7,Former,1
+PAT-1301,47,Male,105.0,200.0,0,Normal,170,No,0.66,Flat,0,Normal,24.9,Never,1
+PAT-1302,62,Male,120.0,236.0,0,Normal,125,No,0.21,Upsloping,0,Normal,33.5,Current,1
+PAT-1303,60,Male,151.0,201.0,0,ST-T Wave Abnormality,137,No,0.71,Flat,2,Reversible Defect,28.6,Never,1
+PAT-1304,53,Female,103.0,224.0,1,Left Ventricular Hypertrophy,113,Yes,1.3,Flat,1,Normal,18.0,Former,1
+PAT-1305,55,Male,85.0,261.0,0,Normal,146,Yes,2.03,Upsloping,3,Normal,38.5,Former,1
+PAT-1306,68,Female,,261.0,1,ST-T Wave Abnormality,142,No,1.4,Flat,0,Reversible Defect,25.3,Current,1
+PAT-1307,47,Female,142.0,201.0,0,ST-T Wave Abnormality,131,Yes,0.2,Upsloping,1,Fixed Defect,26.1,Current,1
+PAT-1308,60,Female,154.0,221.0,0,Normal,118,Yes,0.82,Flat,0,Fixed Defect,29.9,Current,1
+PAT-1309,51,Male,123.0,296.0,0,Normal,140,Yes,0.36,Flat,2,Normal,32.0,Former,1
+PAT-1310,51,Male,124.0,268.0,0,ST-T Wave Abnormality,131,Yes,0.01,Downsloping,0,Fixed Defect,39.8,Never,1
+PAT-1311,66,Female,153.0,344.0,0,Left Ventricular Hypertrophy,129,Yes,0.2,Upsloping,1,Fixed Defect,18.8,Current,1
+PAT-1312,63,Female,96.0,301.0,0,Left Ventricular Hypertrophy,127,No,0.11,Flat,2,Normal,33.2,Former,1
+PAT-1313,62,Male,124.0,299.0,0,Normal,112,No,1.66,Upsloping,0,Reversible Defect,32.7,Never,1
+PAT-1314,68,Male,135.0,178.0,0,Normal,115,Yes,0.27,Flat,3,Reversible Defect,27.6,Former,1
+PAT-1315,54,Female,140.0,281.0,0,Normal,144,Yes,0.3,Flat,2,Reversible Defect,33.0,Never,1
+PAT-1316,61,Female,122.0,242.0,0,Left Ventricular Hypertrophy,109,No,2.9,Flat,0,Normal,33.8,Never,1
+PAT-1317,50,Female,132.0,218.0,0,Left Ventricular Hypertrophy,187,Yes,0.43,Flat,0,Normal,20.4,Current,1
+PAT-1318,57,Female,85.0,253.0,0,ST-T Wave Abnormality,101,No,0.01,Flat,0,Normal,38.5,Former,1
+PAT-1319,52,Male,119.0,290.0,0,Normal,173,Yes,0.3,Upsloping,0,Normal,19.4,Never,1
+PAT-1320,55,Male,140.0,269.0,0,Normal,151,Yes,0.11,Upsloping,2,Reversible Defect,21.8,Former,1
+PAT-1321,60,Male,113.0,202.0,1,Normal,135,No,0.1,Flat,3,Normal,26.9,Current,1
+PAT-1322,44,Male,133.0,280.0,1,Normal,153,No,0.07,Flat,0,Reversible Defect,39.6,Never,1
+PAT-1323,77,Male,140.0,214.0,0,Normal,99,Yes,0.81,Upsloping,0,Normal,26.6,Former,1
+PAT-1324,42,Female,125.0,255.0,1,Normal,172,Yes,0.19,Flat,0,Normal,28.2,Current,1
+PAT-1325,40,Female,135.0,230.0,0,Normal,150,Yes,0.4,Upsloping,0,Reversible Defect,36.7,Never,1
+PAT-1326,66,Female,113.0,234.0,0,Left Ventricular Hypertrophy,139,Yes,1.78,Upsloping,0,Normal,26.7,Former,1
+PAT-1327,62,Male,128.0,281.0,0,ST-T Wave Abnormality,127,No,0.5,Flat,0,Reversible Defect,21.6,Never,1
+PAT-1328,60,Female,143.0,195.0,0,Normal,136,No,2.23,Upsloping,0,Reversible Defect,26.0,Current,1
+PAT-1329,60,Female,134.0,338.0,0,Normal,133,No,0.62,Upsloping,1,Normal,36.4,Current,1
+PAT-1330,53,Female,120.0,157.0,0,Normal,151,No,0.46,Upsloping,1,Normal,28.8,Never,1
+PAT-1331,44,Female,136.0,216.0,0,ST-T Wave Abnormality,160,No,1.25,Flat,0,Normal,39.6,Current,1
+PAT-1332,54,Male,145.0,262.0,0,ST-T Wave Abnormality,135,No,0.07,Downsloping,2,Reversible Defect,,Current,1
+PAT-1333,46,Male,93.0,273.0,0,ST-T Wave Abnormality,132,Yes,0.08,Flat,1,Normal,24.7,Never,1
+PAT-1334,64,Male,154.0,240.0,1,ST-T Wave Abnormality,141,Yes,0.95,Upsloping,2,Reversible Defect,28.7,Former,1
+PAT-1335,52,Male,125.0,242.0,0,Normal,158,No,0.6,Downsloping,0,Normal,23.5,Never,1
+PAT-1336,44,Male,140.0,264.0,0,Normal,139,Yes,1.41,Flat,2,Reversible Defect,24.5,Current,1
+PAT-1337,50,Female,154.0,,0,Normal,145,No,2.23,Flat,2,Reversible Defect,49.0,Former,1
+PAT-1338,58,Female,105.0,311.0,0,Normal,122,No,0.44,Flat,0,Fixed Defect,34.3,Former,1
+PAT-1339,47,Female,118.0,285.0,0,ST-T Wave Abnormality,164,No,0.82,Upsloping,0,Normal,33.4,Former,1
+PAT-1340,44,Female,126.0,286.0,0,Normal,183,Yes,0.63,Flat,3,Normal,24.8,Former,1
+PAT-1341,56,Male,117.0,198.0,0,Normal,148,No,3.6,Upsloping,1,Normal,37.5,Current,1
+PAT-1342,56,Female,164.0,241.0,0,Normal,152,Yes,1.6,Upsloping,3,Fixed Defect,34.8,Former,1
+PAT-1343,48,Male,115.0,230.0,0,Left Ventricular Hypertrophy,148,No,2.18,Flat,2,Normal,39.3,Current,1
+PAT-1344,48,Male,121.0,196.0,0,Normal,158,Yes,0.26,Flat,1,Reversible Defect,39.0,Former,1
+PAT-1345,56,Male,135.0,262.0,0,ST-T Wave Abnormality,125,No,1.33,Flat,0,Reversible Defect,19.8,Never,1
+PAT-1346,38,Male,109.0,219.0,0,Normal,162,No,0.28,Flat,0,Reversible Defect,22.0,Current,1
+PAT-1347,38,Male,124.0,276.0,1,Normal,154,No,0.21,Upsloping,3,Normal,22.6,Former,1
+PAT-1348,46,Male,138.0,193.0,0,Normal,146,No,2.6,Upsloping,0,Reversible Defect,22.9,Former,1
+PAT-1349,51,Male,125.0,327.0,1,ST-T Wave Abnormality,140,No,0.02,Upsloping,0,Normal,30.3,Current,1
+PAT-1350,57,Female,130.0,201.0,0,Normal,138,No,3.03,Flat,1,Normal,25.1,Never,1
+PAT-1351,70,Male,121.0,255.0,1,Left Ventricular Hypertrophy,115,No,0.15,Flat,1,Normal,40.4,Former,1
+PAT-1352,63,Male,103.0,283.0,0,Normal,146,Yes,1.54,Upsloping,0,Normal,39.4,Never,1
+PAT-1353,52,Male,138.0,217.0,0,Normal,117,No,0.29,Downsloping,0,Normal,28.4,Former,1
+PAT-1354,53,Female,165.0,285.0,1,Left Ventricular Hypertrophy,146,No,0.39,Upsloping,0,Normal,39.7,Current,1
+PAT-1355,42,Male,132.0,185.0,0,Normal,176,No,0.22,Flat,0,Reversible Defect,37.0,Current,1
+PAT-1356,53,Male,136.0,314.0,0,ST-T Wave Abnormality,138,Yes,0.79,Flat,2,Normal,25.8,Former,1
+PAT-1357,50,Male,145.0,245.0,0,ST-T Wave Abnormality,160,No,0.39,Upsloping,0,Reversible Defect,17.5,Current,1
+PAT-1358,57,Male,107.0,216.0,0,Normal,126,Yes,0.96,Flat,2,Normal,27.1,Current,1
+PAT-1359,44,Male,164.0,230.0,1,ST-T Wave Abnormality,111,Yes,0.01,Flat,2,Normal,24.7,Former,1
+PAT-1360,59,Male,135.0,283.0,0,Normal,150,No,0.06,Flat,1,Normal,29.6,Never,1
+PAT-1361,70,Male,163.0,216.0,0,Normal,119,Yes,0.09,Flat,0,Reversible Defect,28.9,Former,1
+PAT-1362,52,Male,118.0,209.0,0,Normal,174,Yes,0.49,Upsloping,0,Normal,28.8,Current,0
+PAT-1363,58,Male,166.0,234.0,0,ST-T Wave Abnormality,128,No,1.52,Flat,0,Normal,31.4,Current,1
+PAT-1364,61,Female,146.0,188.0,0,Normal,149,Yes,1.97,Downsloping,0,Normal,21.4,Former,1
+PAT-1365,49,Male,142.0,332.0,0,ST-T Wave Abnormality,157,Yes,0.25,Upsloping,2,Normal,30.8,Current,1
+PAT-1366,56,Male,136.0,217.0,0,Left Ventricular Hypertrophy,158,Yes,0.77,Upsloping,0,Reversible Defect,25.9,Never,1
+PAT-1367,54,Male,127.0,284.0,0,ST-T Wave Abnormality,127,No,1.32,Downsloping,2,Normal,29.6,Never,1
+PAT-1368,55,Female,154.0,255.0,1,ST-T Wave Abnormality,121,No,0.31,Upsloping,0,Normal,34.0,Current,1
+PAT-1369,45,Male,134.0,197.0,0,Normal,149,No,0.47,Flat,0,Reversible Defect,21.3,Never,1
+PAT-1370,54,Male,94.0,244.0,0,Normal,156,Yes,0.67,Flat,3,Normal,,Never,1
+PAT-1371,59,Female,110.0,282.0,0,Normal,107,Yes,0.13,Flat,1,Reversible Defect,27.7,Former,1
+PAT-1372,69,Male,128.0,235.0,0,ST-T Wave Abnormality,139,Yes,0.02,Upsloping,0,Reversible Defect,25.4,Former,1
+PAT-1373,64,Male,137.0,302.0,0,Left Ventricular Hypertrophy,169,No,0.15,Upsloping,0,Reversible Defect,33.6,Former,1
+PAT-1374,77,Male,130.0,294.0,1,Left Ventricular Hypertrophy,109,No,0.89,Upsloping,0,Normal,24.2,Never,1
+PAT-1375,45,Female,155.0,289.0,0,Left Ventricular Hypertrophy,169,Yes,0.07,Flat,1,Fixed Defect,25.2,Current,1
+PAT-1376,63,Male,94.0,222.0,1,Left Ventricular Hypertrophy,114,Yes,0.19,Flat,0,Normal,24.3,Current,1
+PAT-1377,56,Female,134.0,193.0,0,Normal,145,Yes,0.37,Flat,1,Reversible Defect,34.7,Never,1
+PAT-1378,78,Female,97.0,215.0,0,ST-T Wave Abnormality,106,No,0.07,Flat,1,Normal,25.5,Former,1
+PAT-1379,45,Male,146.0,254.0,0,Left Ventricular Hypertrophy,124,No,0.19,Upsloping,2,Normal,31.1,Former,1
+PAT-1380,44,Male,130.0,271.0,0,Normal,172,No,2.18,Upsloping,0,Reversible Defect,39.9,Former,1
+PAT-1381,47,Male,139.0,140.0,0,Left Ventricular Hypertrophy,158,No,0.02,Flat,0,Normal,28.0,Never,1
+PAT-1382,30,Male,115.0,244.0,1,Normal,166,No,0.95,Flat,1,Reversible Defect,34.8,Never,1
+PAT-1383,48,Male,156.0,252.0,0,ST-T Wave Abnormality,119,Yes,0.44,Upsloping,0,Reversible Defect,38.1,Never,1
+PAT-1384,45,Female,151.0,231.0,1,ST-T Wave Abnormality,161,Yes,1.01,Upsloping,0,Normal,34.4,Never,1
+PAT-1385,55,Female,143.0,,0,Left Ventricular Hypertrophy,150,No,0.8,Upsloping,0,Normal,28.3,Former,1
+PAT-1386,57,Female,129.0,265.0,0,Normal,129,No,0.23,Upsloping,0,Normal,,Former,1
+PAT-1387,74,Male,143.0,307.0,0,ST-T Wave Abnormality,131,No,1.69,Flat,0,Reversible Defect,20.9,Current,1
+PAT-1388,64,Female,118.0,234.0,0,ST-T Wave Abnormality,128,No,0.61,Downsloping,0,Normal,23.9,Current,1
+PAT-1389,47,Female,148.0,289.0,1,Normal,175,No,1.56,Flat,3,Fixed Defect,24.9,Never,1
+PAT-1390,44,Female,163.0,323.0,0,ST-T Wave Abnormality,111,No,0.47,Downsloping,1,Reversible Defect,41.4,Current,1
+PAT-1391,59,Male,152.0,307.0,0,ST-T Wave Abnormality,160,No,3.76,Downsloping,0,Reversible Defect,23.7,Never,1
+PAT-1392,39,Female,118.0,192.0,0,ST-T Wave Abnormality,161,No,1.32,Flat,0,Reversible Defect,23.6,Former,1
+PAT-1393,74,Male,138.0,232.0,0,Normal,121,Yes,3.04,Upsloping,1,Reversible Defect,22.3,Current,1
+PAT-1394,66,Male,107.0,228.0,0,Normal,94,No,0.65,Flat,2,Normal,31.6,Former,1
+PAT-1395,48,Male,142.0,268.0,0,ST-T Wave Abnormality,170,No,0.58,Upsloping,0,Normal,29.2,Former,1
+PAT-1396,35,Female,140.0,277.0,0,Normal,124,No,1.27,Upsloping,2,Normal,34.7,Former,1
+PAT-1397,68,Female,96.0,204.0,0,Normal,113,No,1.91,Upsloping,1,Reversible Defect,32.3,Current,1
+PAT-1398,52,Male,109.0,248.0,0,Left Ventricular Hypertrophy,135,No,3.0,Flat,0,Reversible Defect,20.4,Former,1
+PAT-1399,67,Male,126.0,148.0,0,Normal,145,Yes,0.35,Upsloping,3,Reversible Defect,23.7,Current,1
+PAT-1400,36,Male,126.0,314.0,0,ST-T Wave Abnormality,148,No,1.44,Upsloping,1,Reversible Defect,36.3,Current,1
+PAT-1401,47,Male,109.0,220.0,0,Normal,161,Yes,0.21,Flat,2,Normal,27.2,Former,1
+PAT-1402,54,Male,139.0,247.0,0,Normal,118,No,0.71,Flat,0,Normal,35.3,Former,1
+PAT-1403,54,Male,136.0,230.0,0,Normal,158,No,0.18,Flat,1,Normal,27.5,Never,1
+PAT-1404,49,Female,128.0,300.0,0,Normal,148,Yes,0.38,Flat,1,Normal,22.8,Never,1
+PAT-1405,60,Male,117.0,,0,ST-T Wave Abnormality,144,Yes,2.41,Upsloping,0,Reversible Defect,26.6,Former,1
+PAT-1406,42,Male,151.0,244.0,0,ST-T Wave Abnormality,170,No,0.14,Upsloping,1,Normal,22.8,Current,1
+PAT-1407,52,Male,163.0,239.0,0,Normal,129,Yes,0.9,Flat,0,Reversible Defect,25.1,Former,1
+PAT-1408,55,Female,122.0,223.0,0,Normal,130,Yes,0.81,Flat,0,Reversible Defect,29.6,Current,1
+PAT-1409,59,Female,120.0,327.0,0,Normal,114,No,0.12,Flat,0,Normal,31.4,Never,1
+PAT-1410,61,Female,141.0,202.0,0,Normal,166,No,0.36,Flat,1,Normal,19.2,Current,1
+PAT-1411,41,Male,125.0,282.0,0,Normal,134,Yes,0.75,Flat,2,Normal,28.3,Never,1
+PAT-1412,37,Female,129.0,262.0,0,Left Ventricular Hypertrophy,112,No,0.19,Downsloping,0,Normal,25.0,Former,1
+PAT-1413,68,Male,146.0,305.0,0,ST-T Wave Abnormality,135,No,1.45,Upsloping,1,Reversible Defect,,Current,1
+PAT-1414,57,Female,95.0,212.0,0,ST-T Wave Abnormality,103,No,3.22,Upsloping,0,Normal,29.2,Never,1
+PAT-1415,45,Female,157.0,209.0,0,Normal,154,No,0.22,Flat,2,Reversible Defect,25.2,Never,1
+PAT-1416,71,Female,133.0,297.0,0,Left Ventricular Hypertrophy,148,Yes,0.19,Upsloping,1,Reversible Defect,36.4,Former,1
+PAT-1417,55,Female,124.0,265.0,0,ST-T Wave Abnormality,145,Yes,0.55,Upsloping,2,Normal,35.3,Former,1
+PAT-1418,66,Female,130.0,170.0,0,ST-T Wave Abnormality,110,Yes,1.24,Upsloping,2,Reversible Defect,35.3,Current,1
+PAT-1419,54,Male,131.0,219.0,0,Normal,156,No,0.3,Upsloping,0,Reversible Defect,25.5,Current,1
+PAT-1420,76,Female,99.0,263.0,0,Left Ventricular Hypertrophy,129,No,0.02,Upsloping,0,Reversible Defect,22.8,Never,1
+PAT-1421,73,Male,160.0,285.0,0,ST-T Wave Abnormality,111,No,0.7,Upsloping,3,Normal,28.9,Former,1
+PAT-1422,51,Male,132.0,212.0,0,Left Ventricular Hypertrophy,143,No,2.82,Flat,0,Normal,27.5,Former,1
+PAT-1423,64,Male,140.0,120.0,0,Normal,120,No,0.45,Flat,1,Normal,24.9,Current,1
+PAT-1424,61,Male,150.0,270.0,1,Normal,129,No,0.49,Flat,3,Normal,21.6,Current,1
+PAT-1425,69,Male,112.0,186.0,0,Normal,117,No,3.12,Flat,0,Reversible Defect,28.2,Former,1
+PAT-1426,43,Male,140.0,148.0,0,Normal,159,Yes,1.07,Upsloping,2,Reversible Defect,26.1,Former,1
+PAT-1427,61,Male,126.0,120.0,0,Left Ventricular Hypertrophy,129,Yes,1.14,Upsloping,3,Reversible Defect,32.4,Never,1
+PAT-1428,65,Male,148.0,284.0,1,Normal,146,No,0.74,Upsloping,1,Normal,32.3,Never,1
+PAT-1429,34,Male,91.0,251.0,0,Normal,137,No,3.31,Flat,0,Normal,34.8,Former,1
+PAT-1430,40,Male,130.0,234.0,0,Normal,166,No,1.05,Flat,0,Reversible Defect,21.1,Former,1
+PAT-1431,31,Male,120.0,311.0,0,Normal,143,No,2.03,Upsloping,0,Normal,30.7,Former,1
+PAT-1432,51,Male,140.0,275.0,0,Normal,148,Yes,1.08,Upsloping,2,Normal,24.2,Former,1
+PAT-1433,61,Female,140.0,322.0,1,ST-T Wave Abnormality,130,No,1.2,Downsloping,2,Fixed Defect,21.3,Former,1
+PAT-1434,70,Female,118.0,178.0,0,ST-T Wave Abnormality,133,No,0.31,Flat,1,Normal,25.9,Former,1
+PAT-1435,54,Female,118.0,243.0,0,Normal,159,No,0.33,Flat,0,Reversible Defect,34.6,Never,1
+PAT-1436,71,Female,129.0,167.0,1,Normal,155,No,1.38,Upsloping,0,Normal,26.2,Never,1
+PAT-1437,38,Male,114.0,233.0,0,Normal,175,No,0.32,Upsloping,1,Reversible Defect,37.5,Never,1
+PAT-1438,35,Female,147.0,233.0,0,Normal,165,No,0.74,Flat,1,Reversible Defect,31.6,Current,1
+PAT-1439,53,Male,124.0,275.0,0,ST-T Wave Abnormality,138,No,0.26,Flat,2,Normal,26.1,Never,1
+PAT-1440,58,Male,85.0,247.0,0,ST-T Wave Abnormality,118,No,1.53,Flat,1,Reversible Defect,35.1,Current,1
+PAT-1441,53,Female,124.0,274.0,0,ST-T Wave Abnormality,150,No,0.11,Flat,2,Normal,31.0,Never,1
+PAT-1442,31,Male,112.0,278.0,0,ST-T Wave Abnormality,179,Yes,1.59,Flat,1,Reversible Defect,23.0,Former,1
+PAT-1443,53,Female,101.0,348.0,0,Normal,167,Yes,0.83,Flat,1,Normal,39.2,Current,1
+PAT-1444,39,Female,108.0,229.0,0,Left Ventricular Hypertrophy,147,Yes,0.19,Upsloping,0,Fixed Defect,29.9,Former,0
+PAT-1445,61,Female,,199.0,1,ST-T Wave Abnormality,109,Yes,0.7,Upsloping,2,Normal,28.5,Never,1
+PAT-1446,58,Female,157.0,256.0,0,Left Ventricular Hypertrophy,114,No,0.3,Flat,1,Reversible Defect,23.4,Never,1
+PAT-1447,43,Male,137.0,206.0,1,Normal,139,No,0.35,Upsloping,0,Fixed Defect,35.2,Current,1
+PAT-1448,48,Male,120.0,316.0,0,Left Ventricular Hypertrophy,135,Yes,0.39,Flat,0,Normal,31.4,Former,1
+PAT-1449,42,Female,140.0,231.0,0,ST-T Wave Abnormality,122,Yes,0.06,Flat,0,Reversible Defect,32.0,Former,1
+PAT-1450,53,Male,123.0,217.0,1,ST-T Wave Abnormality,136,Yes,3.84,Downsloping,0,Normal,25.5,Former,1
+PAT-1451,64,Female,118.0,222.0,0,Normal,119,No,0.03,Upsloping,0,Normal,33.2,Never,0
+PAT-1452,43,Female,110.0,279.0,0,ST-T Wave Abnormality,157,No,0.98,Upsloping,0,Fixed Defect,33.7,Never,0
+PAT-1453,59,Female,98.0,,0,Left Ventricular Hypertrophy,160,No,0.42,Flat,0,Reversible Defect,24.5,Former,1
+PAT-1454,48,Male,124.0,214.0,0,ST-T Wave Abnormality,159,No,0.93,Flat,0,Normal,20.2,Former,1
+PAT-1455,45,Male,135.0,324.0,0,ST-T Wave Abnormality,150,Yes,0.4,Flat,2,Normal,31.8,Never,1
+PAT-1456,52,Male,130.0,203.0,1,Left Ventricular Hypertrophy,141,Yes,1.01,Flat,0,Reversible Defect,19.3,Current,1
+PAT-1457,42,Male,124.0,246.0,0,Normal,118,Yes,1.18,Upsloping,1,Reversible Defect,29.3,Current,1
+PAT-1458,47,Female,114.0,276.0,0,ST-T Wave Abnormality,146,Yes,1.06,Flat,0,Normal,25.8,Current,1
+PAT-1459,40,Male,143.0,166.0,0,Normal,133,No,0.11,Flat,0,Normal,35.5,Never,1
+PAT-1460,75,Male,106.0,268.0,0,Left Ventricular Hypertrophy,127,No,0.96,Flat,0,Reversible Defect,26.1,Never,1
+PAT-1461,54,Male,146.0,194.0,0,Normal,146,No,0.3,Upsloping,2,Reversible Defect,34.8,Current,1
+PAT-1462,46,Female,112.0,284.0,0,Normal,172,No,0.03,Upsloping,1,Reversible Defect,25.4,Never,1
+PAT-1463,56,Female,117.0,198.0,0,ST-T Wave Abnormality,152,Yes,0.48,Flat,0,Normal,34.2,Never,1
+PAT-1464,52,Male,104.0,278.0,0,ST-T Wave Abnormality,133,Yes,0.51,Downsloping,1,Reversible Defect,40.3,Current,1
+PAT-1465,51,Male,122.0,298.0,1,ST-T Wave Abnormality,143,No,0.57,Flat,0,Reversible Defect,22.2,Never,1
+PAT-1466,60,Male,150.0,286.0,0,Left Ventricular Hypertrophy,118,No,1.1,Upsloping,3,Normal,30.1,Never,1
+PAT-1467,62,Male,141.0,257.0,0,Left Ventricular Hypertrophy,129,Yes,0.33,Upsloping,3,Fixed Defect,44.3,Former,1
+PAT-1468,48,Female,150.0,233.0,0,Normal,153,No,0.34,Flat,1,Reversible Defect,28.8,Current,1
+PAT-1469,47,Female,141.0,217.0,0,Normal,109,No,0.06,Upsloping,1,Normal,28.8,Never,1
+PAT-1470,50,Male,,315.0,0,Normal,146,No,1.04,Flat,2,Reversible Defect,33.0,Current,1
+PAT-1471,28,Male,125.0,211.0,1,Normal,146,No,0.76,Flat,1,Reversible Defect,28.6,Former,1
+PAT-1472,37,Female,117.0,,0,ST-T Wave Abnormality,165,No,0.39,Flat,1,Reversible Defect,18.5,Former,1
+PAT-1473,69,Male,157.0,276.0,1,Left Ventricular Hypertrophy,113,No,1.1,Upsloping,3,Reversible Defect,35.0,Never,1
+PAT-1474,72,Female,109.0,206.0,0,Left Ventricular Hypertrophy,106,No,0.69,Flat,1,Normal,17.5,Never,1
+PAT-1475,51,Male,148.0,199.0,1,Normal,140,No,0.57,Upsloping,1,Normal,26.0,Former,1
+PAT-1476,60,Male,148.0,175.0,0,Normal,177,Yes,0.64,Upsloping,2,Reversible Defect,35.4,Former,1
+PAT-1477,57,Male,166.0,221.0,1,ST-T Wave Abnormality,137,No,0.91,Downsloping,1,Normal,26.3,Current,1
+PAT-1478,85,Male,124.0,241.0,0,ST-T Wave Abnormality,87,Yes,0.97,Flat,1,Normal,24.4,Former,1
+PAT-1479,66,Female,145.0,256.0,0,Normal,119,Yes,0.31,Flat,0,Normal,33.5,Former,1
+PAT-1480,52,Male,175.0,290.0,1,Left Ventricular Hypertrophy,134,No,0.14,Upsloping,0,Normal,23.5,Never,1
+PAT-1481,43,Male,120.0,270.0,0,Left Ventricular Hypertrophy,183,No,0.15,Upsloping,0,Reversible Defect,21.3,Current,1
+PAT-1482,36,Male,102.0,235.0,0,Normal,171,No,0.92,Upsloping,0,Normal,30.0,Former,0
+PAT-1483,56,Male,96.0,235.0,0,Left Ventricular Hypertrophy,131,Yes,1.86,Upsloping,0,Normal,27.3,Never,1
+PAT-1484,45,Male,145.0,269.0,1,Normal,142,Yes,0.47,Flat,3,Reversible Defect,21.2,Current,1
+PAT-1485,38,Male,96.0,306.0,0,ST-T Wave Abnormality,135,No,0.17,Upsloping,1,Reversible Defect,,Former,1
+PAT-1486,46,Female,124.0,251.0,0,Normal,151,Yes,1.27,Flat,2,Reversible Defect,31.1,Former,1
+PAT-1487,42,Male,140.0,222.0,0,Normal,145,Yes,1.61,Upsloping,0,Reversible Defect,26.3,Former,1
+PAT-1488,72,Male,135.0,197.0,0,Left Ventricular Hypertrophy,122,No,1.91,Upsloping,2,Reversible Defect,26.7,Former,1
+PAT-1489,63,Female,140.0,175.0,0,Normal,149,Yes,0.84,Downsloping,1,Reversible Defect,31.1,Never,1
+PAT-1490,53,Male,136.0,276.0,0,ST-T Wave Abnormality,182,No,1.77,Upsloping,1,Fixed Defect,35.3,Never,1
+PAT-1491,70,Female,156.0,272.0,0,Normal,117,No,0.01,Upsloping,0,Reversible Defect,26.8,Current,1
+PAT-1492,54,Male,113.0,272.0,1,Normal,137,Yes,0.1,Upsloping,0,Normal,32.2,Never,1
+PAT-1493,44,Female,119.0,238.0,0,Normal,162,No,0.09,Upsloping,1,Reversible Defect,31.7,Former,1
+PAT-1494,70,Female,117.0,312.0,0,Normal,154,No,1.12,Flat,1,Normal,33.5,Never,1
+PAT-1495,59,Female,147.0,221.0,0,ST-T Wave Abnormality,124,No,0.06,Upsloping,2,Normal,28.6,Never,1
+PAT-1496,42,Female,149.0,290.0,0,Normal,157,No,0.62,Flat,2,Normal,23.1,Never,1
+PAT-1497,51,Male,140.0,243.0,0,ST-T Wave Abnormality,133,Yes,0.58,Flat,3,Fixed Defect,25.7,Former,1
+PAT-1498,44,Female,154.0,215.0,0,ST-T Wave Abnormality,117,No,0.33,Flat,1,Fixed Defect,30.4,Former,1
+PAT-1499,38,Male,109.0,273.0,0,ST-T Wave Abnormality,195,No,1.84,Upsloping,3,Reversible Defect,38.9,Never,1
+PAT-1500,64,Male,163.0,264.0,0,Normal,143,Yes,0.17,Flat,2,Reversible Defect,25.6,Never,1
+PAT-1501,75,Male,,262.0,0,Left Ventricular Hypertrophy,123,Yes,0.39,Upsloping,0,Reversible Defect,33.1,Current,1
+PAT-1502,38,Male,145.0,,0,Normal,130,Yes,1.34,Flat,0,Normal,26.5,Former,1
+PAT-1503,60,Male,165.0,243.0,0,Normal,164,Yes,0.03,Flat,0,Reversible Defect,29.0,Current,1
+PAT-1504,46,Male,100.0,359.0,0,Normal,114,No,1.01,Upsloping,0,Normal,37.2,Current,1
+PAT-1505,48,Male,122.0,301.0,0,Normal,144,Yes,1.53,Flat,0,Reversible Defect,32.8,Current,1
+PAT-1506,47,Female,118.0,279.0,0,Normal,149,Yes,2.42,Downsloping,0,Normal,21.2,Current,1
+PAT-1507,44,Female,145.0,250.0,0,ST-T Wave Abnormality,154,No,1.88,Flat,1,Normal,25.1,Never,1
+PAT-1508,54,Male,112.0,293.0,0,Normal,148,Yes,0.35,Upsloping,0,Reversible Defect,35.7,Current,1
+PAT-1509,44,Male,146.0,,0,Normal,132,No,0.79,Flat,0,Reversible Defect,29.2,Current,1
+PAT-1510,56,Male,158.0,246.0,0,ST-T Wave Abnormality,158,No,0.07,Downsloping,1,Reversible Defect,21.7,Current,1
+PAT-1511,53,Male,145.0,230.0,0,Normal,135,Yes,0.27,Upsloping,2,Reversible Defect,23.7,Never,1
+PAT-1512,51,Male,137.0,241.0,0,Normal,150,No,0.09,Flat,3,Normal,32.5,Current,1
+PAT-1513,44,Male,113.0,,1,Normal,164,No,0.34,Upsloping,1,Reversible Defect,34.2,Current,1
+PAT-1514,47,Male,115.0,255.0,1,ST-T Wave Abnormality,101,No,1.87,Upsloping,0,Fixed Defect,28.5,Current,1
+PAT-1515,62,Female,155.0,221.0,0,Normal,125,Yes,0.38,Flat,0,Normal,42.8,Never,1
+PAT-1516,59,Male,146.0,321.0,0,Normal,124,No,0.74,Flat,0,Normal,33.2,Never,1
+PAT-1517,43,Male,131.0,245.0,0,Normal,131,No,0.51,Flat,0,Normal,27.0,Current,1
+PAT-1518,55,Female,124.0,187.0,0,ST-T Wave Abnormality,165,No,0.55,Downsloping,0,Reversible Defect,23.7,Former,1
+PAT-1519,62,Male,93.0,242.0,0,ST-T Wave Abnormality,101,Yes,3.14,Upsloping,3,Normal,22.7,Never,1
+PAT-1520,35,Male,111.0,194.0,0,ST-T Wave Abnormality,205,No,0.32,Upsloping,0,Normal,30.3,Current,0
+PAT-1521,59,Female,168.0,267.0,0,Normal,149,No,0.89,Downsloping,0,Normal,25.6,Never,1
+PAT-1522,46,Male,107.0,258.0,0,Normal,157,No,0.49,Upsloping,0,Fixed Defect,38.1,Never,1
+PAT-1523,60,Male,135.0,,0,Normal,124,No,0.06,Flat,1,Reversible Defect,36.9,Never,1
+PAT-1524,45,Female,151.0,207.0,0,Normal,146,No,0.6,Flat,0,Reversible Defect,32.1,Never,1
+PAT-1525,34,Female,108.0,246.0,0,Normal,164,No,1.51,Upsloping,0,Normal,21.6,Never,0
+PAT-1526,36,Female,135.0,179.0,0,Normal,159,No,0.09,Upsloping,0,Normal,24.5,Never,0
+PAT-1527,54,Male,149.0,278.0,0,ST-T Wave Abnormality,158,No,0.06,Flat,0,Normal,35.7,Never,1
+PAT-1528,56,Female,132.0,269.0,0,ST-T Wave Abnormality,165,Yes,0.15,Flat,0,Reversible Defect,25.1,Former,1
+PAT-1529,44,Male,186.0,268.0,0,Normal,137,No,1.3,Flat,0,Normal,34.9,Current,1
+PAT-1530,61,Male,100.0,245.0,0,ST-T Wave Abnormality,121,No,1.16,Flat,0,Normal,31.2,Former,1
+PAT-1531,35,Male,152.0,264.0,0,Normal,131,Yes,0.75,Flat,2,Reversible Defect,28.7,Never,1
+PAT-1532,53,Male,128.0,322.0,0,Normal,156,No,0.57,Upsloping,1,Normal,24.3,Never,1
+PAT-1533,40,Male,146.0,231.0,0,ST-T Wave Abnormality,142,Yes,1.97,Upsloping,1,Reversible Defect,27.9,Current,1
+PAT-1534,46,Male,140.0,251.0,1,Normal,154,No,1.31,Upsloping,0,Normal,29.5,Current,1
+PAT-1535,54,Female,118.0,192.0,0,Normal,119,No,1.5,Upsloping,0,Reversible Defect,34.4,Never,1
+PAT-1536,44,Female,136.0,203.0,0,Normal,132,Yes,1.51,Upsloping,0,Normal,23.3,Never,1
+PAT-1537,49,Female,96.0,249.0,0,Left Ventricular Hypertrophy,142,No,0.93,Upsloping,0,Normal,26.9,Former,1
+PAT-1538,65,Male,143.0,297.0,1,ST-T Wave Abnormality,136,Yes,0.55,Upsloping,0,Normal,28.7,Current,1
+PAT-1539,47,Female,137.0,232.0,0,Normal,130,No,1.8,Upsloping,0,Reversible Defect,32.2,Former,1
+PAT-1540,63,Male,144.0,233.0,1,Left Ventricular Hypertrophy,120,No,2.34,Flat,1,Reversible Defect,23.1,Former,1
+PAT-1541,41,Female,152.0,225.0,0,ST-T Wave Abnormality,166,Yes,0.02,Flat,2,Normal,20.8,Former,1
+PAT-1542,59,Male,138.0,219.0,0,ST-T Wave Abnormality,159,Yes,0.05,Upsloping,1,Reversible Defect,32.3,Current,1
+PAT-1543,69,Female,134.0,259.0,1,ST-T Wave Abnormality,131,Yes,2.87,Downsloping,0,Reversible Defect,19.6,Never,1
+PAT-1544,26,Male,115.0,173.0,0,Normal,141,No,0.29,Upsloping,1,Reversible Defect,35.9,Current,1
+PAT-1545,45,Female,118.0,306.0,0,Normal,129,No,1.86,Flat,0,Reversible Defect,27.5,Never,1
+PAT-1546,60,Female,154.0,,0,Normal,155,Yes,0.44,Upsloping,1,Normal,19.4,Former,1
+PAT-1547,51,Male,159.0,279.0,0,ST-T Wave Abnormality,165,Yes,0.11,Flat,0,Reversible Defect,25.6,Former,1
+PAT-1548,58,Male,127.0,184.0,0,ST-T Wave Abnormality,114,Yes,0.08,Upsloping,0,Normal,30.6,Former,1
+PAT-1549,47,Female,132.0,277.0,0,ST-T Wave Abnormality,168,No,0.15,Flat,2,Normal,25.3,Former,1
+PAT-1550,54,Male,114.0,277.0,0,Left Ventricular Hypertrophy,131,No,0.26,Upsloping,1,Normal,28.5,Never,1
+PAT-1551,52,Female,154.0,263.0,0,Left Ventricular Hypertrophy,154,Yes,0.6,Flat,0,Reversible Defect,32.7,Never,1
+PAT-1552,66,Female,144.0,197.0,1,Left Ventricular Hypertrophy,99,No,1.09,Upsloping,0,Reversible Defect,27.2,Former,1
+PAT-1553,56,Male,168.0,256.0,0,ST-T Wave Abnormality,152,Yes,3.87,Upsloping,0,Reversible Defect,23.0,Former,1
+PAT-1554,57,Male,115.0,188.0,0,Left Ventricular Hypertrophy,117,No,0.52,Flat,3,Reversible Defect,26.7,Never,1
+PAT-1555,49,Male,124.0,232.0,0,Normal,142,No,0.66,Upsloping,1,Reversible Defect,36.6,Current,1
+PAT-1556,48,Female,136.0,294.0,0,Normal,142,No,0.66,Downsloping,3,Normal,38.2,Never,1
+PAT-1557,49,Male,144.0,283.0,0,Normal,181,No,0.7,Upsloping,0,Normal,17.5,Never,1
+PAT-1558,58,Male,127.0,245.0,1,Left Ventricular Hypertrophy,176,No,0.66,Flat,1,Normal,34.7,Never,1
+PAT-1559,49,Male,115.0,198.0,0,Normal,149,No,0.01,Flat,2,Normal,29.9,Former,1
+PAT-1560,57,Male,148.0,275.0,0,ST-T Wave Abnormality,133,No,0.0,Upsloping,0,Normal,33.8,Never,1
+PAT-1561,76,Female,145.0,245.0,0,Normal,139,Yes,0.09,Upsloping,0,Normal,25.2,Former,1
+PAT-1562,63,Female,114.0,133.0,0,Normal,151,Yes,0.1,Flat,1,Reversible Defect,18.1,Never,1
+PAT-1563,50,Male,157.0,282.0,1,ST-T Wave Abnormality,134,Yes,1.1,Flat,1,Reversible Defect,31.8,Never,1
+PAT-1564,67,Female,154.0,243.0,0,Normal,117,No,0.21,Downsloping,1,Fixed Defect,22.9,Current,1
+PAT-1565,49,Female,134.0,302.0,0,Normal,148,Yes,2.03,Upsloping,1,Reversible Defect,20.3,Former,1
+PAT-1566,31,Male,133.0,192.0,0,Normal,149,Yes,2.38,Flat,1,Normal,20.8,Never,1
+PAT-1567,42,Female,142.0,120.0,0,Normal,174,No,3.35,Upsloping,1,Reversible Defect,31.9,Never,1
+PAT-1568,33,Male,115.0,258.0,0,ST-T Wave Abnormality,168,Yes,2.52,Upsloping,0,Normal,29.2,Current,1
+PAT-1569,50,Male,132.0,258.0,0,Normal,115,No,0.29,Flat,0,Normal,32.9,Never,1
+PAT-1570,54,Female,91.0,163.0,0,ST-T Wave Abnormality,139,No,0.64,Upsloping,1,Reversible Defect,32.3,Current,1
+PAT-1571,72,Male,148.0,198.0,0,Normal,120,No,0.17,Upsloping,3,Normal,26.0,Former,1
+PAT-1572,57,Female,102.0,377.0,0,ST-T Wave Abnormality,96,No,1.48,Upsloping,0,Normal,28.0,Never,1
+PAT-1573,51,Female,160.0,230.0,1,Normal,169,No,1.97,Flat,0,Normal,25.4,Current,1
+PAT-1574,63,Male,125.0,280.0,1,ST-T Wave Abnormality,117,No,1.72,Downsloping,0,Reversible Defect,27.2,Current,1
+PAT-1575,29,Female,127.0,213.0,0,ST-T Wave Abnormality,136,Yes,0.51,Flat,0,Reversible Defect,22.8,Never,1
+PAT-1576,56,Male,120.0,144.0,0,Normal,144,No,1.28,Flat,0,Normal,30.7,Never,1
+PAT-1577,62,Male,126.0,236.0,0,Left Ventricular Hypertrophy,117,Yes,0.09,Flat,1,Reversible Defect,34.6,Former,1
+PAT-1578,37,Female,158.0,232.0,0,ST-T Wave Abnormality,175,Yes,0.04,Flat,0,Normal,23.7,Current,1
+PAT-1579,66,Female,85.0,225.0,0,Normal,141,No,1.26,Upsloping,2,Normal,35.8,Former,1
+PAT-1580,57,Male,156.0,239.0,0,Normal,131,Yes,0.5,Upsloping,2,Normal,29.1,Never,1
+PAT-1581,49,Male,138.0,257.0,1,Left Ventricular Hypertrophy,131,Yes,4.87,Upsloping,3,Reversible Defect,29.8,Never,1
+PAT-1582,60,Female,109.0,237.0,1,ST-T Wave Abnormality,114,Yes,0.09,Flat,0,Normal,18.5,Never,1
+PAT-1583,78,Female,111.0,184.0,0,Normal,88,Yes,1.74,Flat,1,Fixed Defect,17.9,Never,1
+PAT-1584,56,Female,163.0,268.0,0,Normal,140,Yes,0.59,Upsloping,0,Normal,29.2,Never,1
+PAT-1585,56,Male,114.0,151.0,0,ST-T Wave Abnormality,117,Yes,1.58,Upsloping,0,Normal,33.0,Former,1
+PAT-1586,48,Male,110.0,146.0,0,ST-T Wave Abnormality,153,No,1.53,Downsloping,1,Reversible Defect,24.5,Never,1
+PAT-1587,44,Male,153.0,280.0,0,ST-T Wave Abnormality,134,No,2.23,Flat,2,Normal,38.1,Never,1
+PAT-1588,63,Female,138.0,269.0,0,Normal,128,Yes,0.32,Flat,0,Normal,32.7,Former,1
+PAT-1589,44,Male,114.0,242.0,1,ST-T Wave Abnormality,142,No,2.69,Upsloping,3,Normal,23.1,Never,1
+PAT-1590,54,Male,136.0,178.0,0,Normal,133,Yes,0.15,Upsloping,2,Fixed Defect,28.6,Never,1
+PAT-1591,48,Female,112.0,211.0,0,Normal,175,Yes,0.08,Upsloping,1,Reversible Defect,42.8,Never,1
+PAT-1592,59,Male,152.0,232.0,0,ST-T Wave Abnormality,156,Yes,0.51,Upsloping,1,Normal,21.2,Never,1
+PAT-1593,57,Female,152.0,168.0,0,Left Ventricular Hypertrophy,136,No,1.59,Upsloping,0,Normal,31.5,Current,1
+PAT-1594,65,Female,142.0,209.0,0,Normal,160,No,0.58,Flat,1,Normal,26.5,Former,1
+PAT-1595,48,Female,138.0,276.0,1,Normal,132,No,1.59,Upsloping,0,Normal,32.5,Never,1
+PAT-1596,51,Male,,313.0,0,ST-T Wave Abnormality,128,No,1.18,Upsloping,2,Reversible Defect,35.8,Never,1
+PAT-1597,43,Male,131.0,224.0,0,ST-T Wave Abnormality,146,No,0.21,Upsloping,0,Reversible Defect,26.2,Never,1
+PAT-1598,49,Female,109.0,281.0,0,Left Ventricular Hypertrophy,166,No,2.68,Flat,0,Reversible Defect,34.9,Former,1
+PAT-1599,58,Female,140.0,,0,ST-T Wave Abnormality,112,No,0.06,Flat,1,Normal,41.3,Former,1
+PAT-1600,62,Female,171.0,276.0,1,Normal,96,Yes,2.06,Flat,0,Reversible Defect,28.8,Former,1
+PAT-1601,43,Male,112.0,206.0,0,Left Ventricular Hypertrophy,149,Yes,0.33,Upsloping,0,Reversible Defect,33.0,Never,1
+PAT-1602,63,Female,125.0,259.0,1,ST-T Wave Abnormality,122,No,0.62,Upsloping,0,Fixed Defect,25.0,Never,1
+PAT-1603,68,Female,139.0,233.0,0,Left Ventricular Hypertrophy,123,No,0.49,Upsloping,2,Reversible Defect,28.5,Current,1
+PAT-1604,58,Female,130.0,308.0,0,ST-T Wave Abnormality,127,Yes,0.17,Upsloping,0,Reversible Defect,27.4,Current,1
+PAT-1605,74,Female,113.0,203.0,0,Left Ventricular Hypertrophy,123,Yes,0.4,Flat,0,Fixed Defect,33.0,Current,1
+PAT-1606,45,Female,153.0,275.0,0,Normal,150,No,0.19,Downsloping,0,Normal,35.4,Never,1
+PAT-1607,40,Female,176.0,231.0,0,Normal,138,No,0.21,Flat,0,Reversible Defect,27.8,Current,1
+PAT-1608,34,Male,135.0,237.0,0,Left Ventricular Hypertrophy,118,Yes,0.19,Downsloping,0,Normal,37.3,Former,1
+PAT-1609,70,Male,114.0,236.0,0,Normal,150,No,0.6,Flat,1,Reversible Defect,37.3,Current,1
+PAT-1610,61,Male,102.0,204.0,0,Normal,135,No,1.44,Upsloping,0,Reversible Defect,33.3,Never,1
+PAT-1611,53,Male,136.0,244.0,0,ST-T Wave Abnormality,163,No,0.76,Downsloping,0,Reversible Defect,25.4,Current,1
+PAT-1612,57,Male,152.0,241.0,0,ST-T Wave Abnormality,109,No,2.01,Upsloping,0,Normal,24.9,Never,1
+PAT-1613,41,Male,141.0,256.0,0,Normal,164,No,0.91,Flat,0,Normal,23.7,Former,1
+PAT-1614,80,Male,131.0,249.0,0,Left Ventricular Hypertrophy,140,Yes,1.05,Upsloping,0,Normal,33.9,Never,1
+PAT-1615,55,Male,120.0,283.0,0,ST-T Wave Abnormality,128,Yes,0.99,Upsloping,2,Reversible Defect,21.4,Current,1
+PAT-1616,55,Female,111.0,289.0,0,ST-T Wave Abnormality,108,No,0.54,Flat,0,Reversible Defect,32.3,Current,1
+PAT-1617,61,Female,147.0,194.0,0,ST-T Wave Abnormality,122,No,1.05,Upsloping,0,Reversible Defect,22.1,Never,1
+PAT-1618,59,Male,149.0,286.0,0,Normal,132,Yes,0.07,Upsloping,1,Normal,33.2,Former,1
+PAT-1619,56,Female,102.0,188.0,0,Normal,131,No,1.77,Upsloping,0,Reversible Defect,28.5,Never,1
+PAT-1620,45,Male,162.0,273.0,0,Normal,124,No,1.35,Upsloping,1,Reversible Defect,36.1,Never,1
+PAT-1621,59,Male,142.0,274.0,1,Normal,151,Yes,0.25,Downsloping,0,Normal,35.0,Never,1
+PAT-1622,74,Male,158.0,153.0,0,ST-T Wave Abnormality,123,Yes,1.32,Flat,0,Fixed Defect,36.7,Never,1
+PAT-1623,68,Male,106.0,249.0,0,ST-T Wave Abnormality,135,Yes,0.01,Flat,2,Reversible Defect,36.9,Current,1
+PAT-1624,71,Female,106.0,222.0,0,ST-T Wave Abnormality,145,No,0.22,Upsloping,0,Reversible Defect,29.2,Never,1
+PAT-1625,48,Female,129.0,208.0,0,ST-T Wave Abnormality,152,No,0.06,Flat,2,Reversible Defect,21.7,Former,1
+PAT-1626,43,Male,141.0,309.0,1,ST-T Wave Abnormality,132,No,1.36,Upsloping,1,Normal,22.3,Current,1
+PAT-1627,52,Male,166.0,213.0,0,Normal,132,No,1.27,Upsloping,1,Fixed Defect,17.5,Current,1
+PAT-1628,54,Male,145.0,206.0,1,Normal,129,No,1.51,Upsloping,2,Reversible Defect,22.1,Current,1
+PAT-1629,66,Male,127.0,248.0,1,Left Ventricular Hypertrophy,126,No,0.0,Flat,2,Reversible Defect,28.8,Never,1
+PAT-1630,35,Male,112.0,277.0,0,Normal,150,No,0.63,Upsloping,1,Reversible Defect,25.2,Current,1
+PAT-1631,70,Male,155.0,238.0,0,Normal,139,No,1.1,Upsloping,1,Reversible Defect,27.4,Never,1
+PAT-1632,52,Female,113.0,300.0,0,ST-T Wave Abnormality,148,No,0.15,Flat,0,Normal,31.3,Current,1
+PAT-1633,49,Female,162.0,270.0,0,Normal,142,Yes,0.94,Upsloping,0,Reversible Defect,26.6,Former,1
+PAT-1634,42,Male,126.0,140.0,0,Left Ventricular Hypertrophy,148,No,0.08,Flat,0,Normal,21.9,Current,1
+PAT-1635,35,Female,,219.0,0,Normal,154,Yes,0.18,Flat,0,Normal,28.1,Never,1
+PAT-1636,63,Male,144.0,218.0,0,Normal,134,No,0.58,Upsloping,2,Normal,23.2,Former,1
+PAT-1637,54,Male,129.0,268.0,0,Normal,147,No,0.95,Upsloping,0,Reversible Defect,26.8,Current,1
+PAT-1638,39,Male,122.0,120.0,0,ST-T Wave Abnormality,99,Yes,0.14,Upsloping,0,Reversible Defect,36.2,Current,1
+PAT-1639,39,Female,125.0,367.0,1,Normal,139,Yes,0.18,Flat,2,Normal,26.8,Never,1
+PAT-1640,50,Female,140.0,270.0,0,ST-T Wave Abnormality,137,No,0.21,Flat,0,Normal,38.7,Current,1
+PAT-1641,72,Female,133.0,252.0,1,Left Ventricular Hypertrophy,127,No,0.25,Upsloping,0,Reversible Defect,36.7,Never,1
+PAT-1642,51,Male,120.0,301.0,0,Left Ventricular Hypertrophy,152,Yes,0.23,Upsloping,1,Reversible Defect,25.0,Former,1
+PAT-1643,37,Female,128.0,357.0,0,Normal,160,No,0.45,Upsloping,1,Reversible Defect,22.0,Former,1
+PAT-1644,51,Male,133.0,286.0,0,Normal,138,Yes,0.95,Flat,1,Normal,28.1,Never,1
+PAT-1645,51,Female,91.0,290.0,0,ST-T Wave Abnormality,177,Yes,0.52,Flat,0,Normal,35.1,Never,1
+PAT-1646,24,Male,140.0,251.0,0,Left Ventricular Hypertrophy,199,Yes,1.35,Upsloping,0,Normal,25.6,Current,1
+PAT-1647,53,Male,113.0,238.0,0,Left Ventricular Hypertrophy,153,Yes,1.14,Flat,1,Normal,33.7,Never,1
+PAT-1648,51,Female,110.0,222.0,0,Normal,140,No,0.12,Flat,0,Normal,35.4,Never,1
+PAT-1649,61,Female,99.0,205.0,0,ST-T Wave Abnormality,138,No,0.05,Downsloping,1,Normal,23.9,Current,1
+PAT-1650,74,Male,97.0,212.0,0,Normal,94,No,1.89,Upsloping,2,Normal,24.5,Current,1
+PAT-1651,66,Female,106.0,180.0,1,Normal,155,No,0.07,Upsloping,0,Normal,32.5,Former,0
+PAT-1652,51,Male,118.0,241.0,0,Normal,157,Yes,0.14,Upsloping,0,Reversible Defect,29.3,Never,1
+PAT-1653,41,Female,169.0,164.0,0,Normal,126,No,0.02,Flat,0,Normal,24.4,Never,1
+PAT-1654,82,Female,122.0,254.0,0,Normal,110,Yes,0.89,Flat,1,Normal,26.4,Former,1
+PAT-1655,54,Female,135.0,243.0,1,Normal,125,No,0.79,Flat,0,Reversible Defect,28.0,Former,1
+PAT-1656,54,Male,139.0,252.0,0,ST-T Wave Abnormality,104,No,3.9,Upsloping,0,Reversible Defect,19.3,Former,1
+PAT-1657,53,Male,134.0,219.0,0,Normal,154,Yes,1.96,Upsloping,2,Fixed Defect,32.8,Current,1
+PAT-1658,56,Male,130.0,392.0,0,ST-T Wave Abnormality,140,No,0.48,Upsloping,0,Reversible Defect,25.6,Former,1
+PAT-1659,52,Female,109.0,310.0,0,Normal,147,Yes,0.42,Flat,0,Reversible Defect,17.5,Never,1
+PAT-1660,47,Male,159.0,185.0,0,Normal,183,Yes,0.32,Upsloping,2,Reversible Defect,28.3,Current,1
+PAT-1661,47,Male,166.0,256.0,1,Normal,153,Yes,0.15,Upsloping,0,Reversible Defect,24.1,Former,1
+PAT-1662,53,Male,100.0,215.0,0,Normal,126,Yes,0.13,Flat,1,Reversible Defect,38.2,Former,1
+PAT-1663,48,Male,112.0,196.0,0,ST-T Wave Abnormality,137,Yes,0.13,Upsloping,1,Normal,25.0,Current,1
+PAT-1664,46,Female,126.0,180.0,0,Normal,137,Yes,0.11,Flat,0,Normal,22.0,Current,1
+PAT-1665,55,Male,113.0,265.0,0,Normal,146,No,0.25,Upsloping,2,Reversible Defect,31.3,Former,1
+PAT-1666,51,Female,141.0,212.0,1,Normal,155,Yes,0.33,Flat,0,Fixed Defect,24.6,Never,1
+PAT-1667,70,Male,118.0,291.0,0,ST-T Wave Abnormality,102,No,2.93,Flat,3,Reversible Defect,23.9,Current,1
+PAT-1668,24,Male,173.0,292.0,0,ST-T Wave Abnormality,179,No,0.78,Downsloping,0,Normal,31.4,Former,1
+PAT-1669,66,Male,154.0,310.0,0,Normal,123,No,3.95,Flat,0,Normal,22.4,Never,1
+PAT-1670,67,Male,136.0,204.0,0,Normal,125,Yes,0.42,Downsloping,0,Reversible Defect,19.9,Former,1
+PAT-1671,31,Male,151.0,267.0,0,Normal,137,Yes,0.55,Flat,0,Normal,38.4,Never,1
+PAT-1672,50,Female,153.0,275.0,0,ST-T Wave Abnormality,127,No,0.35,Flat,1,Reversible Defect,31.8,Current,1
+PAT-1673,49,Male,121.0,222.0,0,Normal,169,No,0.18,Downsloping,1,Reversible Defect,26.9,Former,1
+PAT-1674,38,Female,116.0,207.0,0,ST-T Wave Abnormality,178,No,0.14,Upsloping,2,Reversible Defect,28.4,Current,0
+PAT-1675,45,Male,133.0,322.0,0,Normal,139,Yes,2.61,Upsloping,0,Fixed Defect,31.3,Current,1
+PAT-1676,41,Male,148.0,255.0,0,Left Ventricular Hypertrophy,155,No,3.9,Upsloping,0,Reversible Defect,34.0,Current,1
+PAT-1677,73,Female,134.0,275.0,0,ST-T Wave Abnormality,130,Yes,0.04,Flat,1,Reversible Defect,24.0,Former,1
+PAT-1678,64,Male,102.0,205.0,0,ST-T Wave Abnormality,112,No,0.15,Flat,0,Reversible Defect,30.5,Current,1
+PAT-1679,67,Male,116.0,186.0,0,Normal,124,No,0.5,Flat,1,Reversible Defect,25.5,Never,1
+PAT-1680,61,Male,130.0,217.0,1,Left Ventricular Hypertrophy,133,Yes,0.19,Upsloping,1,Reversible Defect,27.3,Never,1
+PAT-1681,41,Male,130.0,239.0,0,ST-T Wave Abnormality,139,No,0.41,Flat,0,Reversible Defect,29.3,Current,1
+PAT-1682,48,Female,169.0,193.0,1,Normal,153,Yes,0.12,Upsloping,2,Reversible Defect,28.4,Former,1
+PAT-1683,59,Male,105.0,244.0,1,Left Ventricular Hypertrophy,107,No,0.55,Flat,1,Normal,32.7,Never,1
+PAT-1684,40,Female,141.0,163.0,0,Normal,169,No,0.29,Upsloping,1,Normal,31.2,Never,0
+PAT-1685,61,Female,160.0,191.0,0,ST-T Wave Abnormality,122,No,0.39,Downsloping,0,Normal,19.7,Never,1
+PAT-1686,51,Male,175.0,277.0,1,ST-T Wave Abnormality,118,Yes,0.09,Upsloping,0,Normal,20.5,Current,1
+PAT-1687,49,Female,124.0,273.0,0,Normal,170,Yes,0.5,Upsloping,0,Reversible Defect,26.3,Former,1
+PAT-1688,61,Male,141.0,226.0,0,ST-T Wave Abnormality,140,No,3.68,Flat,0,Normal,39.0,Never,1
+PAT-1689,58,Female,142.0,196.0,0,Normal,116,No,0.36,Flat,0,Reversible Defect,23.5,Current,1
+PAT-1690,50,Male,135.0,195.0,0,Normal,124,No,1.88,Upsloping,2,Normal,27.2,Never,1
+PAT-1691,66,Female,130.0,227.0,0,Normal,132,Yes,1.67,Flat,1,Normal,25.3,Current,1
+PAT-1692,42,Male,140.0,275.0,0,ST-T Wave Abnormality,166,Yes,2.73,Upsloping,1,Normal,25.2,Former,1
+PAT-1693,60,Male,85.0,289.0,0,Normal,117,No,1.41,Downsloping,0,Fixed Defect,29.4,Current,1
+PAT-1694,60,Female,144.0,221.0,0,Normal,113,No,0.97,Flat,2,Normal,36.5,Never,1
+PAT-1695,50,Female,134.0,189.0,0,ST-T Wave Abnormality,165,No,1.75,Upsloping,0,Normal,31.0,Never,1
+PAT-1696,57,Male,127.0,257.0,0,Normal,159,No,0.07,Flat,2,Reversible Defect,23.7,Current,1
+PAT-1697,40,Male,170.0,205.0,0,Normal,150,No,0.56,Upsloping,3,Normal,44.4,Never,1
+PAT-1698,64,Female,119.0,220.0,1,Normal,119,Yes,4.08,Flat,1,Normal,28.9,Current,1
+PAT-1699,51,Female,124.0,308.0,0,Normal,149,Yes,1.32,Downsloping,3,Reversible Defect,25.1,Former,1
+PAT-1700,48,Female,169.0,284.0,0,Normal,134,No,2.94,Flat,1,Normal,36.6,Former,1
+PAT-1701,65,Female,116.0,252.0,0,Normal,142,No,1.36,Upsloping,0,Normal,25.7,Former,1
+PAT-1702,46,Female,121.0,183.0,0,Left Ventricular Hypertrophy,187,No,1.87,Upsloping,0,Normal,38.0,Never,0
+PAT-1703,38,Female,129.0,255.0,0,ST-T Wave Abnormality,164,No,1.1,Upsloping,0,Normal,23.4,Former,0
+PAT-1704,36,Male,147.0,296.0,1,Normal,157,Yes,1.29,Flat,0,Reversible Defect,36.7,Current,1
+PAT-1705,60,Male,135.0,226.0,0,Normal,139,Yes,0.67,Flat,1,Normal,29.6,Never,1
+PAT-1706,39,Female,107.0,309.0,1,Normal,176,No,2.32,Flat,0,Reversible Defect,35.9,Former,1
+PAT-1707,73,Female,121.0,307.0,0,ST-T Wave Abnormality,154,No,1.57,Downsloping,2,Reversible Defect,39.4,Former,1
+PAT-1708,31,Male,120.0,324.0,0,Normal,173,No,1.67,Upsloping,0,Normal,21.8,Former,1
+PAT-1709,72,Male,130.0,259.0,0,Normal,106,No,1.01,Upsloping,0,Reversible Defect,35.8,Never,1
+PAT-1710,56,Female,140.0,273.0,1,Left Ventricular Hypertrophy,116,No,0.33,Upsloping,3,Normal,20.2,Former,1
+PAT-1711,52,Male,139.0,312.0,0,Normal,121,Yes,0.03,Upsloping,0,Normal,22.3,Current,1
+PAT-1712,48,Male,98.0,266.0,0,Normal,161,No,2.47,Upsloping,1,Normal,23.7,Never,1
+PAT-1713,58,Male,152.0,220.0,1,Left Ventricular Hypertrophy,157,No,0.79,Flat,1,Normal,31.3,Former,1
+PAT-1714,53,Male,136.0,223.0,0,ST-T Wave Abnormality,133,No,0.32,Upsloping,0,Reversible Defect,28.6,Former,1
+PAT-1715,66,Male,158.0,256.0,0,Normal,117,No,0.15,Upsloping,0,Normal,27.4,Former,1
+PAT-1716,55,Male,140.0,183.0,1,ST-T Wave Abnormality,132,Yes,1.59,Flat,0,Reversible Defect,29.2,Former,1
+PAT-1717,55,Male,152.0,238.0,0,Normal,176,Yes,1.63,Upsloping,1,Reversible Defect,31.8,Former,1
+PAT-1718,50,Female,140.0,297.0,0,ST-T Wave Abnormality,160,Yes,1.52,Flat,1,Normal,32.3,Never,1
+PAT-1719,53,Male,157.0,139.0,0,Normal,142,Yes,0.93,Upsloping,0,Reversible Defect,34.7,Current,1
+PAT-1720,57,Female,141.0,318.0,0,ST-T Wave Abnormality,129,No,0.41,Flat,1,Reversible Defect,39.0,Current,1
+PAT-1721,35,Female,130.0,298.0,0,Left Ventricular Hypertrophy,146,No,0.33,Downsloping,0,Normal,28.3,Never,1
+PAT-1722,39,Male,175.0,222.0,0,Left Ventricular Hypertrophy,153,No,0.01,Upsloping,1,Normal,25.4,Never,1
+PAT-1723,62,Female,148.0,271.0,0,Left Ventricular Hypertrophy,127,No,1.61,Flat,2,Normal,32.0,Current,1
+PAT-1724,55,Male,142.0,245.0,0,Normal,138,Yes,0.08,Flat,2,Normal,21.8,Current,1
+PAT-1725,51,Female,107.0,304.0,1,Normal,131,No,0.9,Flat,2,Fixed Defect,24.5,Current,1
+PAT-1726,54,Male,107.0,,1,Normal,135,Yes,0.63,Upsloping,0,Normal,34.2,Current,1
+PAT-1727,57,Female,137.0,177.0,0,ST-T Wave Abnormality,136,Yes,0.67,Upsloping,3,Reversible Defect,27.7,Never,1
+PAT-1728,48,Female,134.0,273.0,0,Left Ventricular Hypertrophy,151,No,2.35,Flat,0,Reversible Defect,21.4,Current,1
+PAT-1729,45,Male,120.0,235.0,1,Normal,148,No,0.03,Flat,1,Fixed Defect,19.8,Current,1
+PAT-1730,56,Male,134.0,248.0,0,Left Ventricular Hypertrophy,130,No,1.34,Upsloping,0,Normal,28.7,Never,1
+PAT-1731,43,Female,162.0,210.0,0,ST-T Wave Abnormality,147,Yes,0.05,Upsloping,3,Normal,35.0,Never,1
+PAT-1732,58,Female,145.0,328.0,1,Left Ventricular Hypertrophy,130,No,0.04,Upsloping,1,Normal,34.9,Former,1
+PAT-1733,35,Male,110.0,,0,Left Ventricular Hypertrophy,135,Yes,0.51,Upsloping,1,Normal,29.0,Former,1
+PAT-1734,65,Female,129.0,209.0,0,Normal,125,Yes,0.06,Upsloping,0,Reversible Defect,40.1,Never,1
+PAT-1735,59,Male,116.0,180.0,0,Normal,147,No,1.4,Upsloping,1,Normal,27.8,Never,1
+PAT-1736,56,Female,124.0,226.0,0,Normal,123,No,0.68,Upsloping,1,Normal,27.6,Never,1
+PAT-1737,64,Male,124.0,265.0,0,Normal,155,No,0.03,Upsloping,1,Normal,17.5,Former,0
+PAT-1738,72,Female,122.0,256.0,0,ST-T Wave Abnormality,142,No,0.04,Downsloping,0,Reversible Defect,25.8,Never,1
+PAT-1739,65,Male,108.0,305.0,0,ST-T Wave Abnormality,123,No,0.85,Upsloping,0,Reversible Defect,33.3,Current,1
+PAT-1740,33,Male,129.0,282.0,0,Left Ventricular Hypertrophy,152,No,1.48,Upsloping,0,Normal,37.5,Never,1
+PAT-1741,39,Male,121.0,291.0,0,ST-T Wave Abnormality,178,No,0.52,Upsloping,0,Normal,23.6,Current,1
+PAT-1742,47,Male,85.0,260.0,0,Normal,154,No,0.73,Downsloping,0,Normal,31.1,Current,1
+PAT-1743,54,Male,171.0,178.0,0,Normal,151,No,1.45,Flat,0,Fixed Defect,34.5,Current,1
+PAT-1744,59,Male,152.0,235.0,0,Normal,144,No,0.85,Flat,0,Reversible Defect,28.5,Current,1
+PAT-1745,46,Female,124.0,295.0,1,Normal,132,Yes,0.23,Upsloping,0,Reversible Defect,17.5,Never,1
+PAT-1746,56,Male,132.0,242.0,0,Normal,126,No,0.85,Flat,0,Reversible Defect,29.8,Former,1
+PAT-1747,45,Male,109.0,,0,Normal,150,No,0.89,Upsloping,2,Normal,32.8,Never,1
+PAT-1748,47,Male,164.0,229.0,0,Normal,157,No,1.19,Upsloping,0,Normal,22.9,Current,1
+PAT-1749,38,Male,168.0,195.0,0,Normal,181,No,0.87,Flat,0,Reversible Defect,26.9,Never,1
+PAT-1750,43,Male,134.0,239.0,0,ST-T Wave Abnormality,126,Yes,3.13,Flat,0,Normal,21.7,Former,1
+PAT-1751,39,Male,151.0,259.0,0,Normal,145,No,0.2,Flat,1,Reversible Defect,17.5,Current,1
+PAT-1752,43,Male,135.0,213.0,0,Normal,164,No,2.72,Flat,3,Normal,34.4,Current,1
+PAT-1753,65,Male,106.0,233.0,0,Normal,117,Yes,0.7,Downsloping,0,Normal,,Current,1
+PAT-1754,43,Male,124.0,,1,Left Ventricular Hypertrophy,153,No,1.0,Upsloping,0,Reversible Defect,37.7,Former,1
+PAT-1755,82,Female,134.0,298.0,0,Normal,118,No,0.09,Upsloping,3,Normal,33.4,Former,1
+PAT-1756,59,Male,123.0,230.0,0,Normal,128,No,0.43,Upsloping,0,Normal,26.3,Former,1
+PAT-1757,56,Male,127.0,314.0,0,ST-T Wave Abnormality,152,Yes,1.32,Flat,0,Normal,27.9,Never,1
+PAT-1758,44,Female,130.0,318.0,0,ST-T Wave Abnormality,157,No,1.1,Upsloping,0,Reversible Defect,31.7,Current,1
+PAT-1759,61,Male,130.0,241.0,1,Left Ventricular Hypertrophy,131,No,0.04,Flat,0,Normal,34.0,Former,1
+PAT-1760,47,Female,132.0,196.0,0,Normal,156,No,0.71,Upsloping,3,Normal,30.3,Never,1
+PAT-1761,55,Male,111.0,144.0,0,Normal,127,No,0.08,Upsloping,0,Fixed Defect,34.8,Current,1
+PAT-1762,82,Female,118.0,,0,Normal,79,No,4.94,Upsloping,3,Normal,26.7,Former,1
+PAT-1763,52,Female,107.0,179.0,0,ST-T Wave Abnormality,156,No,2.05,Upsloping,3,Reversible Defect,22.6,Current,1
+PAT-1764,66,Male,150.0,311.0,0,Normal,158,No,0.02,Flat,1,Normal,28.0,Current,1
+PAT-1765,46,Female,91.0,250.0,0,Normal,185,Yes,1.76,Upsloping,0,Reversible Defect,29.6,Current,1
+PAT-1766,53,Male,153.0,263.0,1,ST-T Wave Abnormality,144,No,2.27,Upsloping,0,Normal,21.4,Never,1
+PAT-1767,73,Male,158.0,138.0,0,ST-T Wave Abnormality,133,No,0.39,Upsloping,0,Reversible Defect,20.6,Never,1
+PAT-1768,47,Female,126.0,187.0,0,Normal,144,No,1.14,Upsloping,0,Reversible Defect,31.0,Current,1
+PAT-1769,73,Female,85.0,287.0,0,ST-T Wave Abnormality,119,Yes,0.53,Upsloping,1,Reversible Defect,26.0,Current,1
+PAT-1770,61,Male,125.0,258.0,0,ST-T Wave Abnormality,162,Yes,0.96,Upsloping,0,Normal,27.4,Former,1
+PAT-1771,47,Male,130.0,237.0,0,Normal,180,Yes,0.37,Flat,3,Normal,26.3,Former,1
+PAT-1772,60,Male,112.0,,0,Normal,129,Yes,0.35,Upsloping,0,Reversible Defect,37.2,Never,1
+PAT-1773,64,Male,122.0,323.0,0,ST-T Wave Abnormality,128,No,0.5,Upsloping,1,Normal,35.7,Current,1
+PAT-1774,60,Female,161.0,234.0,0,ST-T Wave Abnormality,142,Yes,0.14,Flat,2,Normal,21.2,Never,1
+PAT-1775,36,Male,144.0,248.0,1,Normal,188,No,1.6,Upsloping,0,Reversible Defect,25.3,Never,1
+PAT-1776,46,Male,114.0,254.0,0,Normal,140,Yes,0.39,Upsloping,0,Normal,33.3,Former,1
+PAT-1777,51,Male,101.0,359.0,1,ST-T Wave Abnormality,121,Yes,0.46,Flat,0,Reversible Defect,31.9,Never,1
+PAT-1778,53,Male,125.0,144.0,0,Left Ventricular Hypertrophy,136,No,2.02,Upsloping,0,Normal,28.2,Current,1
+PAT-1779,60,Male,127.0,277.0,0,ST-T Wave Abnormality,150,Yes,0.62,Flat,0,Reversible Defect,21.8,Never,1
+PAT-1780,55,Female,141.0,239.0,0,Normal,139,No,0.71,Flat,0,Fixed Defect,24.4,Never,1
+PAT-1781,39,Female,121.0,272.0,0,Normal,180,Yes,2.82,Flat,0,Normal,25.4,Former,1
+PAT-1782,58,Female,141.0,213.0,1,Left Ventricular Hypertrophy,117,No,1.96,Downsloping,3,Reversible Defect,30.0,Former,1
+PAT-1783,60,Male,168.0,242.0,0,Normal,133,No,0.17,Upsloping,0,Normal,38.3,Never,1
+PAT-1784,60,Female,147.0,279.0,0,Left Ventricular Hypertrophy,166,No,0.58,Upsloping,0,Reversible Defect,24.4,Former,1
+PAT-1785,65,Female,131.0,394.0,0,Left Ventricular Hypertrophy,135,Yes,3.2,Upsloping,0,Reversible Defect,22.4,Never,1
+PAT-1786,63,Female,128.0,283.0,0,Normal,123,No,0.42,Upsloping,0,Normal,27.8,Current,1
+PAT-1787,59,Male,125.0,204.0,0,Left Ventricular Hypertrophy,141,No,0.42,Flat,0,Reversible Defect,34.4,Never,1
+PAT-1788,53,Male,154.0,224.0,0,Normal,146,No,0.2,Flat,3,Normal,20.0,Current,1
+PAT-1789,35,Male,120.0,223.0,0,Left Ventricular Hypertrophy,182,No,0.11,Flat,0,Reversible Defect,36.8,Former,0
+PAT-1790,58,Male,132.0,158.0,0,Normal,126,Yes,1.21,Flat,0,Normal,27.4,Never,1
+PAT-1791,56,Male,132.0,,0,Normal,150,No,1.32,Upsloping,0,Reversible Defect,24.1,Never,1
+PAT-1792,56,Male,122.0,280.0,0,ST-T Wave Abnormality,177,Yes,3.13,Flat,0,Reversible Defect,19.1,Former,1
+PAT-1793,39,Male,105.0,183.0,1,ST-T Wave Abnormality,162,Yes,1.34,Flat,0,Normal,32.5,Never,1
+PAT-1794,42,Female,138.0,295.0,0,Normal,135,No,0.25,Flat,1,Reversible Defect,27.4,Never,1
+PAT-1795,65,Male,130.0,,1,ST-T Wave Abnormality,136,Yes,0.04,Upsloping,0,Normal,29.4,Never,1
+PAT-1796,53,Male,141.0,209.0,1,Normal,110,Yes,3.81,Flat,0,Normal,23.2,Former,1
+PAT-1797,61,Female,121.0,238.0,0,Normal,126,Yes,0.37,Upsloping,1,Normal,26.5,Former,1
+PAT-1798,54,Female,155.0,321.0,0,Normal,134,No,0.34,Flat,0,Normal,25.6,Never,1
+PAT-1799,54,Female,115.0,280.0,0,Normal,143,No,2.13,Flat,0,Normal,27.8,Former,1
+PAT-1800,64,Female,164.0,245.0,0,Normal,132,No,0.79,Upsloping,3,Normal,24.5,Current,1
+PAT-1801,48,Male,98.0,233.0,0,Normal,151,Yes,0.22,Flat,0,Normal,19.5,Never,1
+PAT-1802,55,Female,140.0,248.0,0,Normal,145,No,1.98,Flat,1,Normal,44.2,Current,1
+PAT-1803,48,Male,141.0,220.0,0,Normal,137,No,4.51,Upsloping,0,Normal,20.5,Former,1
+PAT-1804,49,Male,,143.0,1,Normal,162,No,0.08,Downsloping,0,Reversible Defect,29.5,Current,1
+PAT-1805,50,Male,140.0,343.0,0,Left Ventricular Hypertrophy,164,Yes,1.78,Flat,0,Reversible Defect,18.1,Never,1
+PAT-1806,56,Male,,252.0,0,Normal,159,No,0.45,Flat,0,Normal,17.5,Current,1
+PAT-1807,48,Male,89.0,264.0,0,Left Ventricular Hypertrophy,110,No,0.67,Flat,0,Reversible Defect,29.0,Former,1
+PAT-1808,67,Female,141.0,242.0,1,ST-T Wave Abnormality,118,Yes,2.22,Flat,0,Reversible Defect,29.4,Former,1
+PAT-1809,44,Female,85.0,209.0,0,ST-T Wave Abnormality,145,Yes,3.26,Flat,2,Reversible Defect,35.7,Former,1
+PAT-1810,51,Male,113.0,236.0,0,ST-T Wave Abnormality,163,Yes,0.27,Upsloping,1,Normal,30.7,Never,1
+PAT-1811,49,Male,162.0,168.0,0,ST-T Wave Abnormality,134,No,0.22,Upsloping,0,Normal,27.5,Current,0
+PAT-1812,69,Female,120.0,354.0,0,Normal,128,Yes,0.08,Flat,1,Reversible Defect,22.9,Former,1
+PAT-1813,56,Female,109.0,185.0,0,Normal,135,No,0.74,Flat,2,Reversible Defect,37.1,Never,1
+PAT-1814,65,Male,128.0,195.0,0,ST-T Wave Abnormality,147,Yes,0.01,Flat,1,Normal,33.8,Never,1
+PAT-1815,37,Female,171.0,223.0,0,ST-T Wave Abnormality,155,No,0.48,Flat,0,Normal,21.2,Never,0
+PAT-1816,56,Male,97.0,306.0,0,ST-T Wave Abnormality,146,Yes,0.07,Flat,2,Reversible Defect,28.6,Former,1
+PAT-1817,63,Male,112.0,245.0,0,Normal,145,No,0.47,Upsloping,0,Reversible Defect,29.2,Former,1
+PAT-1818,54,Female,160.0,185.0,1,ST-T Wave Abnormality,127,No,0.04,Downsloping,0,Reversible Defect,26.4,Former,1
+PAT-1819,65,Male,167.0,305.0,0,ST-T Wave Abnormality,157,Yes,1.62,Upsloping,0,Normal,32.9,Never,1
+PAT-1820,48,Male,130.0,280.0,1,Normal,136,No,0.21,Flat,2,Normal,33.2,Former,1
+PAT-1821,69,Female,108.0,270.0,0,Normal,113,Yes,0.36,Flat,3,Normal,27.3,Former,1
+PAT-1822,79,Female,171.0,279.0,0,ST-T Wave Abnormality,131,No,1.84,Flat,3,Normal,26.8,Never,1
+PAT-1823,50,Male,162.0,359.0,0,Left Ventricular Hypertrophy,159,No,1.23,Upsloping,0,Normal,37.1,Never,1
+PAT-1824,49,Male,144.0,349.0,0,Normal,150,Yes,0.22,Downsloping,3,Reversible Defect,33.8,Never,1
+PAT-1825,69,Male,116.0,212.0,0,ST-T Wave Abnormality,120,Yes,0.07,Flat,0,Normal,28.8,Current,1
+PAT-1826,71,Female,131.0,322.0,0,Normal,126,No,1.13,Downsloping,0,Reversible Defect,19.0,Former,1
+PAT-1827,48,Male,128.0,263.0,0,Normal,139,No,0.45,Upsloping,0,Normal,30.4,Current,1
+PAT-1828,49,Male,138.0,268.0,0,Normal,114,No,1.31,Flat,0,Normal,32.4,Never,1
+PAT-1829,50,Female,159.0,163.0,0,Normal,154,No,0.53,Flat,1,Normal,17.5,Current,1
+PAT-1830,39,Male,148.0,236.0,1,Normal,186,Yes,0.38,Flat,0,Normal,29.9,Former,1
+PAT-1831,43,Male,111.0,205.0,0,Normal,137,Yes,0.54,Downsloping,3,Reversible Defect,26.0,Former,1
+PAT-1832,42,Male,158.0,284.0,0,ST-T Wave Abnormality,122,No,1.24,Upsloping,0,Normal,27.1,Never,1
+PAT-1833,45,Female,137.0,,0,ST-T Wave Abnormality,142,Yes,2.09,Upsloping,0,Normal,23.1,Current,1
+PAT-1834,53,Male,145.0,145.0,0,Normal,161,No,0.05,Flat,3,Normal,27.5,Current,1
+PAT-1835,56,Male,159.0,243.0,0,Normal,141,Yes,0.67,Upsloping,0,Normal,36.5,Never,1
+PAT-1836,71,Female,110.0,,0,Normal,144,Yes,0.03,Downsloping,1,Reversible Defect,25.8,Never,1
+PAT-1837,43,Male,131.0,236.0,0,ST-T Wave Abnormality,140,No,0.57,Upsloping,1,Normal,34.0,Former,1
+PAT-1838,64,Male,121.0,279.0,0,Normal,155,No,1.95,Flat,0,Reversible Defect,23.7,Current,1
+PAT-1839,51,Male,102.0,261.0,0,Normal,149,No,0.4,Upsloping,1,Reversible Defect,32.8,Current,1
+PAT-1840,53,Male,138.0,261.0,0,Left Ventricular Hypertrophy,160,Yes,2.43,Flat,0,Normal,28.4,Never,1
+PAT-1841,61,Male,179.0,231.0,0,ST-T Wave Abnormality,131,Yes,0.9,Upsloping,2,Normal,30.4,Never,1
+PAT-1842,41,Male,97.0,186.0,1,Normal,160,No,2.45,Upsloping,0,Reversible Defect,28.4,Never,1
+PAT-1843,58,Male,131.0,191.0,0,Normal,133,No,1.27,Upsloping,0,Reversible Defect,32.1,Current,1
+PAT-1844,55,Male,144.0,279.0,0,Normal,139,No,0.1,Upsloping,0,Normal,17.5,Current,1
+PAT-1845,59,Female,,245.0,1,ST-T Wave Abnormality,153,Yes,0.24,Downsloping,0,Normal,20.2,Former,1
+PAT-1846,57,Female,129.0,238.0,1,Normal,126,No,0.45,Upsloping,1,Normal,30.8,Never,1
+PAT-1847,81,Female,107.0,224.0,0,Normal,114,No,0.17,Flat,3,Normal,17.5,Current,1
+PAT-1848,46,Female,136.0,230.0,0,ST-T Wave Abnormality,166,No,0.61,Downsloping,1,Normal,25.3,Former,1
+PAT-1849,48,Male,117.0,295.0,1,Normal,106,No,0.57,Flat,0,Normal,28.1,Current,1
+PAT-1850,47,Female,90.0,228.0,0,Normal,139,No,2.82,Downsloping,3,Normal,23.6,Former,1
+PAT-1851,47,Male,154.0,180.0,1,Normal,150,No,0.51,Downsloping,0,Normal,24.4,Current,1
+PAT-1852,46,Female,150.0,280.0,0,Normal,123,No,1.39,Flat,1,Normal,30.0,Current,1
+PAT-1853,67,Female,132.0,235.0,0,Normal,94,No,2.56,Flat,1,Reversible Defect,34.3,Never,1
+PAT-1854,69,Female,136.0,246.0,0,Normal,128,No,1.89,Upsloping,0,Fixed Defect,22.8,Current,1
+PAT-1855,47,Female,152.0,322.0,0,Normal,141,No,0.21,Flat,2,Reversible Defect,25.1,Never,1
+PAT-1856,44,Male,136.0,244.0,0,Normal,168,No,0.62,Flat,0,Normal,24.2,Current,1
+PAT-1857,59,Male,149.0,258.0,1,ST-T Wave Abnormality,138,Yes,0.38,Flat,1,Reversible Defect,17.5,Current,1
+PAT-1858,47,Male,126.0,188.0,0,Normal,151,Yes,0.46,Flat,1,Normal,29.2,Never,1
+PAT-1859,60,Female,156.0,234.0,0,Normal,131,Yes,0.4,Flat,2,Fixed Defect,33.8,Former,1
+PAT-1860,56,Male,138.0,274.0,0,ST-T Wave Abnormality,133,Yes,1.58,Upsloping,2,Normal,34.3,Former,1
+PAT-1861,37,Female,135.0,170.0,0,ST-T Wave Abnormality,147,Yes,0.54,Flat,0,Normal,23.3,Current,1
+PAT-1862,71,Female,107.0,254.0,0,ST-T Wave Abnormality,119,Yes,0.67,Flat,1,Reversible Defect,21.1,Current,1
+PAT-1863,73,Male,137.0,249.0,0,Normal,143,Yes,3.64,Upsloping,0,Fixed Defect,28.5,Former,1
+PAT-1864,47,Female,116.0,246.0,0,Normal,164,No,0.06,Flat,0,Reversible Defect,33.2,Current,1
+PAT-1865,49,Female,119.0,294.0,0,ST-T Wave Abnormality,155,Yes,0.6,Upsloping,2,Normal,29.3,Never,1
+PAT-1866,57,Female,116.0,261.0,0,ST-T Wave Abnormality,143,Yes,1.34,Flat,3,Normal,30.1,Never,1
+PAT-1867,57,Female,111.0,315.0,0,Normal,119,No,0.15,Flat,2,Normal,35.0,Former,1
+PAT-1868,61,Male,172.0,197.0,1,Left Ventricular Hypertrophy,154,No,0.85,Upsloping,0,Reversible Defect,24.1,Former,1
+PAT-1869,76,Female,,251.0,0,Normal,125,No,0.25,Flat,2,Fixed Defect,27.1,Never,1
+PAT-1870,52,Female,168.0,249.0,0,Left Ventricular Hypertrophy,125,No,1.82,Flat,3,Reversible Defect,37.9,Former,1
+PAT-1871,45,Male,108.0,193.0,0,Left Ventricular Hypertrophy,155,No,0.36,Upsloping,0,Normal,27.3,Never,0
+PAT-1872,38,Male,133.0,290.0,0,ST-T Wave Abnormality,148,No,0.36,Upsloping,0,Reversible Defect,21.0,Current,1
+PAT-1873,45,Female,107.0,356.0,0,Left Ventricular Hypertrophy,152,No,0.82,Flat,1,Normal,24.5,Never,1
+PAT-1874,53,Male,118.0,244.0,0,ST-T Wave Abnormality,137,No,0.18,Upsloping,1,Normal,23.0,Former,1
+PAT-1875,73,Female,114.0,269.0,0,Normal,126,No,0.3,Flat,3,Normal,30.5,Former,1
+PAT-1876,48,Female,155.0,249.0,0,Normal,134,No,0.49,Upsloping,0,Normal,23.2,Current,1
+PAT-1877,56,Male,124.0,210.0,0,Normal,166,No,0.39,Flat,1,Normal,30.0,Former,1
+PAT-1878,53,Male,152.0,157.0,0,Normal,148,Yes,0.67,Downsloping,2,Normal,24.1,Current,1
+PAT-1879,67,Female,143.0,,0,ST-T Wave Abnormality,122,No,0.82,Upsloping,0,Normal,17.5,Current,1
+PAT-1880,81,Male,175.0,178.0,0,Normal,104,No,0.75,Flat,2,Normal,30.2,Former,1
+PAT-1881,48,Male,103.0,326.0,0,Normal,120,No,0.96,Flat,0,Normal,29.3,Never,1
+PAT-1882,48,Male,155.0,239.0,0,ST-T Wave Abnormality,154,No,0.33,Flat,0,Normal,31.4,Current,1
+PAT-1883,65,Male,,228.0,1,Left Ventricular Hypertrophy,103,No,0.12,Flat,0,Normal,24.5,Current,1
+PAT-1884,61,Female,113.0,287.0,1,Normal,145,No,1.29,Flat,0,Reversible Defect,23.9,Former,1
+PAT-1885,74,Male,151.0,191.0,0,Normal,97,No,1.71,Flat,1,Reversible Defect,30.7,Former,1
+PAT-1886,60,Female,138.0,208.0,0,Normal,120,Yes,0.27,Flat,3,Normal,37.2,Current,1
+PAT-1887,50,Male,127.0,248.0,0,ST-T Wave Abnormality,161,No,0.47,Flat,0,Reversible Defect,28.5,Current,1
+PAT-1888,60,Male,116.0,294.0,1,Normal,129,Yes,0.62,Upsloping,0,Reversible Defect,30.9,Current,1
+PAT-1889,66,Female,118.0,269.0,0,ST-T Wave Abnormality,129,Yes,0.69,Downsloping,0,Normal,26.5,Never,1
+PAT-1890,63,Female,170.0,256.0,0,Normal,120,No,0.97,Upsloping,1,Normal,19.4,Former,1
+PAT-1891,59,Male,132.0,248.0,0,Normal,140,Yes,0.04,Upsloping,3,Reversible Defect,34.0,Never,1
+PAT-1892,65,Male,146.0,264.0,0,Left Ventricular Hypertrophy,135,No,1.15,Upsloping,1,Reversible Defect,33.7,Never,1
+PAT-1893,66,Male,116.0,254.0,1,Normal,104,Yes,0.06,Upsloping,1,Reversible Defect,32.5,Current,1
+PAT-1894,69,Male,117.0,195.0,0,Normal,127,Yes,0.57,Upsloping,1,Reversible Defect,27.3,Never,1
+PAT-1895,61,Female,152.0,247.0,0,Normal,119,No,1.58,Upsloping,0,Normal,31.9,Former,1
+PAT-1896,52,Male,106.0,,0,Normal,147,Yes,0.54,Upsloping,1,Normal,33.6,Former,1
+PAT-1897,55,Male,124.0,248.0,0,Normal,110,No,0.15,Flat,1,Normal,37.8,Current,1
+PAT-1898,67,Male,132.0,221.0,0,Normal,140,No,3.78,Upsloping,1,Normal,34.1,Never,1
+PAT-1899,45,Female,134.0,366.0,0,Normal,161,No,1.98,Upsloping,2,Normal,28.8,Never,1
+PAT-1900,58,Female,128.0,243.0,1,Normal,109,No,1.33,Upsloping,2,Normal,20.8,Former,1
+PAT-1901,49,Male,139.0,177.0,0,ST-T Wave Abnormality,154,No,0.48,Upsloping,2,Normal,29.3,Never,1
+PAT-1902,54,Female,145.0,238.0,0,ST-T Wave Abnormality,112,No,0.18,Upsloping,3,Normal,29.9,Current,1
+PAT-1903,68,Male,145.0,269.0,1,ST-T Wave Abnormality,110,No,2.55,Flat,3,Normal,32.5,Current,1
+PAT-1904,56,Male,113.0,325.0,0,ST-T Wave Abnormality,141,Yes,0.68,Downsloping,1,Normal,36.3,Former,1
+PAT-1905,54,Female,126.0,216.0,0,Normal,173,No,1.72,Flat,0,Normal,27.8,Current,1
+PAT-1906,39,Female,154.0,169.0,0,Normal,156,No,0.38,Flat,0,Normal,40.6,Never,1
+PAT-1907,62,Female,148.0,284.0,1,Normal,131,No,0.37,Upsloping,2,Reversible Defect,,Current,1
+PAT-1908,61,Male,105.0,178.0,0,Normal,112,No,3.81,Upsloping,0,Reversible Defect,30.8,Never,1
+PAT-1909,77,Male,138.0,224.0,1,Normal,89,No,0.66,Upsloping,0,Normal,23.8,Current,1
+PAT-1910,50,Female,94.0,232.0,0,Normal,157,No,0.14,Flat,0,Normal,17.5,Former,0
+PAT-1911,56,Male,132.0,241.0,0,ST-T Wave Abnormality,124,No,0.22,Upsloping,1,Reversible Defect,27.2,Never,1
+PAT-1912,56,Male,168.0,278.0,0,Left Ventricular Hypertrophy,125,Yes,0.59,Flat,0,Normal,19.9,Never,1
+PAT-1913,71,Male,113.0,212.0,0,Normal,104,Yes,0.04,Upsloping,0,Reversible Defect,27.5,Never,1
+PAT-1914,52,Female,116.0,231.0,0,ST-T Wave Abnormality,134,No,0.56,Upsloping,0,Normal,28.6,Current,0
+PAT-1915,57,Male,146.0,244.0,0,ST-T Wave Abnormality,172,No,0.49,Downsloping,1,Reversible Defect,34.9,Never,1
+PAT-1916,60,Male,,252.0,1,ST-T Wave Abnormality,137,Yes,1.36,Flat,0,Reversible Defect,19.7,Former,1
+PAT-1917,56,Female,119.0,249.0,0,Normal,159,Yes,0.39,Flat,0,Reversible Defect,33.7,Former,1
+PAT-1918,49,Male,143.0,,0,Normal,149,Yes,3.64,Flat,1,Normal,29.0,Former,1
+PAT-1919,56,Male,119.0,285.0,0,Normal,121,No,0.18,Flat,1,Reversible Defect,34.4,Current,1
+PAT-1920,65,Male,127.0,263.0,0,Normal,124,No,0.8,Flat,0,Reversible Defect,25.9,Never,1
+PAT-1921,42,Male,146.0,266.0,0,ST-T Wave Abnormality,132,No,0.08,Downsloping,1,Reversible Defect,20.7,Former,1
+PAT-1922,55,Male,140.0,169.0,0,Normal,133,Yes,1.19,Upsloping,0,Normal,,Current,1
+PAT-1923,46,Male,137.0,247.0,0,Normal,172,Yes,4.73,Flat,2,Reversible Defect,20.9,Former,1
+PAT-1924,67,Female,125.0,268.0,0,ST-T Wave Abnormality,173,Yes,1.54,Flat,0,Normal,31.2,Former,1
+PAT-1925,37,Male,,279.0,0,ST-T Wave Abnormality,155,Yes,0.73,Upsloping,0,Normal,37.0,Current,1
+PAT-1926,47,Female,129.0,211.0,0,Normal,151,No,0.6,Flat,2,Fixed Defect,25.1,Never,1
+PAT-1927,58,Female,140.0,213.0,0,ST-T Wave Abnormality,154,No,1.62,Downsloping,1,Normal,32.0,Former,1
+PAT-1928,71,Male,122.0,217.0,0,Normal,154,Yes,2.47,Flat,0,Reversible Defect,19.6,Current,1
+PAT-1929,53,Female,128.0,270.0,0,Normal,155,Yes,4.08,Upsloping,0,Fixed Defect,29.4,Never,1
+PAT-1930,47,Male,113.0,,0,Normal,151,Yes,0.45,Flat,2,Normal,32.3,Current,1
+PAT-1931,74,Female,131.0,225.0,0,ST-T Wave Abnormality,109,No,4.23,Flat,1,Reversible Defect,20.0,Never,1
+PAT-1932,38,Male,116.0,288.0,0,Left Ventricular Hypertrophy,153,Yes,0.15,Flat,0,Reversible Defect,27.2,Former,1
+PAT-1933,29,Male,110.0,250.0,0,Normal,137,Yes,0.26,Upsloping,1,Normal,32.6,Current,1
+PAT-1934,58,Female,136.0,239.0,0,Normal,155,Yes,0.08,Flat,0,Fixed Defect,17.5,Current,1
+PAT-1935,48,Female,136.0,234.0,0,Normal,131,No,0.29,Upsloping,0,Normal,36.1,Current,1
+PAT-1936,42,Female,146.0,280.0,0,Normal,152,No,1.31,Flat,0,Normal,30.5,Current,1
+PAT-1937,61,Male,123.0,,0,Normal,121,No,1.73,Upsloping,0,Normal,32.6,Former,1
+PAT-1938,56,Female,139.0,354.0,0,Normal,146,No,1.36,Flat,0,Normal,26.0,Former,1
+PAT-1939,47,Male,142.0,204.0,1,ST-T Wave Abnormality,128,No,0.9,Flat,0,Normal,18.4,Never,1
+PAT-1940,39,Male,140.0,269.0,0,ST-T Wave Abnormality,150,No,0.65,Upsloping,0,Reversible Defect,31.5,Never,1
+PAT-1941,63,Male,116.0,219.0,0,Normal,144,Yes,1.11,Upsloping,0,Reversible Defect,27.9,Former,1
+PAT-1942,61,Female,134.0,203.0,0,Normal,134,Yes,0.45,Upsloping,0,Normal,28.6,Current,1
+PAT-1943,52,Male,138.0,244.0,1,Normal,147,No,1.66,Upsloping,0,Normal,34.7,Former,1
+PAT-1944,74,Male,132.0,251.0,0,Normal,112,Yes,1.02,Upsloping,1,Normal,32.8,Current,1
+PAT-1945,42,Female,92.0,385.0,0,ST-T Wave Abnormality,174,No,1.08,Downsloping,0,Normal,39.5,Current,1
+PAT-1946,37,Male,135.0,236.0,1,Left Ventricular Hypertrophy,158,No,0.69,Flat,1,Normal,29.3,Never,1
+PAT-1947,46,Male,174.0,190.0,0,Normal,141,No,1.95,Flat,0,Normal,24.4,Former,1
+PAT-1948,53,Male,125.0,258.0,0,Normal,141,Yes,0.26,Downsloping,0,Normal,27.3,Former,1
+PAT-1949,56,Female,118.0,145.0,0,Left Ventricular Hypertrophy,114,No,0.43,Upsloping,1,Normal,30.8,Former,1
+PAT-1950,51,Male,139.0,240.0,0,Normal,130,No,1.35,Upsloping,3,Fixed Defect,34.3,Current,1
+PAT-1951,57,Male,137.0,245.0,0,ST-T Wave Abnormality,138,Yes,0.61,Upsloping,0,Reversible Defect,19.9,Former,1
+PAT-1952,40,Female,154.0,283.0,0,Normal,151,No,1.98,Flat,0,Normal,28.4,Current,1
+PAT-1953,69,Female,108.0,291.0,0,ST-T Wave Abnormality,120,Yes,0.38,Flat,1,Normal,37.7,Former,1
+PAT-1954,53,Male,145.0,220.0,0,ST-T Wave Abnormality,134,Yes,0.41,Upsloping,3,Normal,27.0,Former,1
+PAT-1955,66,Female,143.0,237.0,0,ST-T Wave Abnormality,161,No,1.98,Upsloping,3,Reversible Defect,,Current,1
+PAT-1956,57,Female,129.0,208.0,0,ST-T Wave Abnormality,143,Yes,0.56,Flat,0,Reversible Defect,31.3,Never,1
+PAT-1957,59,Female,138.0,190.0,0,Normal,162,Yes,0.65,Flat,0,Fixed Defect,33.9,Never,1
+PAT-1958,60,Male,151.0,259.0,1,ST-T Wave Abnormality,111,Yes,0.36,Flat,1,Reversible Defect,23.7,Never,1
+PAT-1959,58,Female,148.0,183.0,0,ST-T Wave Abnormality,138,No,0.29,Upsloping,1,Normal,23.7,Former,0
+PAT-1960,61,Male,110.0,225.0,0,Normal,137,No,0.96,Downsloping,1,Reversible Defect,28.5,Never,1
+PAT-1961,68,Male,147.0,197.0,0,Normal,110,Yes,0.11,Flat,2,Normal,19.5,Current,1
+PAT-1962,56,Male,130.0,271.0,0,Normal,131,No,1.9,Flat,1,Normal,26.8,Former,1
+PAT-1963,61,Male,133.0,331.0,0,Normal,154,Yes,1.36,Downsloping,0,Reversible Defect,29.9,Former,1
+PAT-1964,53,Male,133.0,182.0,0,Normal,143,No,0.19,Downsloping,0,Normal,38.8,Never,1
+PAT-1965,69,Female,129.0,156.0,0,ST-T Wave Abnormality,132,No,1.07,Upsloping,1,Reversible Defect,30.7,Never,1
+PAT-1966,46,Male,154.0,239.0,0,Normal,180,No,0.83,Upsloping,0,Normal,32.0,Never,1
+PAT-1967,73,Male,130.0,245.0,0,Left Ventricular Hypertrophy,134,No,0.18,Flat,0,Fixed Defect,35.2,Former,1
+PAT-1968,53,Male,110.0,255.0,0,Normal,145,No,0.29,Upsloping,0,Normal,22.8,Former,0
+PAT-1969,38,Male,124.0,223.0,0,Normal,159,Yes,0.47,Flat,0,Normal,27.4,Former,1
+PAT-1970,55,Female,135.0,,0,Normal,166,No,1.08,Downsloping,0,Reversible Defect,42.5,Former,1
+PAT-1971,46,Male,155.0,262.0,0,Normal,128,Yes,0.92,Upsloping,2,Reversible Defect,27.9,Current,1
+PAT-1972,63,Male,143.0,294.0,0,Normal,133,No,0.68,Flat,0,Reversible Defect,34.9,Never,1
+PAT-1973,46,Male,115.0,151.0,0,Normal,148,Yes,1.32,Upsloping,0,Reversible Defect,34.0,Current,1
+PAT-1974,49,Male,179.0,227.0,0,Normal,138,No,1.28,Flat,0,Reversible Defect,19.8,Former,1
+PAT-1975,33,Male,137.0,255.0,0,ST-T Wave Abnormality,176,Yes,0.87,Downsloping,0,Fixed Defect,30.2,Former,1
+PAT-1976,49,Female,156.0,200.0,1,ST-T Wave Abnormality,137,Yes,1.39,Flat,3,Normal,29.3,Never,1
+PAT-1977,27,Female,129.0,328.0,0,Normal,174,No,0.37,Upsloping,2,Normal,30.3,Never,1
+PAT-1978,36,Male,142.0,214.0,0,ST-T Wave Abnormality,175,No,1.92,Flat,0,Normal,24.0,Never,1
+PAT-1979,62,Female,147.0,243.0,1,ST-T Wave Abnormality,122,No,0.86,Flat,1,Reversible Defect,21.9,Current,1
+PAT-1980,62,Female,155.0,271.0,0,Normal,106,No,1.56,Upsloping,0,Normal,25.6,Former,1
+PAT-1981,58,Female,152.0,216.0,0,Left Ventricular Hypertrophy,123,No,0.71,Flat,3,Reversible Defect,27.8,Current,1
+PAT-1982,43,Male,148.0,156.0,0,ST-T Wave Abnormality,135,Yes,0.22,Downsloping,0,Normal,35.3,Former,1
+PAT-1983,53,Male,126.0,224.0,0,Normal,151,Yes,0.7,Flat,0,Reversible Defect,38.9,Never,1
+PAT-1984,53,Male,121.0,294.0,0,Normal,170,Yes,0.42,Flat,1,Normal,36.5,Former,1
+PAT-1985,41,Female,138.0,228.0,0,Normal,127,Yes,1.08,Upsloping,2,Normal,33.4,Never,1
+PAT-1986,70,Female,149.0,204.0,0,Normal,88,Yes,0.58,Flat,0,Reversible Defect,22.6,Current,1
+PAT-1987,63,Male,127.0,289.0,0,ST-T Wave Abnormality,104,Yes,1.63,Upsloping,1,Normal,26.0,Current,1
+PAT-1988,51,Male,152.0,229.0,0,Normal,150,Yes,1.02,Upsloping,0,Normal,29.6,Former,1
+PAT-1989,54,Female,159.0,220.0,0,ST-T Wave Abnormality,161,Yes,1.04,Upsloping,2,Normal,24.7,Former,1
+PAT-1990,56,Female,114.0,252.0,0,ST-T Wave Abnormality,158,No,0.22,Upsloping,0,Normal,31.7,Former,0
+PAT-1991,31,Female,116.0,281.0,0,ST-T Wave Abnormality,194,Yes,3.74,Upsloping,2,Normal,32.6,Current,1
+PAT-1992,51,Female,129.0,359.0,0,ST-T Wave Abnormality,145,No,1.66,Flat,0,Reversible Defect,31.5,Never,1
+PAT-1993,46,Male,137.0,284.0,0,Normal,120,No,1.4,Flat,0,Normal,34.3,Current,1
+PAT-1994,42,Female,122.0,300.0,0,Normal,155,No,0.36,Flat,3,Fixed Defect,23.2,Former,1
+PAT-1995,50,Female,157.0,220.0,0,ST-T Wave Abnormality,139,Yes,0.69,Upsloping,3,Normal,33.8,Current,1
+PAT-1996,73,Male,140.0,,0,Normal,97,Yes,0.13,Upsloping,1,Reversible Defect,24.4,Current,1
+PAT-1997,61,Male,132.0,247.0,0,Normal,141,Yes,0.7,Flat,0,Reversible Defect,22.9,Current,1
+PAT-1998,47,Female,104.0,250.0,0,Left Ventricular Hypertrophy,111,No,0.14,Flat,0,Normal,31.5,Former,1
+PAT-1999,60,Male,106.0,193.0,0,ST-T Wave Abnormality,99,Yes,0.72,Downsloping,0,Normal,35.5,Never,1
+PAT-2000,69,Female,137.0,236.0,0,Normal,128,No,0.94,Upsloping,0,Normal,31.2,Former,1
+PAT-2001,64,Female,91.0,264.0,0,ST-T Wave Abnormality,141,No,0.45,Flat,1,Reversible Defect,28.5,Former,1
+PAT-2002,54,Female,151.0,262.0,0,ST-T Wave Abnormality,128,No,0.62,Upsloping,0,Reversible Defect,30.2,Current,1
+PAT-2003,46,Male,128.0,269.0,0,Normal,155,No,1.88,Flat,1,Reversible Defect,29.2,Never,1
+PAT-2004,61,Male,193.0,258.0,1,Normal,154,No,0.1,Flat,1,Normal,21.9,Former,1
+PAT-2005,58,Female,175.0,220.0,0,Left Ventricular Hypertrophy,113,No,1.41,Downsloping,0,Normal,,Never,1
+PAT-2006,63,Male,128.0,220.0,1,Normal,110,Yes,0.17,Downsloping,1,Normal,27.9,Current,1
+PAT-2007,60,Female,129.0,187.0,1,Normal,132,No,0.03,Upsloping,1,Normal,28.9,Never,1
+PAT-2008,65,Female,150.0,330.0,0,Normal,152,No,0.18,Flat,1,Normal,28.5,Former,1
+PAT-2009,48,Male,164.0,245.0,0,ST-T Wave Abnormality,169,No,1.3,Flat,0,Normal,32.3,Never,1
+PAT-2010,68,Male,100.0,234.0,0,Normal,125,Yes,0.47,Flat,1,Reversible Defect,,Never,1
+PAT-2011,56,Male,98.0,200.0,1,Normal,147,No,1.85,Upsloping,0,Fixed Defect,31.7,Current,1
+PAT-2012,76,Male,120.0,385.0,0,Normal,125,Yes,0.67,Flat,0,Reversible Defect,27.6,Never,1
+PAT-2013,46,Female,143.0,193.0,1,Left Ventricular Hypertrophy,130,Yes,0.02,Downsloping,1,Normal,39.0,Never,1
+PAT-2014,73,Female,141.0,224.0,0,Normal,108,Yes,1.14,Flat,1,Reversible Defect,28.9,Never,1
+PAT-2015,56,Female,152.0,264.0,0,ST-T Wave Abnormality,114,Yes,0.11,Upsloping,0,Reversible Defect,42.0,Former,1
+PAT-2016,46,Female,109.0,273.0,0,Left Ventricular Hypertrophy,166,No,1.4,Upsloping,1,Reversible Defect,30.4,Former,1
+PAT-2017,48,Male,87.0,290.0,0,Normal,153,No,0.17,Flat,3,Reversible Defect,27.2,Never,1
+PAT-2018,50,Female,148.0,331.0,0,Left Ventricular Hypertrophy,131,Yes,0.38,Upsloping,0,Reversible Defect,23.2,Former,1
+PAT-2019,58,Female,116.0,269.0,0,Left Ventricular Hypertrophy,128,No,1.29,Downsloping,2,Fixed Defect,20.0,Never,1
+PAT-2020,59,Female,93.0,194.0,0,Left Ventricular Hypertrophy,108,No,2.78,Flat,1,Normal,22.6,Current,1
+PAT-2021,47,Female,134.0,232.0,0,Normal,140,No,0.42,Flat,1,Reversible Defect,23.3,Current,1
+PAT-2022,53,Male,147.0,259.0,0,ST-T Wave Abnormality,108,No,1.59,Flat,0,Reversible Defect,30.7,Current,1
+PAT-2023,77,Female,129.0,344.0,0,ST-T Wave Abnormality,108,Yes,0.19,Upsloping,0,Reversible Defect,25.3,Current,1
+PAT-2024,73,Male,123.0,177.0,0,Left Ventricular Hypertrophy,102,Yes,1.48,Downsloping,2,Fixed Defect,29.5,Never,1
+PAT-2025,58,Male,128.0,302.0,0,Normal,142,No,0.96,Flat,0,Normal,35.8,Never,1
+PAT-2026,54,Male,124.0,,0,ST-T Wave Abnormality,140,No,0.19,Downsloping,0,Reversible Defect,27.9,Current,1
+PAT-2027,55,Female,106.0,285.0,0,Normal,123,No,0.32,Flat,1,Reversible Defect,40.5,Never,1
+PAT-2028,60,Female,,240.0,0,Normal,105,No,0.13,Flat,0,Normal,21.6,Never,1
+PAT-2029,42,Female,141.0,204.0,0,Normal,139,No,0.43,Upsloping,2,Normal,27.5,Never,1
+PAT-2030,51,Female,,281.0,0,ST-T Wave Abnormality,145,Yes,0.2,Flat,1,Fixed Defect,25.3,Former,1
+PAT-2031,35,Male,135.0,276.0,0,Normal,135,Yes,0.93,Flat,2,Normal,33.8,Former,1
+PAT-2032,58,Female,113.0,291.0,0,ST-T Wave Abnormality,176,Yes,4.68,Flat,2,Normal,17.5,Never,1
+PAT-2033,61,Male,128.0,244.0,0,Left Ventricular Hypertrophy,159,No,0.01,Flat,0,Normal,20.0,Never,1
+PAT-2034,48,Male,90.0,216.0,0,Normal,134,No,0.7,Upsloping,0,Reversible Defect,27.8,Former,1
+PAT-2035,71,Male,135.0,170.0,0,ST-T Wave Abnormality,123,No,0.77,Downsloping,1,Normal,37.4,Never,1
+PAT-2036,40,Female,159.0,284.0,0,Normal,144,No,2.21,Downsloping,0,Normal,29.7,Current,1
+PAT-2037,37,Female,103.0,265.0,1,Normal,156,No,0.63,Upsloping,3,Reversible Defect,20.6,Never,1
+PAT-2038,56,Male,120.0,198.0,1,ST-T Wave Abnormality,128,No,0.71,Downsloping,1,Reversible Defect,21.5,Former,1
+PAT-2039,65,Male,138.0,219.0,0,Left Ventricular Hypertrophy,144,No,0.57,Upsloping,0,Reversible Defect,38.1,Former,1
+PAT-2040,72,Female,155.0,222.0,0,ST-T Wave Abnormality,112,Yes,0.28,Flat,2,Normal,24.8,Never,1
+PAT-2041,48,Male,123.0,173.0,1,ST-T Wave Abnormality,129,No,0.05,Upsloping,0,Reversible Defect,22.9,Former,1
+PAT-2042,65,Female,118.0,205.0,0,Normal,108,No,0.47,Downsloping,0,Normal,37.0,Former,1
+PAT-2043,53,Female,94.0,190.0,0,Normal,105,Yes,0.05,Upsloping,1,Reversible Defect,34.3,Current,1
+PAT-2044,52,Male,133.0,225.0,0,Normal,138,Yes,0.72,Flat,2,Reversible Defect,35.8,Current,1
+PAT-2045,63,Male,170.0,209.0,0,Normal,127,No,0.33,Upsloping,0,Normal,22.9,Never,1
+PAT-2046,61,Female,137.0,166.0,1,Normal,161,Yes,0.69,Upsloping,0,Normal,19.6,Never,1
+PAT-2047,36,Female,131.0,342.0,0,Normal,168,No,0.13,Flat,0,Normal,29.2,Never,1
+PAT-2048,70,Male,138.0,305.0,0,Normal,128,Yes,2.43,Upsloping,0,Reversible Defect,30.3,Never,1
+PAT-2049,69,Female,131.0,207.0,0,Normal,107,No,2.02,Flat,0,Normal,30.5,Former,1
+PAT-2050,47,Male,116.0,258.0,0,Normal,158,No,0.19,Downsloping,0,Reversible Defect,37.0,Current,1
+PAT-2051,58,Male,147.0,265.0,1,ST-T Wave Abnormality,122,Yes,0.38,Flat,1,Normal,18.3,Former,1
+PAT-2052,59,Female,136.0,302.0,0,Left Ventricular Hypertrophy,136,No,0.86,Flat,2,Normal,33.4,Current,1
+PAT-2053,56,Female,132.0,205.0,0,ST-T Wave Abnormality,142,No,0.09,Upsloping,0,Reversible Defect,22.0,Former,1
+PAT-2054,47,Male,113.0,297.0,0,Normal,143,No,0.39,Upsloping,0,Reversible Defect,33.4,Current,1
+PAT-2055,46,Female,156.0,218.0,1,Left Ventricular Hypertrophy,156,No,0.26,Flat,2,Reversible Defect,25.6,Never,1
+PAT-2056,53,Male,144.0,180.0,0,ST-T Wave Abnormality,149,No,2.22,Upsloping,1,Normal,23.7,Current,1
+PAT-2057,66,Male,121.0,279.0,0,Normal,159,Yes,1.72,Downsloping,3,Normal,24.9,Current,1
+PAT-2058,59,Male,151.0,306.0,0,Normal,140,No,0.78,Upsloping,0,Normal,20.0,Never,1
+PAT-2059,49,Female,122.0,369.0,0,ST-T Wave Abnormality,154,No,0.66,Downsloping,0,Normal,28.6,Never,1
+PAT-2060,62,Male,117.0,187.0,0,ST-T Wave Abnormality,142,Yes,2.4,Upsloping,0,Normal,23.9,Current,1
+PAT-2061,22,Male,117.0,278.0,0,ST-T Wave Abnormality,165,Yes,2.43,Flat,1,Reversible Defect,33.0,Current,1
+PAT-2062,66,Male,98.0,225.0,0,ST-T Wave Abnormality,117,Yes,3.14,Upsloping,0,Normal,32.1,Never,1
+PAT-2063,34,Female,140.0,282.0,0,ST-T Wave Abnormality,156,No,0.12,Upsloping,1,Normal,38.2,Former,1
+PAT-2064,50,Female,97.0,174.0,0,Left Ventricular Hypertrophy,127,No,0.16,Flat,0,Normal,30.5,Never,1
+PAT-2065,41,Female,108.0,184.0,0,ST-T Wave Abnormality,143,Yes,1.02,Upsloping,0,Fixed Defect,31.4,Former,1
+PAT-2066,39,Male,92.0,,0,Normal,161,No,0.7,Flat,1,Reversible Defect,36.5,Never,1
+PAT-2067,66,Female,130.0,248.0,0,ST-T Wave Abnormality,137,No,0.02,Flat,0,Normal,24.8,Never,1
+PAT-2068,48,Male,129.0,214.0,0,Normal,141,Yes,0.06,Upsloping,1,Normal,19.8,Former,1
+PAT-2069,57,Female,125.0,276.0,0,ST-T Wave Abnormality,127,No,1.97,Downsloping,0,Normal,29.6,Current,1
+PAT-2070,53,Female,112.0,294.0,0,Left Ventricular Hypertrophy,116,No,1.83,Flat,0,Reversible Defect,20.1,Current,1
+PAT-2071,59,Male,109.0,273.0,0,ST-T Wave Abnormality,114,No,0.4,Flat,0,Reversible Defect,42.6,Never,1
+PAT-2072,54,Female,,322.0,1,ST-T Wave Abnormality,150,Yes,2.0,Flat,0,Reversible Defect,36.8,Current,1
+PAT-2073,39,Male,121.0,264.0,0,Normal,157,Yes,0.81,Flat,0,Normal,41.0,Never,1
+PAT-2074,64,Male,138.0,186.0,1,Normal,118,Yes,1.48,Upsloping,1,Normal,28.8,Former,1
+PAT-2075,48,Male,115.0,,0,Normal,127,No,0.5,Upsloping,2,Reversible Defect,31.6,Current,1
+PAT-2076,36,Male,135.0,215.0,0,ST-T Wave Abnormality,142,No,0.11,Flat,0,Reversible Defect,25.7,Former,1
+PAT-2077,49,Male,156.0,288.0,0,ST-T Wave Abnormality,147,No,0.51,Flat,0,Reversible Defect,33.5,Never,1
+PAT-2078,70,Female,143.0,320.0,0,ST-T Wave Abnormality,147,Yes,0.55,Upsloping,3,Reversible Defect,21.3,Never,1
+PAT-2079,63,Male,124.0,266.0,0,Normal,149,Yes,0.72,Flat,0,Normal,17.5,Former,1
+PAT-2080,50,Female,136.0,173.0,0,Normal,140,No,0.1,Flat,0,Reversible Defect,23.8,Current,1
+PAT-2081,50,Male,127.0,200.0,1,ST-T Wave Abnormality,138,No,4.28,Upsloping,0,Fixed Defect,20.0,Current,1
+PAT-2082,50,Male,132.0,308.0,0,Normal,164,No,0.25,Upsloping,1,Reversible Defect,37.0,Current,1
+PAT-2083,76,Female,125.0,236.0,1,ST-T Wave Abnormality,118,No,0.2,Upsloping,0,Normal,38.9,Current,1
+PAT-2084,58,Male,128.0,248.0,1,ST-T Wave Abnormality,125,Yes,0.67,Upsloping,1,Normal,20.3,Current,1
+PAT-2085,58,Male,136.0,281.0,0,ST-T Wave Abnormality,157,Yes,0.69,Upsloping,0,Normal,35.9,Current,1
+PAT-2086,65,Female,113.0,278.0,0,Normal,110,Yes,0.52,Upsloping,0,Normal,33.9,Never,1
+PAT-2087,56,Male,112.0,258.0,0,Left Ventricular Hypertrophy,145,Yes,1.33,Downsloping,0,Normal,19.3,Current,1
+PAT-2088,51,Male,105.0,234.0,0,Normal,121,Yes,0.65,Flat,1,Reversible Defect,26.1,Never,1
+PAT-2089,51,Male,101.0,229.0,0,Left Ventricular Hypertrophy,153,Yes,0.85,Upsloping,1,Normal,25.0,Current,1
+PAT-2090,53,Female,108.0,286.0,0,Normal,160,Yes,1.16,Upsloping,0,Normal,32.7,Never,1
+PAT-2091,53,Female,135.0,271.0,0,Normal,150,Yes,0.02,Flat,0,Normal,21.3,Former,1
+PAT-2092,62,Female,115.0,232.0,1,Left Ventricular Hypertrophy,134,No,0.76,Upsloping,1,Normal,27.8,Current,1
+PAT-2093,54,Female,141.0,296.0,0,Normal,147,Yes,1.94,Flat,2,Reversible Defect,24.4,Current,1
+PAT-2094,62,Male,132.0,238.0,0,ST-T Wave Abnormality,136,No,0.02,Downsloping,0,Normal,31.1,Current,1
+PAT-2095,53,Male,94.0,204.0,0,ST-T Wave Abnormality,135,No,0.47,Flat,1,Normal,,Never,1
+PAT-2096,54,Female,144.0,208.0,1,Left Ventricular Hypertrophy,144,No,2.35,Upsloping,0,Reversible Defect,25.3,Former,1
+PAT-2097,32,Male,147.0,198.0,0,Left Ventricular Hypertrophy,164,No,0.39,Flat,0,Reversible Defect,27.2,Never,1
+PAT-2098,64,Male,113.0,231.0,0,Normal,161,Yes,0.55,Downsloping,0,Normal,40.2,Never,1
+PAT-2099,57,Male,139.0,304.0,0,ST-T Wave Abnormality,130,No,3.59,Flat,1,Reversible Defect,26.0,Never,1
+PAT-2100,64,Male,115.0,206.0,1,Normal,132,No,0.2,Flat,0,Reversible Defect,22.4,Never,1
+PAT-2101,22,Female,133.0,,0,Normal,144,No,0.06,Upsloping,2,Reversible Defect,31.8,Former,1
+PAT-2102,76,Male,107.0,213.0,0,Left Ventricular Hypertrophy,135,Yes,1.77,Upsloping,1,Normal,27.6,Current,1
+PAT-2103,52,Male,,232.0,0,Normal,175,Yes,1.83,Flat,2,Reversible Defect,20.2,Current,1
+PAT-2104,66,Male,124.0,172.0,0,ST-T Wave Abnormality,117,Yes,0.57,Downsloping,0,Normal,41.3,Never,1
+PAT-2105,42,Female,129.0,234.0,0,Normal,146,No,0.65,Flat,0,Normal,26.4,Never,1
+PAT-2106,60,Male,124.0,235.0,1,ST-T Wave Abnormality,153,No,1.63,Flat,3,Normal,26.2,Never,1
+PAT-2107,42,Male,109.0,270.0,0,Left Ventricular Hypertrophy,180,Yes,1.21,Upsloping,1,Normal,29.3,Never,1
+PAT-2108,47,Female,124.0,255.0,1,Normal,120,No,0.28,Upsloping,2,Reversible Defect,38.4,Never,1
+PAT-2109,75,Female,137.0,187.0,0,ST-T Wave Abnormality,94,No,0.02,Flat,0,Fixed Defect,18.7,Never,1
+PAT-2110,51,Male,131.0,297.0,0,Left Ventricular Hypertrophy,188,No,0.59,Upsloping,0,Normal,30.0,Former,1
+PAT-2111,56,Male,135.0,255.0,0,Normal,147,No,1.76,Flat,1,Normal,40.5,Former,1
+PAT-2112,63,Male,119.0,254.0,0,Normal,102,No,2.04,Upsloping,0,Normal,29.1,Former,1
+PAT-2113,59,Male,154.0,244.0,0,ST-T Wave Abnormality,144,Yes,2.82,Flat,1,Reversible Defect,21.2,Never,1
+PAT-2114,55,Male,109.0,220.0,0,Normal,148,No,1.9,Flat,0,Fixed Defect,24.8,Former,1
+PAT-2115,58,Male,141.0,255.0,0,Normal,142,Yes,0.78,Flat,0,Reversible Defect,29.6,Current,1
+PAT-2116,80,Male,154.0,267.0,0,Left Ventricular Hypertrophy,135,No,0.53,Upsloping,0,Reversible Defect,36.1,Never,1
+PAT-2117,53,Male,141.0,161.0,0,ST-T Wave Abnormality,172,No,1.34,Flat,0,Reversible Defect,26.4,Never,1
+PAT-2118,56,Female,128.0,219.0,0,Left Ventricular Hypertrophy,120,No,1.21,Downsloping,0,Reversible Defect,33.2,Never,1
+PAT-2119,65,Female,121.0,232.0,0,ST-T Wave Abnormality,163,No,0.7,Flat,1,Normal,20.1,Never,1
+PAT-2120,66,Female,151.0,257.0,0,ST-T Wave Abnormality,124,Yes,0.08,Upsloping,0,Reversible Defect,20.0,Former,1
+PAT-2121,67,Male,104.0,302.0,0,Normal,112,Yes,2.34,Upsloping,0,Reversible Defect,25.6,Never,1
+PAT-2122,61,Male,113.0,207.0,0,Normal,160,No,0.55,Upsloping,2,Reversible Defect,36.7,Former,1
+PAT-2123,41,Female,124.0,,0,Normal,170,Yes,0.41,Upsloping,0,Reversible Defect,28.8,Never,1
+PAT-2124,71,Male,155.0,220.0,0,Left Ventricular Hypertrophy,102,No,0.89,Flat,0,Reversible Defect,30.1,Current,1
+PAT-2125,41,Male,139.0,206.0,0,Normal,144,Yes,1.01,Flat,1,Reversible Defect,30.0,Never,1
+PAT-2126,57,Female,113.0,228.0,0,Normal,149,Yes,0.21,Upsloping,2,Reversible Defect,34.8,Former,1
+PAT-2127,45,Female,126.0,281.0,0,Normal,128,Yes,1.63,Upsloping,0,Normal,24.9,Never,1
+PAT-2128,53,Female,,194.0,0,Normal,120,No,0.31,Upsloping,0,Normal,32.4,Never,1
+PAT-2129,57,Male,118.0,265.0,0,Normal,133,No,0.19,Downsloping,1,Fixed Defect,23.6,Current,1
+PAT-2130,57,Male,150.0,163.0,0,ST-T Wave Abnormality,154,Yes,0.47,Flat,0,Normal,39.9,Former,1
+PAT-2131,58,Female,105.0,218.0,0,Normal,144,Yes,1.18,Flat,1,Reversible Defect,23.8,Never,1
+PAT-2132,71,Male,162.0,229.0,0,Normal,118,No,3.03,Upsloping,3,Reversible Defect,23.3,Former,1
+PAT-2133,58,Female,147.0,325.0,0,Normal,140,Yes,1.49,Flat,3,Reversible Defect,31.6,Former,1
+PAT-2134,51,Female,152.0,231.0,0,ST-T Wave Abnormality,127,No,2.54,Upsloping,0,Reversible Defect,28.9,Former,1
+PAT-2135,64,Female,123.0,139.0,0,ST-T Wave Abnormality,158,No,0.14,Upsloping,0,Normal,30.3,Never,0
+PAT-2136,67,Male,129.0,149.0,0,Normal,154,No,0.07,Flat,3,Reversible Defect,29.7,Current,1
+PAT-2137,40,Male,104.0,246.0,0,ST-T Wave Abnormality,151,No,0.73,Flat,0,Fixed Defect,22.1,Never,1
+PAT-2138,60,Female,122.0,274.0,0,Normal,143,No,0.31,Upsloping,0,Normal,37.8,Never,1
+PAT-2139,61,Female,141.0,263.0,1,Left Ventricular Hypertrophy,145,No,1.58,Upsloping,1,Normal,33.6,Never,1
+PAT-2140,50,Female,156.0,253.0,0,Normal,176,No,1.0,Upsloping,0,Reversible Defect,36.3,Current,1
+PAT-2141,69,Male,110.0,300.0,0,ST-T Wave Abnormality,125,No,3.18,Upsloping,0,Fixed Defect,25.3,Current,1
+PAT-2142,52,Male,125.0,219.0,1,Left Ventricular Hypertrophy,143,Yes,0.26,Flat,2,Reversible Defect,30.8,Current,1
+PAT-2143,55,Female,129.0,287.0,0,ST-T Wave Abnormality,128,No,0.6,Downsloping,0,Fixed Defect,,Current,1
+PAT-2144,52,Female,105.0,166.0,0,Normal,141,Yes,0.63,Upsloping,0,Normal,34.9,Current,1
+PAT-2145,54,Female,143.0,201.0,0,Normal,143,No,0.25,Upsloping,0,Normal,35.1,Former,1
+PAT-2146,41,Male,118.0,158.0,0,ST-T Wave Abnormality,132,No,0.8,Upsloping,1,Normal,29.5,Current,1
+PAT-2147,38,Female,128.0,231.0,0,Normal,180,Yes,0.53,Flat,0,Reversible Defect,19.6,Current,1
+PAT-2148,71,Female,123.0,242.0,1,ST-T Wave Abnormality,114,Yes,0.53,Upsloping,0,Normal,38.7,Never,1
+PAT-2149,44,Female,117.0,250.0,0,ST-T Wave Abnormality,181,No,0.41,Flat,1,Reversible Defect,31.6,Former,1
+PAT-2150,43,Male,131.0,,0,ST-T Wave Abnormality,167,No,0.02,Upsloping,2,Reversible Defect,24.9,Current,1
+PAT-2151,30,Male,127.0,200.0,0,Normal,186,No,0.66,Flat,0,Reversible Defect,30.8,Current,1
+PAT-2152,46,Female,124.0,235.0,0,ST-T Wave Abnormality,134,No,0.37,Flat,2,Normal,19.6,Current,1
+PAT-2153,39,Male,118.0,173.0,0,ST-T Wave Abnormality,157,Yes,0.0,Downsloping,0,Reversible Defect,34.5,Current,1
+PAT-2154,72,Male,138.0,310.0,1,ST-T Wave Abnormality,123,No,0.33,Downsloping,1,Normal,19.9,Current,1
+PAT-2155,65,Female,163.0,230.0,1,Normal,149,No,0.29,Flat,0,Normal,27.1,Former,1
+PAT-2156,46,Male,134.0,221.0,0,Normal,154,No,0.45,Downsloping,0,Normal,29.8,Never,1
+PAT-2157,78,Female,150.0,321.0,1,Normal,130,Yes,0.13,Upsloping,1,Reversible Defect,34.4,Never,1
+PAT-2158,64,Male,105.0,185.0,0,Normal,124,No,0.64,Upsloping,0,Normal,29.0,Former,1
+PAT-2159,50,Female,134.0,190.0,0,ST-T Wave Abnormality,162,Yes,1.06,Upsloping,0,Fixed Defect,32.1,Former,1
+PAT-2160,26,Female,111.0,192.0,0,Left Ventricular Hypertrophy,145,Yes,0.9,Flat,0,Normal,28.2,Former,1
+PAT-2161,79,Male,103.0,241.0,0,Normal,146,No,1.47,Downsloping,1,Normal,28.2,Never,1
+PAT-2162,38,Male,117.0,265.0,0,Left Ventricular Hypertrophy,171,Yes,0.54,Upsloping,0,Normal,28.9,Current,1
+PAT-2163,35,Male,154.0,280.0,0,Normal,129,Yes,0.66,Flat,0,Reversible Defect,27.3,Never,1
+PAT-2164,65,Male,150.0,368.0,0,Normal,137,No,1.5,Flat,0,Fixed Defect,18.6,Current,1
+PAT-2165,80,Female,136.0,137.0,0,Normal,138,No,0.5,Downsloping,0,Reversible Defect,23.9,Current,1
+PAT-2166,69,Female,102.0,274.0,0,Normal,122,No,1.09,Flat,0,Reversible Defect,29.8,Former,1
+PAT-2167,60,Male,128.0,218.0,1,Left Ventricular Hypertrophy,143,No,0.51,Downsloping,0,Reversible Defect,27.0,Former,1
+PAT-2168,60,Male,137.0,216.0,0,Normal,150,No,0.49,Upsloping,0,Normal,27.5,Current,1
+PAT-2169,63,Male,135.0,215.0,0,ST-T Wave Abnormality,151,Yes,1.29,Upsloping,0,Reversible Defect,26.5,Former,1
+PAT-2170,62,Female,96.0,201.0,0,Normal,83,No,0.17,Flat,2,Fixed Defect,23.4,Never,1
+PAT-2171,57,Male,115.0,325.0,0,Left Ventricular Hypertrophy,142,Yes,0.37,Upsloping,1,Normal,25.5,Never,1
+PAT-2172,55,Female,130.0,285.0,0,Normal,174,No,0.23,Upsloping,2,Reversible Defect,26.6,Never,1
+PAT-2173,53,Female,142.0,246.0,0,Normal,115,Yes,0.4,Flat,0,Reversible Defect,28.4,Never,1
+PAT-2174,45,Female,90.0,309.0,0,Normal,139,Yes,0.24,Flat,3,Reversible Defect,30.7,Never,1
+PAT-2175,50,Male,128.0,172.0,0,Normal,158,No,0.78,Flat,0,Reversible Defect,27.4,Never,1
+PAT-2176,35,Female,134.0,181.0,0,Normal,176,No,1.44,Upsloping,3,Normal,,Former,1
+PAT-2177,52,Male,148.0,140.0,0,Left Ventricular Hypertrophy,130,No,1.39,Flat,0,Reversible Defect,20.3,Current,1
+PAT-2178,43,Male,145.0,211.0,0,ST-T Wave Abnormality,156,No,0.41,Upsloping,0,Normal,43.5,Former,1
+PAT-2179,41,Female,143.0,252.0,0,ST-T Wave Abnormality,188,Yes,4.04,Upsloping,0,Fixed Defect,21.8,Current,1
+PAT-2180,55,Female,116.0,249.0,0,ST-T Wave Abnormality,107,No,0.81,Flat,0,Reversible Defect,25.4,Current,1
+PAT-2181,69,Male,95.0,252.0,0,Normal,133,No,0.46,Upsloping,2,Reversible Defect,31.4,Former,1
+PAT-2182,64,Male,124.0,177.0,0,Normal,104,No,1.62,Upsloping,1,Normal,30.5,Never,1
+PAT-2183,36,Male,151.0,283.0,1,Left Ventricular Hypertrophy,135,Yes,1.18,Flat,3,Normal,31.4,Never,1
+PAT-2184,43,Male,158.0,256.0,0,ST-T Wave Abnormality,170,No,1.25,Upsloping,1,Normal,25.8,Current,1
+PAT-2185,64,Male,145.0,280.0,0,Left Ventricular Hypertrophy,112,No,0.2,Downsloping,0,Normal,29.8,Current,1
+PAT-2186,43,Male,140.0,154.0,0,ST-T Wave Abnormality,163,Yes,0.57,Flat,0,Reversible Defect,28.8,Former,1
+PAT-2187,51,Male,139.0,259.0,0,Normal,177,No,1.78,Downsloping,3,Reversible Defect,26.6,Never,1
+PAT-2188,60,Female,121.0,187.0,0,Normal,142,Yes,0.63,Upsloping,1,Reversible Defect,29.8,Current,1
+PAT-2189,43,Female,129.0,225.0,1,Normal,144,No,1.04,Flat,1,Reversible Defect,34.5,Never,1
+PAT-2190,55,Female,163.0,270.0,1,Normal,148,No,0.8,Upsloping,0,Normal,28.3,Never,1
+PAT-2191,39,Male,114.0,249.0,0,Normal,161,Yes,1.66,Flat,0,Normal,28.3,Current,1
+PAT-2192,47,Female,162.0,204.0,0,Normal,127,Yes,0.3,Upsloping,3,Normal,34.6,Former,1
+PAT-2193,57,Female,125.0,245.0,0,ST-T Wave Abnormality,136,No,0.77,Upsloping,0,Reversible Defect,34.0,Former,1
+PAT-2194,36,Female,157.0,171.0,0,Left Ventricular Hypertrophy,174,Yes,0.12,Flat,0,Reversible Defect,37.6,Current,1
+PAT-2195,58,Female,105.0,300.0,0,ST-T Wave Abnormality,124,Yes,1.05,Upsloping,0,Reversible Defect,18.2,Former,1
+PAT-2196,53,Female,143.0,235.0,0,Left Ventricular Hypertrophy,138,Yes,1.18,Upsloping,2,Normal,33.6,Former,1
+PAT-2197,60,Male,118.0,298.0,0,Normal,180,No,0.04,Upsloping,0,Normal,31.9,Never,1
+PAT-2198,56,Male,105.0,219.0,0,Normal,131,Yes,1.01,Flat,0,Reversible Defect,23.3,Never,1
+PAT-2199,69,Female,136.0,219.0,0,ST-T Wave Abnormality,118,No,0.48,Upsloping,0,Normal,29.9,Current,1
+PAT-2200,55,Female,151.0,208.0,0,Normal,139,No,0.12,Upsloping,0,Reversible Defect,34.5,Former,1
+PAT-2201,49,Female,115.0,287.0,0,Normal,129,No,0.49,Upsloping,0,Normal,23.6,Never,1
+PAT-2202,55,Male,103.0,210.0,0,Normal,152,No,0.19,Flat,0,Normal,31.0,Never,1
+PAT-2203,59,Male,130.0,275.0,1,Normal,129,Yes,0.48,Flat,3,Reversible Defect,33.5,Former,1
+PAT-2204,54,Male,130.0,226.0,0,Normal,169,Yes,0.44,Upsloping,3,Normal,22.2,Former,1
+PAT-2205,54,Female,142.0,150.0,0,Normal,133,No,1.21,Upsloping,0,Reversible Defect,27.6,Former,1
+PAT-2206,46,Female,150.0,217.0,0,Normal,113,No,1.34,Upsloping,1,Reversible Defect,30.1,Former,1
+PAT-2207,46,Male,130.0,188.0,0,ST-T Wave Abnormality,166,No,0.84,Upsloping,1,Normal,23.8,Never,1
+PAT-2208,38,Male,167.0,246.0,0,Normal,170,No,0.02,Upsloping,0,Reversible Defect,23.3,Former,1
+PAT-2209,73,Male,136.0,187.0,0,Normal,134,No,2.41,Flat,0,Fixed Defect,27.6,Current,1
+PAT-2210,40,Female,125.0,289.0,1,Normal,152,No,1.04,Flat,0,Normal,33.0,Never,1
+PAT-2211,46,Female,101.0,240.0,0,Normal,168,No,0.03,Downsloping,0,Reversible Defect,32.1,Former,0
+PAT-2212,46,Female,127.0,236.0,0,ST-T Wave Abnormality,141,Yes,1.54,Upsloping,0,Fixed Defect,23.4,Former,1
+PAT-2213,63,Male,125.0,276.0,0,ST-T Wave Abnormality,116,Yes,0.2,Flat,2,Normal,32.2,Current,1
+PAT-2214,50,Female,150.0,291.0,1,ST-T Wave Abnormality,135,No,0.78,Flat,0,Reversible Defect,23.6,Never,1
+PAT-2215,67,Male,140.0,244.0,0,Normal,159,No,0.57,Flat,1,Fixed Defect,19.1,Current,1
+PAT-2216,46,Female,109.0,207.0,1,ST-T Wave Abnormality,131,No,0.49,Flat,0,Reversible Defect,26.3,Former,1
+PAT-2217,57,Male,135.0,159.0,1,ST-T Wave Abnormality,121,Yes,1.98,Upsloping,0,Reversible Defect,34.9,Current,1
+PAT-2218,44,Male,144.0,212.0,0,Normal,136,No,0.52,Upsloping,0,Normal,32.2,Never,1
+PAT-2219,77,Female,161.0,215.0,0,ST-T Wave Abnormality,111,Yes,0.07,Flat,0,Normal,28.4,Current,1
+PAT-2220,40,Female,148.0,,1,Normal,151,No,2.64,Upsloping,2,Normal,26.0,Current,1
+PAT-2221,57,Male,146.0,228.0,0,ST-T Wave Abnormality,119,Yes,2.28,Upsloping,1,Normal,26.1,Never,1
+PAT-2222,60,Female,133.0,278.0,0,ST-T Wave Abnormality,100,Yes,1.04,Upsloping,0,Reversible Defect,29.0,Never,1
+PAT-2223,58,Male,139.0,215.0,0,Normal,154,Yes,0.57,Upsloping,1,Reversible Defect,22.2,Former,1
+PAT-2224,51,Male,155.0,242.0,0,ST-T Wave Abnormality,124,Yes,0.09,Flat,3,Normal,26.4,Never,1
+PAT-2225,52,Male,106.0,301.0,0,Normal,144,No,1.41,Upsloping,1,Fixed Defect,27.1,Current,1
+PAT-2226,54,Male,125.0,261.0,0,Normal,143,Yes,0.07,Upsloping,0,Reversible Defect,20.6,Never,1
+PAT-2227,52,Male,117.0,242.0,0,Left Ventricular Hypertrophy,170,Yes,0.06,Flat,1,Fixed Defect,23.5,Never,1
+PAT-2228,64,Male,139.0,216.0,0,Left Ventricular Hypertrophy,136,No,0.69,Flat,0,Reversible Defect,30.8,Former,1
+PAT-2229,78,Male,155.0,214.0,0,Normal,134,No,0.16,Downsloping,2,Reversible Defect,28.5,Never,1
+PAT-2230,47,Female,120.0,204.0,1,Normal,156,Yes,0.01,Upsloping,0,Normal,,Current,1
+PAT-2231,38,Male,86.0,,0,Normal,176,Yes,0.5,Downsloping,0,Normal,23.1,Current,0
+PAT-2232,53,Female,124.0,281.0,0,Normal,150,No,0.13,Flat,0,Reversible Defect,37.5,Former,1
+PAT-2233,82,Male,149.0,234.0,0,ST-T Wave Abnormality,120,No,0.16,Flat,0,Normal,23.5,Current,1
+PAT-2234,45,Female,142.0,180.0,0,Left Ventricular Hypertrophy,148,Yes,0.07,Upsloping,2,Fixed Defect,29.9,Current,1
+PAT-2235,72,Male,,329.0,1,ST-T Wave Abnormality,152,No,0.21,Flat,0,Reversible Defect,25.6,Never,1
+PAT-2236,72,Male,126.0,260.0,0,Normal,149,Yes,1.13,Flat,0,Reversible Defect,28.6,Current,1
+PAT-2237,47,Male,107.0,177.0,0,ST-T Wave Abnormality,141,Yes,1.49,Flat,3,Normal,31.1,Never,1
+PAT-2238,60,Male,141.0,223.0,1,Normal,149,No,0.54,Upsloping,0,Normal,20.5,Never,1
+PAT-2239,71,Male,116.0,,1,Left Ventricular Hypertrophy,104,No,0.64,Upsloping,0,Normal,28.4,Former,1
+PAT-2240,49,Female,173.0,326.0,0,Left Ventricular Hypertrophy,141,Yes,0.03,Flat,1,Normal,35.3,Former,1
+PAT-2241,51,Female,142.0,191.0,0,ST-T Wave Abnormality,133,No,0.06,Downsloping,0,Normal,38.6,Never,1
+PAT-2242,47,Female,120.0,291.0,0,Normal,122,Yes,0.27,Upsloping,0,Fixed Defect,27.6,Never,1
+PAT-2243,42,Female,120.0,312.0,0,Normal,158,Yes,0.71,Flat,0,Normal,28.6,Former,1
+PAT-2244,46,Male,130.0,214.0,0,Normal,159,Yes,1.21,Flat,1,Normal,41.2,Never,1
+PAT-2245,40,Male,127.0,231.0,0,ST-T Wave Abnormality,139,Yes,0.84,Flat,3,Normal,35.0,Current,1
+PAT-2246,54,Male,153.0,195.0,0,Normal,131,No,0.45,Flat,0,Normal,24.8,Former,1
+PAT-2247,45,Male,135.0,235.0,0,Normal,153,No,0.11,Upsloping,0,Normal,24.8,Never,1
+PAT-2248,56,Male,118.0,243.0,0,Normal,113,Yes,1.37,Downsloping,0,Normal,33.9,Never,1
+PAT-2249,36,Male,167.0,276.0,1,ST-T Wave Abnormality,162,No,0.41,Flat,2,Reversible Defect,22.5,Former,1
+PAT-2250,57,Male,132.0,,0,Normal,137,No,1.2,Flat,0,Normal,34.7,Former,1
+PAT-2251,63,Male,146.0,209.0,1,Left Ventricular Hypertrophy,131,No,0.65,Upsloping,2,Reversible Defect,30.3,Never,1
+PAT-2252,32,Female,120.0,150.0,1,Left Ventricular Hypertrophy,179,No,1.21,Flat,0,Reversible Defect,31.4,Never,1
+PAT-2253,58,Female,138.0,243.0,0,Left Ventricular Hypertrophy,135,Yes,2.14,Upsloping,3,Normal,26.9,Never,1
+PAT-2254,67,Male,137.0,259.0,0,Normal,102,No,2.28,Upsloping,1,Reversible Defect,24.7,Never,1
+PAT-2255,40,Female,96.0,256.0,0,Normal,146,No,0.69,Flat,1,Normal,36.9,Former,1
+PAT-2256,72,Female,170.0,229.0,0,Normal,122,No,0.64,Flat,0,Normal,27.0,Current,1
+PAT-2257,58,Male,156.0,250.0,0,Normal,139,No,0.28,Flat,2,Normal,26.0,Former,1
+PAT-2258,46,Male,,317.0,0,Normal,143,Yes,2.47,Upsloping,0,Normal,27.9,Current,1
+PAT-2259,53,Male,111.0,263.0,1,ST-T Wave Abnormality,128,No,0.55,Flat,0,Normal,29.5,Never,1
+PAT-2260,60,Female,138.0,227.0,0,Normal,124,Yes,0.12,Flat,0,Normal,22.4,Former,1
+PAT-2261,54,Female,133.0,220.0,0,Left Ventricular Hypertrophy,146,Yes,0.51,Flat,2,Reversible Defect,25.1,Former,1
+PAT-2262,59,Male,138.0,236.0,0,Normal,130,Yes,0.12,Upsloping,1,Reversible Defect,24.8,Former,1
+PAT-2263,43,Male,135.0,323.0,0,ST-T Wave Abnormality,143,No,0.63,Flat,0,Normal,33.3,Former,1
+PAT-2264,55,Male,141.0,236.0,1,ST-T Wave Abnormality,158,Yes,0.74,Flat,1,Normal,23.3,Former,1
+PAT-2265,38,Male,159.0,244.0,0,ST-T Wave Abnormality,153,No,0.37,Upsloping,0,Normal,18.2,Former,0
+PAT-2266,52,Male,142.0,221.0,0,Left Ventricular Hypertrophy,181,No,0.07,Upsloping,2,Normal,17.5,Never,1
+PAT-2267,44,Female,112.0,297.0,0,ST-T Wave Abnormality,142,No,2.59,Flat,2,Reversible Defect,19.9,Former,1
+PAT-2268,45,Female,157.0,339.0,0,Left Ventricular Hypertrophy,138,Yes,1.34,Flat,1,Normal,36.3,Former,1
+PAT-2269,67,Female,163.0,266.0,0,Normal,114,No,1.64,Flat,0,Normal,28.5,Current,1
+PAT-2270,66,Female,,248.0,0,Normal,136,No,0.41,Flat,3,Reversible Defect,31.3,Former,1
+PAT-2271,60,Female,110.0,246.0,0,Normal,129,No,1.29,Upsloping,2,Reversible Defect,31.5,Former,1
+PAT-2272,41,Male,136.0,130.0,1,Normal,128,Yes,0.6,Upsloping,1,Normal,28.7,Former,1
+PAT-2273,50,Female,92.0,280.0,1,Normal,119,No,0.2,Upsloping,0,Fixed Defect,28.0,Current,1
+PAT-2274,67,Male,142.0,251.0,0,Normal,128,No,0.12,Upsloping,1,Normal,34.5,Current,1
+PAT-2275,55,Female,121.0,265.0,1,Normal,137,No,0.38,Flat,1,Normal,29.2,Current,1
+PAT-2276,79,Male,168.0,210.0,0,Normal,96,Yes,0.13,Upsloping,0,Normal,36.5,Former,1
+PAT-2277,58,Female,117.0,,0,Normal,164,No,5.72,Downsloping,0,Normal,32.0,Never,1
+PAT-2278,56,Male,99.0,225.0,0,Left Ventricular Hypertrophy,144,No,0.05,Flat,0,Reversible Defect,24.8,Former,1
+PAT-2279,50,Male,123.0,,0,Normal,120,No,0.52,Flat,1,Normal,25.5,Former,1
+PAT-2280,55,Male,94.0,226.0,0,ST-T Wave Abnormality,122,No,0.54,Downsloping,0,Normal,24.2,Current,1
+PAT-2281,52,Male,146.0,344.0,0,Normal,136,Yes,0.32,Upsloping,0,Normal,35.5,Never,1
+PAT-2282,61,Female,92.0,265.0,0,Left Ventricular Hypertrophy,161,No,0.76,Flat,1,Normal,26.1,Former,1
+PAT-2283,64,Female,132.0,183.0,0,Left Ventricular Hypertrophy,131,No,0.15,Upsloping,0,Reversible Defect,23.8,Never,1
+PAT-2284,45,Male,92.0,238.0,0,ST-T Wave Abnormality,160,No,1.38,Upsloping,0,Normal,30.3,Current,1
+PAT-2285,39,Male,125.0,213.0,0,ST-T Wave Abnormality,150,Yes,0.36,Flat,0,Normal,27.8,Never,1
+PAT-2286,33,Male,163.0,139.0,1,Normal,176,No,0.81,Upsloping,2,Fixed Defect,30.1,Former,1
+PAT-2287,59,Male,138.0,321.0,0,Left Ventricular Hypertrophy,154,No,1.13,Downsloping,1,Normal,39.4,Never,1
+PAT-2288,41,Male,115.0,278.0,0,Left Ventricular Hypertrophy,191,Yes,1.98,Flat,0,Normal,33.7,Never,1
+PAT-2289,30,Female,131.0,270.0,0,Left Ventricular Hypertrophy,143,Yes,1.63,Flat,3,Normal,28.6,Former,1
+PAT-2290,58,Male,132.0,,0,ST-T Wave Abnormality,144,No,0.84,Upsloping,0,Normal,20.2,Never,1
+PAT-2291,81,Male,140.0,178.0,0,Normal,111,Yes,0.44,Flat,3,Normal,25.5,Former,1
+PAT-2292,53,Male,106.0,221.0,0,Left Ventricular Hypertrophy,142,No,0.63,Upsloping,0,Normal,32.5,Current,1
+PAT-2293,63,Male,143.0,285.0,1,Normal,151,Yes,1.32,Flat,0,Reversible Defect,21.6,Current,1
+PAT-2294,54,Male,85.0,194.0,0,ST-T Wave Abnormality,163,Yes,1.89,Upsloping,0,Reversible Defect,,Never,1
+PAT-2295,52,Female,120.0,123.0,1,Normal,161,No,0.1,Flat,0,Fixed Defect,28.5,Current,1
+PAT-2296,64,Male,122.0,234.0,0,Left Ventricular Hypertrophy,144,No,0.44,Upsloping,0,Reversible Defect,28.7,Never,1
+PAT-2297,50,Male,144.0,238.0,0,Normal,138,No,1.35,Upsloping,2,Normal,24.5,Current,1
+PAT-2298,56,Male,132.0,251.0,0,Normal,153,No,0.51,Flat,2,Reversible Defect,31.3,Current,1
+PAT-2299,57,Male,105.0,279.0,0,ST-T Wave Abnormality,106,No,0.36,Upsloping,0,Normal,21.7,Never,1
+PAT-2300,46,Male,113.0,275.0,0,ST-T Wave Abnormality,130,Yes,0.48,Flat,0,Normal,41.0,Never,1
+PAT-2301,64,Female,135.0,257.0,0,ST-T Wave Abnormality,116,No,0.83,Upsloping,0,Normal,36.0,Never,1
+PAT-2302,52,Female,130.0,302.0,0,Normal,145,Yes,6.2,Upsloping,0,Normal,34.1,Current,1
+PAT-2303,45,Male,120.0,172.0,0,Normal,122,No,0.61,Flat,1,Reversible Defect,20.3,Never,1
+PAT-2304,59,Male,122.0,269.0,0,ST-T Wave Abnormality,139,Yes,0.21,Upsloping,0,Normal,29.6,Former,1
+PAT-2305,44,Male,145.0,275.0,0,Left Ventricular Hypertrophy,151,Yes,0.16,Upsloping,1,Normal,,Former,1
+PAT-2306,54,Male,122.0,185.0,1,ST-T Wave Abnormality,137,No,0.04,Flat,0,Normal,31.8,Current,0
+PAT-2307,53,Female,130.0,172.0,0,Normal,129,Yes,0.74,Upsloping,0,Normal,22.6,Current,1
+PAT-2308,65,Female,173.0,209.0,0,Left Ventricular Hypertrophy,118,Yes,0.71,Upsloping,0,Normal,24.6,Former,1
+PAT-2309,59,Male,104.0,213.0,0,Normal,144,No,0.21,Upsloping,0,Normal,25.8,Former,1
+PAT-2310,53,Male,96.0,281.0,0,ST-T Wave Abnormality,151,No,1.07,Upsloping,0,Normal,24.9,Current,1
+PAT-2311,62,Male,146.0,215.0,0,Normal,121,No,1.22,Flat,2,Reversible Defect,37.3,Current,1
+PAT-2312,69,Female,119.0,203.0,0,Normal,113,No,0.27,Upsloping,0,Normal,17.5,Never,1
+PAT-2313,60,Female,125.0,215.0,0,ST-T Wave Abnormality,142,Yes,0.38,Flat,0,Normal,32.2,Never,1
+PAT-2314,54,Male,117.0,298.0,0,ST-T Wave Abnormality,169,No,4.19,Upsloping,1,Reversible Defect,20.9,Never,1
+PAT-2315,39,Male,127.0,245.0,1,Normal,159,Yes,0.42,Upsloping,0,Reversible Defect,22.8,Former,1
+PAT-2316,42,Female,162.0,236.0,0,Normal,141,No,1.29,Upsloping,1,Normal,17.5,Never,1
+PAT-2317,50,Male,147.0,239.0,1,Normal,112,No,0.54,Flat,0,Normal,25.2,Former,1
+PAT-2318,47,Male,148.0,307.0,0,ST-T Wave Abnormality,169,No,1.42,Downsloping,0,Reversible Defect,37.2,Former,1
+PAT-2319,51,Male,105.0,209.0,1,Normal,151,No,1.32,Flat,2,Normal,,Former,1
+PAT-2320,54,Female,110.0,308.0,0,Normal,148,Yes,0.99,Downsloping,1,Normal,21.4,Former,1
+PAT-2321,59,Male,85.0,255.0,0,ST-T Wave Abnormality,111,No,1.74,Upsloping,0,Normal,34.3,Never,1
+PAT-2322,53,Male,116.0,237.0,1,ST-T Wave Abnormality,142,No,2.52,Upsloping,0,Reversible Defect,35.5,Current,1
+PAT-2323,59,Female,150.0,365.0,1,ST-T Wave Abnormality,152,Yes,0.78,Upsloping,2,Reversible Defect,29.0,Current,1
+PAT-2324,54,Male,,194.0,0,Normal,130,Yes,0.24,Upsloping,0,Reversible Defect,40.2,Former,1
+PAT-2325,32,Male,127.0,228.0,0,Left Ventricular Hypertrophy,170,No,0.46,Upsloping,0,Normal,33.2,Current,1
+PAT-2326,43,Male,131.0,185.0,0,Left Ventricular Hypertrophy,174,No,1.28,Upsloping,1,Normal,32.4,Never,1
+PAT-2327,52,Male,118.0,290.0,0,ST-T Wave Abnormality,159,Yes,0.95,Upsloping,1,Normal,23.7,Current,1
+PAT-2328,40,Female,135.0,326.0,0,ST-T Wave Abnormality,123,No,0.18,Upsloping,1,Reversible Defect,32.0,Never,1
+PAT-2329,60,Male,146.0,325.0,0,Normal,128,Yes,0.05,Upsloping,1,Reversible Defect,29.7,Never,1
+PAT-2330,70,Male,101.0,303.0,1,Left Ventricular Hypertrophy,123,Yes,1.03,Upsloping,1,Normal,31.4,Never,1
+PAT-2331,67,Male,137.0,,0,Normal,132,No,0.26,Flat,2,Reversible Defect,24.4,Former,1
+PAT-2332,51,Female,149.0,227.0,0,Normal,138,Yes,0.62,Upsloping,1,Normal,29.1,Never,1
+PAT-2333,70,Female,124.0,164.0,0,Normal,119,No,1.24,Flat,0,Normal,23.7,Former,1
+PAT-2334,55,Male,145.0,342.0,0,Normal,134,Yes,0.74,Flat,0,Reversible Defect,17.5,Never,1
+PAT-2335,50,Male,185.0,267.0,0,Left Ventricular Hypertrophy,142,Yes,0.08,Upsloping,1,Normal,34.2,Current,1
+PAT-2336,47,Female,130.0,221.0,0,ST-T Wave Abnormality,132,Yes,0.18,Upsloping,2,Normal,19.7,Former,1
+PAT-2337,50,Male,139.0,308.0,0,ST-T Wave Abnormality,144,No,0.22,Upsloping,0,Normal,29.0,Never,1
+PAT-2338,49,Female,117.0,198.0,1,ST-T Wave Abnormality,163,No,0.27,Flat,0,Reversible Defect,30.3,Never,1
+PAT-2339,55,Female,135.0,264.0,0,Normal,151,No,0.75,Upsloping,3,Reversible Defect,30.3,Current,1
+PAT-2340,55,Female,140.0,236.0,0,Normal,175,Yes,0.63,Upsloping,1,Reversible Defect,26.8,Never,1
+PAT-2341,54,Male,135.0,275.0,0,ST-T Wave Abnormality,104,No,0.2,Upsloping,0,Reversible Defect,30.0,Former,1
+PAT-2342,58,Male,112.0,241.0,1,ST-T Wave Abnormality,121,No,0.06,Flat,1,Fixed Defect,31.1,Former,1
+PAT-2343,67,Female,135.0,175.0,0,Normal,142,No,0.17,Flat,3,Normal,32.7,Never,1
+PAT-2344,64,Male,159.0,248.0,0,ST-T Wave Abnormality,136,No,3.74,Flat,2,Reversible Defect,38.5,Never,1
+PAT-2345,37,Male,140.0,295.0,0,Normal,169,No,0.57,Flat,1,Fixed Defect,29.8,Former,1
+PAT-2346,25,Female,150.0,243.0,1,Normal,142,Yes,1.82,Flat,0,Reversible Defect,28.8,Never,1
+PAT-2347,64,Female,127.0,282.0,0,Normal,156,No,1.7,Flat,2,Reversible Defect,23.1,Never,1
+PAT-2348,38,Male,146.0,194.0,0,Normal,154,No,0.64,Flat,0,Reversible Defect,30.9,Never,1
+PAT-2349,51,Male,137.0,243.0,1,Left Ventricular Hypertrophy,145,No,1.1,Downsloping,2,Normal,32.3,Never,1
+PAT-2350,41,Male,113.0,215.0,0,ST-T Wave Abnormality,139,Yes,0.19,Flat,0,Normal,27.3,Never,1
+PAT-2351,34,Female,138.0,280.0,0,Normal,162,Yes,1.05,Upsloping,0,Reversible Defect,31.6,Current,1
+PAT-2352,59,Female,113.0,246.0,0,ST-T Wave Abnormality,167,No,0.29,Upsloping,0,Reversible Defect,26.7,Former,1
+PAT-2353,62,Male,119.0,278.0,0,ST-T Wave Abnormality,137,Yes,1.61,Flat,0,Reversible Defect,32.3,Current,1
+PAT-2354,47,Male,135.0,297.0,0,Normal,165,Yes,0.08,Flat,1,Normal,33.7,Never,1
+PAT-2355,25,Female,137.0,278.0,0,Normal,168,No,1.34,Flat,3,Normal,33.6,Never,1
+PAT-2356,47,Male,109.0,258.0,0,Left Ventricular Hypertrophy,122,No,0.09,Flat,1,Reversible Defect,29.1,Current,1
+PAT-2357,58,Male,152.0,197.0,0,ST-T Wave Abnormality,168,No,1.92,Flat,2,Reversible Defect,22.4,Former,1
+PAT-2358,37,Female,142.0,,1,Left Ventricular Hypertrophy,172,No,0.33,Upsloping,0,Fixed Defect,24.9,Never,1
+PAT-2359,56,Male,118.0,219.0,0,Normal,148,Yes,0.96,Flat,1,Normal,31.9,Never,1
+PAT-2360,53,Female,102.0,228.0,0,ST-T Wave Abnormality,148,No,0.6,Upsloping,2,Reversible Defect,42.6,Former,1
+PAT-2361,60,Male,129.0,227.0,0,Normal,121,Yes,0.41,Downsloping,1,Fixed Defect,26.4,Current,1
+PAT-2362,55,Male,123.0,197.0,0,Normal,143,No,0.93,Flat,0,Reversible Defect,31.0,Never,1
+PAT-2363,43,Female,134.0,151.0,0,Normal,144,No,2.65,Flat,1,Normal,25.2,Former,1
+PAT-2364,67,Male,125.0,212.0,0,Normal,139,No,0.04,Upsloping,1,Normal,22.8,Former,1
+PAT-2365,52,Female,93.0,254.0,1,Normal,138,Yes,2.26,Upsloping,0,Reversible Defect,24.5,Current,1
+PAT-2366,53,Male,124.0,180.0,0,Normal,127,No,0.85,Upsloping,2,Normal,17.5,Current,1
+PAT-2367,43,Male,126.0,245.0,1,Normal,165,Yes,1.48,Flat,3,Normal,36.2,Never,1
+PAT-2368,49,Male,144.0,,1,ST-T Wave Abnormality,131,Yes,0.44,Flat,0,Normal,17.5,Former,1
+PAT-2369,44,Male,118.0,294.0,0,Normal,150,No,0.57,Upsloping,1,Reversible Defect,26.9,Current,1
+PAT-2370,52,Male,163.0,323.0,0,Normal,124,No,1.83,Flat,1,Normal,21.6,Former,1
+PAT-2371,72,Male,95.0,263.0,1,Normal,126,Yes,0.48,Flat,1,Normal,23.3,Current,1
+PAT-2372,38,Male,156.0,301.0,1,Normal,150,No,0.69,Upsloping,0,Reversible Defect,36.4,Current,1
+PAT-2373,36,Male,127.0,210.0,0,ST-T Wave Abnormality,159,No,0.02,Flat,2,Fixed Defect,29.6,Never,1
+PAT-2374,70,Female,148.0,214.0,0,Normal,126,Yes,0.16,Flat,0,Normal,22.8,Never,1
+PAT-2375,51,Female,133.0,120.0,0,ST-T Wave Abnormality,139,No,0.92,Flat,0,Normal,25.0,Current,1
+PAT-2376,46,Female,153.0,301.0,1,Normal,139,Yes,1.14,Flat,2,Reversible Defect,24.0,Never,1
+PAT-2377,65,Male,124.0,318.0,0,Normal,152,No,0.79,Flat,1,Normal,28.1,Never,1
+PAT-2378,47,Male,111.0,218.0,0,Left Ventricular Hypertrophy,122,No,0.14,Downsloping,2,Fixed Defect,29.4,Never,1
+PAT-2379,74,Female,158.0,232.0,1,ST-T Wave Abnormality,154,No,0.53,Upsloping,0,Normal,39.4,Current,1
+PAT-2380,61,Male,129.0,208.0,0,Normal,146,No,0.39,Flat,0,Reversible Defect,17.5,Never,1
+PAT-2381,48,Male,136.0,263.0,0,ST-T Wave Abnormality,148,Yes,0.62,Upsloping,3,Reversible Defect,28.2,Former,1
+PAT-2382,77,Female,155.0,298.0,0,Normal,110,Yes,1.84,Upsloping,0,Fixed Defect,26.6,Never,1
+PAT-2383,47,Female,112.0,161.0,1,Left Ventricular Hypertrophy,119,No,1.35,Upsloping,2,Normal,33.9,Never,1
+PAT-2384,62,Male,143.0,264.0,0,ST-T Wave Abnormality,166,No,0.08,Upsloping,2,Reversible Defect,30.5,Never,1
+PAT-2385,57,Male,120.0,231.0,0,ST-T Wave Abnormality,147,Yes,1.99,Downsloping,1,Normal,31.8,Never,1
+PAT-2386,68,Female,129.0,250.0,0,Left Ventricular Hypertrophy,165,No,0.57,Downsloping,0,Reversible Defect,30.4,Current,1
+PAT-2387,71,Female,133.0,,0,Normal,123,No,1.23,Upsloping,1,Normal,23.0,Current,1
+PAT-2388,54,Female,103.0,235.0,0,ST-T Wave Abnormality,136,Yes,0.14,Flat,2,Reversible Defect,35.4,Current,1
+PAT-2389,45,Female,117.0,240.0,0,Normal,121,No,1.0,Flat,0,Normal,33.0,Never,1
+PAT-2390,59,Female,157.0,234.0,0,Normal,133,Yes,0.24,Flat,0,Reversible Defect,33.7,Former,1
+PAT-2391,46,Male,148.0,291.0,0,Normal,130,No,0.52,Flat,0,Normal,35.7,Never,1
+PAT-2392,76,Male,130.0,265.0,0,Normal,108,Yes,0.02,Upsloping,0,Normal,30.8,Never,1
+PAT-2393,55,Female,136.0,255.0,0,ST-T Wave Abnormality,147,Yes,0.15,Flat,2,Normal,37.0,Former,1
+PAT-2394,49,Female,126.0,183.0,0,ST-T Wave Abnormality,171,No,0.09,Flat,2,Normal,30.6,Current,1
+PAT-2395,56,Female,157.0,226.0,0,ST-T Wave Abnormality,134,No,0.25,Flat,3,Normal,27.1,Never,1
+PAT-2396,39,Male,128.0,288.0,1,Normal,182,No,0.09,Downsloping,1,Normal,28.4,Never,1
+PAT-2397,43,Male,136.0,246.0,0,Normal,128,No,1.06,Downsloping,1,Reversible Defect,28.3,Current,1
+PAT-2398,67,Female,153.0,276.0,0,Left Ventricular Hypertrophy,130,Yes,0.03,Flat,0,Normal,25.4,Former,1
+PAT-2399,46,Female,117.0,329.0,0,Normal,127,No,0.87,Flat,1,Reversible Defect,37.9,Current,1
+PAT-2400,42,Female,161.0,294.0,0,ST-T Wave Abnormality,161,No,0.14,Downsloping,1,Normal,30.1,Current,1
+PAT-2401,59,Female,102.0,249.0,0,ST-T Wave Abnormality,131,No,2.61,Upsloping,2,Fixed Defect,28.9,Former,1
+PAT-2402,67,Female,162.0,220.0,0,ST-T Wave Abnormality,124,Yes,2.43,Upsloping,2,Normal,30.7,Never,1
+PAT-2403,61,Female,124.0,122.0,0,Normal,134,Yes,0.23,Upsloping,3,Reversible Defect,45.7,Current,1
+PAT-2404,64,Female,127.0,236.0,0,Left Ventricular Hypertrophy,138,No,0.86,Flat,2,Reversible Defect,21.8,Never,1
+PAT-2405,45,Male,96.0,229.0,0,Normal,142,No,0.03,Flat,2,Normal,23.5,Never,1
+PAT-2406,38,Female,123.0,263.0,0,Left Ventricular Hypertrophy,173,No,2.42,Upsloping,0,Reversible Defect,20.4,Current,1
+PAT-2407,70,Male,112.0,237.0,0,Normal,146,No,0.67,Downsloping,2,Normal,27.1,Former,1
+PAT-2408,50,Male,120.0,229.0,0,Normal,122,Yes,0.04,Flat,1,Fixed Defect,29.8,Never,1
+PAT-2409,51,Female,129.0,159.0,0,Normal,130,No,0.38,Flat,0,Normal,25.7,Former,1
+PAT-2410,68,Male,150.0,199.0,0,ST-T Wave Abnormality,125,No,0.07,Upsloping,0,Normal,25.3,Current,1
+PAT-2411,60,Male,135.0,267.0,0,Normal,105,No,0.45,Flat,1,Normal,29.2,Never,1
+PAT-2412,59,Male,137.0,327.0,0,Normal,140,Yes,1.0,Flat,0,Reversible Defect,25.5,Never,1
+PAT-2413,77,Male,111.0,240.0,0,Normal,94,Yes,0.57,Flat,0,Normal,30.2,Never,1
+PAT-2414,46,Male,115.0,260.0,0,Left Ventricular Hypertrophy,145,Yes,0.44,Flat,1,Reversible Defect,34.9,Never,1
+PAT-2415,64,Male,166.0,290.0,1,ST-T Wave Abnormality,149,No,0.11,Flat,2,Normal,32.3,Current,1
+PAT-2416,54,Female,118.0,206.0,0,ST-T Wave Abnormality,107,Yes,0.25,Upsloping,2,Normal,33.5,Former,1
+PAT-2417,56,Male,163.0,262.0,0,ST-T Wave Abnormality,121,Yes,0.09,Flat,0,Reversible Defect,34.7,Former,1
+PAT-2418,70,Male,127.0,209.0,0,Normal,127,No,1.48,Upsloping,0,Reversible Defect,30.0,Never,1
+PAT-2419,59,Male,132.0,286.0,0,Normal,122,Yes,0.13,Upsloping,0,Reversible Defect,27.5,Never,1
+PAT-2420,59,Female,152.0,252.0,0,Left Ventricular Hypertrophy,143,Yes,0.81,Upsloping,0,Fixed Defect,23.9,Never,1
+PAT-2421,65,Male,156.0,259.0,0,Normal,115,Yes,0.38,Upsloping,0,Reversible Defect,26.1,Never,1
+PAT-2422,49,Female,129.0,207.0,0,Normal,189,Yes,0.23,Upsloping,3,Reversible Defect,25.4,Never,1
+PAT-2423,44,Female,124.0,278.0,0,Normal,169,No,0.92,Flat,1,Normal,32.6,Never,1
+PAT-2424,42,Female,130.0,345.0,0,Normal,135,No,0.55,Flat,0,Normal,30.4,Never,1
+PAT-2425,32,Male,138.0,196.0,0,Normal,167,No,0.46,Upsloping,0,Normal,32.4,Current,1
+PAT-2426,76,Female,148.0,228.0,1,Normal,115,No,0.81,Flat,0,Normal,21.7,Current,1
+PAT-2427,41,Male,132.0,256.0,0,Normal,178,No,0.61,Upsloping,0,Normal,36.7,Former,1
+PAT-2428,51,Female,143.0,282.0,0,Normal,110,No,0.33,Upsloping,0,Reversible Defect,25.9,Never,1
+PAT-2429,50,Female,163.0,218.0,0,Normal,123,Yes,0.74,Flat,3,Normal,22.0,Current,1
+PAT-2430,57,Male,139.0,120.0,0,Normal,141,Yes,1.0,Flat,0,Reversible Defect,25.9,Current,1
+PAT-2431,62,Male,137.0,310.0,0,Normal,140,No,0.02,Flat,0,Reversible Defect,42.8,Never,1
+PAT-2432,63,Male,103.0,281.0,0,ST-T Wave Abnormality,113,Yes,0.56,Upsloping,0,Normal,,Former,1
+PAT-2433,47,Female,85.0,161.0,0,Normal,112,Yes,0.05,Flat,1,Normal,26.5,Current,1
+PAT-2434,52,Male,139.0,215.0,0,ST-T Wave Abnormality,125,No,0.19,Flat,0,Fixed Defect,27.3,Former,1
+PAT-2435,57,Female,130.0,320.0,0,ST-T Wave Abnormality,98,No,0.74,Downsloping,0,Reversible Defect,27.5,Never,1
+PAT-2436,51,Male,122.0,314.0,0,ST-T Wave Abnormality,160,Yes,1.81,Upsloping,0,Reversible Defect,23.9,Former,1
+PAT-2437,71,Female,136.0,290.0,0,Normal,138,Yes,1.93,Flat,1,Normal,29.2,Former,1
+PAT-2438,59,Female,130.0,236.0,0,Normal,157,Yes,0.07,Flat,0,Reversible Defect,34.6,Never,1
+PAT-2439,62,Female,153.0,248.0,0,Normal,125,No,0.49,Downsloping,0,Normal,30.2,Current,1
+PAT-2440,61,Female,133.0,238.0,0,ST-T Wave Abnormality,130,Yes,0.79,Upsloping,0,Reversible Defect,,Current,1
+PAT-2441,66,Male,117.0,299.0,0,Normal,131,No,0.14,Flat,0,Fixed Defect,26.4,Never,1
+PAT-2442,55,Male,150.0,202.0,0,Left Ventricular Hypertrophy,125,No,1.31,Upsloping,0,Normal,25.2,Former,1
+PAT-2443,39,Female,127.0,206.0,0,Left Ventricular Hypertrophy,133,No,1.23,Flat,0,Normal,28.7,Former,1
+PAT-2444,58,Male,142.0,293.0,0,Normal,164,Yes,2.1,Upsloping,0,Normal,36.1,Never,1
+PAT-2445,46,Male,122.0,242.0,0,Normal,159,Yes,0.01,Upsloping,0,Normal,27.5,Never,1
+PAT-2446,48,Male,119.0,311.0,0,ST-T Wave Abnormality,132,No,0.22,Flat,0,Reversible Defect,27.9,Current,1
+PAT-2447,60,Male,133.0,212.0,0,Normal,143,No,1.58,Upsloping,0,Normal,38.7,Former,1
+PAT-2448,67,Male,132.0,242.0,0,Normal,142,Yes,1.0,Upsloping,0,Fixed Defect,33.5,Never,1
+PAT-2449,54,Female,141.0,200.0,0,Left Ventricular Hypertrophy,122,No,2.02,Upsloping,2,Normal,31.7,Never,1
+PAT-2450,57,Male,126.0,245.0,0,Normal,161,Yes,0.05,Upsloping,1,Reversible Defect,39.8,Former,1
+PAT-2451,72,Male,97.0,174.0,0,Left Ventricular Hypertrophy,128,Yes,0.82,Downsloping,2,Reversible Defect,31.2,Former,1
+PAT-2452,56,Male,123.0,221.0,1,ST-T Wave Abnormality,133,No,0.76,Flat,2,Reversible Defect,17.5,Never,1
+PAT-2453,82,Female,147.0,176.0,0,ST-T Wave Abnormality,123,Yes,0.03,Flat,3,Normal,33.2,Former,1
+PAT-2454,60,Male,126.0,278.0,0,Normal,120,No,0.65,Upsloping,1,Normal,19.2,Never,1
+PAT-2455,34,Female,127.0,279.0,0,Normal,171,No,0.85,Downsloping,1,Reversible Defect,31.0,Never,1
+PAT-2456,62,Female,150.0,161.0,1,ST-T Wave Abnormality,107,No,0.19,Flat,0,Normal,18.5,Former,1
+PAT-2457,58,Male,118.0,309.0,1,Normal,139,No,0.29,Flat,0,Normal,25.7,Never,1
+PAT-2458,68,Female,102.0,364.0,0,Normal,114,No,0.92,Flat,1,Normal,26.3,Current,1
+PAT-2459,61,Female,128.0,247.0,0,Normal,120,Yes,0.57,Flat,3,Reversible Defect,23.9,Never,1
+PAT-2460,52,Female,122.0,214.0,0,Normal,154,No,1.76,Flat,0,Reversible Defect,26.4,Former,1
+PAT-2461,40,Female,113.0,380.0,0,Normal,191,No,0.38,Upsloping,1,Reversible Defect,34.4,Never,1
+PAT-2462,51,Male,128.0,181.0,0,ST-T Wave Abnormality,137,Yes,0.28,Upsloping,0,Normal,24.3,Never,1
+PAT-2463,44,Male,141.0,245.0,0,Normal,149,Yes,3.77,Flat,0,Normal,31.6,Current,1
+PAT-2464,47,Male,131.0,253.0,0,Normal,137,Yes,2.18,Flat,0,Reversible Defect,22.8,Former,1
+PAT-2465,60,Male,137.0,309.0,0,ST-T Wave Abnormality,139,No,0.03,Upsloping,0,Normal,27.3,Former,1
+PAT-2466,72,Female,166.0,262.0,0,Left Ventricular Hypertrophy,130,No,1.33,Upsloping,0,Normal,30.3,Former,1
+PAT-2467,58,Male,125.0,221.0,0,Normal,100,No,0.11,Flat,1,Fixed Defect,22.6,Former,1
+PAT-2468,40,Female,137.0,199.0,0,Normal,181,No,0.03,Flat,2,Normal,20.8,Current,0
+PAT-2469,58,Female,122.0,228.0,0,ST-T Wave Abnormality,123,No,0.29,Upsloping,2,Normal,31.3,Former,1
+PAT-2470,67,Female,115.0,196.0,1,Left Ventricular Hypertrophy,138,No,0.28,Upsloping,0,Normal,34.9,Former,1
+PAT-2471,47,Female,120.0,,1,ST-T Wave Abnormality,154,No,1.54,Flat,2,Normal,,Current,1
+PAT-2472,52,Male,122.0,217.0,0,ST-T Wave Abnormality,148,No,1.12,Flat,0,Normal,25.7,Current,1
+PAT-2473,54,Male,138.0,173.0,0,Normal,155,No,3.6,Upsloping,0,Reversible Defect,29.3,Never,1
+PAT-2474,45,Male,176.0,305.0,1,ST-T Wave Abnormality,139,No,1.12,Flat,1,Normal,28.7,Former,1
+PAT-2475,61,Male,118.0,221.0,0,Normal,108,No,0.49,Flat,0,Normal,29.8,Never,1
+PAT-2476,52,Male,124.0,184.0,0,ST-T Wave Abnormality,134,No,1.08,Flat,0,Reversible Defect,17.5,Never,1
+PAT-2477,58,Male,130.0,236.0,0,ST-T Wave Abnormality,135,No,6.2,Downsloping,0,Reversible Defect,22.2,Never,1
+PAT-2478,44,Female,139.0,248.0,0,Left Ventricular Hypertrophy,168,No,1.11,Downsloping,1,Normal,23.5,Current,1
+PAT-2479,49,Male,137.0,161.0,0,Normal,136,No,1.29,Upsloping,0,Reversible Defect,29.3,Former,1
+PAT-2480,61,Male,156.0,260.0,1,Normal,95,No,2.51,Upsloping,1,Fixed Defect,29.5,Current,1
+PAT-2481,49,Female,85.0,194.0,0,ST-T Wave Abnormality,152,No,0.11,Upsloping,1,Normal,32.1,Never,0
+PAT-2482,72,Male,86.0,327.0,0,ST-T Wave Abnormality,129,No,1.1,Upsloping,1,Normal,29.9,Former,1
+PAT-2483,49,Male,,270.0,0,ST-T Wave Abnormality,156,Yes,1.71,Upsloping,2,Normal,20.9,Current,1
+PAT-2484,56,Female,152.0,,0,Normal,147,Yes,2.78,Upsloping,0,Reversible Defect,36.8,Never,1
+PAT-2485,64,Female,102.0,,0,Normal,180,No,0.21,Downsloping,0,Normal,35.8,Never,1
+PAT-2486,38,Female,85.0,239.0,0,Normal,149,No,0.63,Flat,0,Normal,21.1,Former,1
+PAT-2487,34,Male,142.0,274.0,0,Normal,176,No,1.03,Flat,0,Reversible Defect,30.3,Former,1
+PAT-2488,37,Female,136.0,243.0,0,Left Ventricular Hypertrophy,186,Yes,0.26,Flat,1,Normal,24.9,Former,1
+PAT-2489,67,Female,111.0,234.0,0,Normal,114,No,0.83,Upsloping,0,Reversible Defect,29.2,Former,1
+PAT-2490,47,Male,113.0,247.0,0,ST-T Wave Abnormality,167,Yes,0.27,Upsloping,0,Reversible Defect,34.5,Former,1
+PAT-2491,82,Female,113.0,216.0,1,ST-T Wave Abnormality,119,Yes,0.37,Upsloping,1,Normal,40.8,Never,1
+PAT-2492,47,Female,134.0,228.0,0,ST-T Wave Abnormality,121,No,0.52,Flat,1,Reversible Defect,32.8,Current,1
+PAT-2493,56,Female,120.0,144.0,0,Normal,164,Yes,0.68,Upsloping,1,Normal,30.1,Never,1
+PAT-2494,70,Female,141.0,291.0,0,ST-T Wave Abnormality,152,No,0.54,Flat,2,Normal,,Never,1
+PAT-2495,76,Female,85.0,259.0,0,Normal,114,No,0.61,Flat,2,Normal,29.5,Former,1
+PAT-2496,76,Female,115.0,207.0,0,ST-T Wave Abnormality,98,No,0.32,Upsloping,1,Fixed Defect,36.3,Current,1
+PAT-2497,67,Male,110.0,336.0,0,Normal,156,No,0.16,Upsloping,0,Reversible Defect,28.1,Current,1
+PAT-2498,65,Female,127.0,249.0,0,Normal,122,No,0.04,Flat,3,Normal,23.3,Former,1
+PAT-2499,60,Male,121.0,195.0,0,Normal,124,Yes,0.2,Downsloping,1,Normal,19.0,Never,1
